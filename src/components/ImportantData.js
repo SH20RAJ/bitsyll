@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
-export default function ImportantData() {
+export default function ImportantData({ showHeading }) {
   let data = [
     {
       id: 1,
@@ -14,57 +14,67 @@ export default function ImportantData() {
       id: 2,
       title: "Exam Routine",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "/examroutine",
     },
     {
       id: 3,
       title: "Syllabus",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "/syllabus",
     },
     {
       id: 4,
-      title: "Notice",
+      title: "Clubs",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "/clubs",
     },
     {
       id: 5,
-      title: "Admission",
+      title: "Website",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "https://www.bitmesra.ac.in/",
     },
     {
       id: 6,
-      title: "Result",
+      title: "Academic Calendar",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "https://www.bitmesra.ac.in/Show_Content_Section?cid=1&pid=1",
     },
     {
       id: 7,
-      title: "Scholarship",
+      title: "BITHUB",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "https://bithub.co.in/",
     },
     {
       id: 8,
-      title: "Job",
+      title: "Groups",
       description: "This is the important data",
-      link: "https://www.google.com",
+      link: "/groups",
     },
   ];
   return (
     <div>
-      <h2 className="text-2xl font-bold p-1 ">
-        Important Data <span className=" w-full self-end ">{""}</span>
-      </h2>
+      {showHeading  && (
+        <h2 className="text-2xl font-bold p-1 ">
+          Important Data <span className=" w-full self-end ">{""}</span>
+        </h2>
+      )}
       <hr className="border-1 border-gray-100 opacity-20" />
 
       <div className="grid grid-cols-2 gap-4 mt-2">
         {data.map((item) => (
           <div key={item.id} className="flex flex-wrap ">
-            <Link href={item.link} target="_" className="w-full">
-              <Button variant="ghost" className=" w-full" target="_blank">
+            <Link
+              href={item.link}
+              target="_"
+              className="w-full hover:underline"
+            >
+              <Button
+                variant="ghost"
+                className=" w-full hover:underline"
+                target="_blank"
+              >
                 {item.title}
               </Button>
             </Link>

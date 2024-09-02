@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Bitsyll",
+  title: "BitSyll",
   description: "Bitsyll - BIT Meshra - Study Repository",
 };
 

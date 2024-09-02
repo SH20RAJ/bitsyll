@@ -4,13 +4,13 @@ import Header from "@/components/Header";
 import ImportantData from "@/components/ImportantData";
 import RecentVisited from "@/components/RecentVisited";
 import { Subjects } from "@/components/Subjects";
+import SuggestButton from "@/components/SuggestButton";
 
 export default function Home() {
   return (
     <main>
       <Header />
       <RecentVisited />
-
 
       <Subjects />
 
@@ -19,13 +19,12 @@ export default function Home() {
       <br />
 
       <ImportantData />
-      <br />
-
-      <Comments />
-      <br />
 
       <FAQ />
 
+      <div className=" p-2 ">
+        <SuggestButton />
+      </div>
       <br />
     </main>
   );

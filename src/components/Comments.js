@@ -5,7 +5,7 @@ export default function Comments() {
   return (
     <div>
       <hr className="border-1 border-gray-100 opacity-20 mt-2" />
-      <h2 className="text-2xl font-bold p-1 ">
+      <h2 className="text-xl font-bold p-1 ">
         <div className="flex justify-between">
 
         <div>Comments</div>{" "}

@@ -14,9 +14,9 @@ import DisqusComment from "./DisqusComment";
 
 export function PopComments() {
   return (
-    <Drawer className="max-h-[50vh]">
+    <Drawer className="max-h-[50vh] w-full">
       <DrawerTrigger asChild>
-        <Button variant="outline">Open Comments {">"}</Button>
+        <Button variant="outline" className=" w-full">Open Comments</Button>
         
       </DrawerTrigger>
       <DrawerContent>

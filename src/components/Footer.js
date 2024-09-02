@@ -19,6 +19,8 @@ export default function Footer() {
         height={40}
       />
       </div>
+
+      <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=66d60ae0abc00d00197bfee9&product=sop' async='async'></script>
     </footer>
   );
 }
