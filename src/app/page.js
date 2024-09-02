@@ -11,10 +11,9 @@ export default function Home() {
       <Header />
       <RecentVisited />
 
-      <br />
 
       <Subjects />
-      
+
       {/* <Main/> */}
 
       <br />
@@ -28,8 +27,6 @@ export default function Home() {
       <FAQ />
 
       <br />
-
-
     </main>
   );
 }

@@ -9,6 +9,7 @@ import {
 
 
 export default function RecentVisited() {
+  const hashistory = false;
   return (
     <div>
       {/* create hr with tailwind */}
@@ -16,7 +17,7 @@ export default function RecentVisited() {
       <hr className="border-1 border-gray-100 opacity-20" />
       <div className="flex flex-row flex-wrap justify-between p-2
       ">
-        {
+        { hashistory ? (
           // create a loop with 3 items
           [1, 2, 3].map((item) => {
             return (
@@ -37,6 +38,10 @@ export default function RecentVisited() {
               </Card>
             );
           })
+        ) : (
+          <div className="w-full text-center p-4"> 🐳 No recent visited subjects 🙈</div>
+        )
+
         }
         
       </div>

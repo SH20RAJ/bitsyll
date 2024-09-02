@@ -20,7 +20,7 @@ export function PopComments() {
         
       </DrawerTrigger>
       <DrawerContent>
-        <div className="mx-auto w-full max-w-sm">
+        <div className="mx-auto w-full max-w-sm max-h-[50vh]">
           <DrawerHeader>
             <DrawerTitle>Student Comments</DrawerTitle>
             <DrawerDescription>

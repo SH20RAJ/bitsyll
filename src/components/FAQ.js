@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 export function FAQ() {
 
@@ -36,23 +37,16 @@ export function FAQ() {
           <AccordionItem value="item-1">
             <AccordionTrigger>How to add content?</AccordionTrigger>
             <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
+              Contact the developer <Link className=" text-fuchsia-400" href={"https://instagram.com/sh20raj"}>@sh20raj</Link> for contributing, suggesting or adding content.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>How to contact developer?</AccordionTrigger>
+            <AccordionTrigger>Can I contribute to this website (Codes)?</AccordionTrigger>
             <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
+              Yes. Your are welcome to contribute to this website. You can add content, suggest changes or report bugs. Visit <Link className=" text-fuchsia-400" href={"https://github.com/sh20raj/bitsyll"} target="_">Github</Link> for more details.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
-            </AccordionContent>
-          </AccordionItem>
+          
         </Accordion>
       </div>
     </>
