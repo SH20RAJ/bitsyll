@@ -10,7 +10,7 @@ export default function Comments() {
 
         <div>Comments</div>{" "}
         <div>
-          <div className="w-full mr-2 ">
+          <div className="w-full max-h-[50%] mr-2 ">
             {" "}
             <PopComments />{" "}
           </div>

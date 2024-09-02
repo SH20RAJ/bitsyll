@@ -26,6 +26,8 @@ export default function RootLayout({ children }) {
           src="https://www.googletagmanager.com/gtag/js?id=G-225MVECG7S"
         ></script>
         <script dangerouslySetInnerHTML={{ __html: script }} />
+        <link rel="manifest" href="/manifest.json" />
+
       </head>
       <body className={inter.className}>
         <Nav />
