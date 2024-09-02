@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BIT Meshra - Study Repository
 
-## Getting Started
+Welcome to the BIT Meshra Study Repository! This repository is designed to provide a centralized location for students to access study materials, resources, and collaborate on projects. 
 
-First, run the development server:
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2Fbitsyll&labelColor=%23f47373&countColor=%23ba68c8&style=flat-square&labelStyle=none)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2Fbitsyll)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## BitSyll
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To access the BitSyll website, please visit [bitsyll.pages.dev](https://bitsyll.pages.dev). BitSyll is a comprehensive platform that offers a wide range of study materials, including lecture notes, assignments, and previous year question papers. It is a valuable resource for students to enhance their learning experience.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Repository Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The repository is organized into different folders based on subjects and courses. Each folder contains relevant study materials, such as lecture slides, code samples, and additional resources. Feel free to explore the repository and access the materials that are relevant to your courses.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Contact Us
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you have any questions or need assistance with the repository, please feel free to reach out to me on [Instagram](https://www.instagram.com/sh20raj/).
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We encourage students to contribute to the repository by adding study materials, creating helpful guides, or sharing useful resources. If you would like to contribute, please follow the guidelines outlined below:
+
+1. Fork the repository to your own GitHub account.
+2. Create a new branch for your contributions.
+3. Add your study materials, guides, or resources to the appropriate folders.
+4. Commit your changes and push them to your forked repository.
+5. Submit a pull request to the main repository, explaining the purpose and details of your contributions.
+
+Please ensure that your contributions align with the repository's guidelines and maintain a high standard of quality. We appreciate your efforts in making this study repository a valuable resource for all students.
+
+
+## Issues and Feedback
+
+If you encounter any issues or have suggestions for improving the repository, please open an issue on the repository's GitHub page. Your feedback is valuable in making this study repository a better resource for everyone.
+
+Happy studying!
