@@ -1,9 +1,14 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import dynamic from "next/dynamic";
 
 const inter = Inter({ subsets: ["latin"] });
+
+// Dynamically import the Footer component
+const Footer = dynamic(() => import("@/components/Footer"), {
+  loading: () => <p>Loading...</p>, // Optional: You can show a loading indicator while the Footer is being loaded
+});
 
 export const metadata = {
   title: "BitSyll",
@@ -11,7 +16,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  let script = `  window.dataLayer = window.dataLayer || [];
+  let script = `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
@@ -19,7 +24,7 @@ export default function RootLayout({ children }) {
 `;
 
   return (
-    <html lang="en" className=" dark">
+    <html lang="en" className="dark">
       <head>
         <script
           async
@@ -27,13 +32,10 @@ export default function RootLayout({ children }) {
         ></script>
         <script dangerouslySetInnerHTML={{ __html: script }} />
         <link rel="manifest" href="/manifest.json" />
-
       </head>
       <body className={inter.className}>
         <Nav />
-      
         <main>{children}</main>
-
         <Footer />
       </body>
     </html>
