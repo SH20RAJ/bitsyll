@@ -11,6 +11,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
+import Link from "next/link"
 
 export function SH20RAJ() {
   return (
@@ -21,13 +22,13 @@ export function SH20RAJ() {
       <HoverCardContent className="w-80">
         <div className="flex justify-between space-x-4">
           <Avatar>
-            <AvatarImage src="https://github.com/sh20raj.png" />
-            <AvatarFallback>VC</AvatarFallback>
+            <AvatarImage src="https://www.upwork.com/profile-portraits/c1EEk49thpSZWgjnN-ifAhfV1vKVDDVwhLgobWe4b154zwD8icpmp-zoYifLRQ4zUx" />
+            <AvatarFallback>Sh</AvatarFallback>
           </Avatar>
           <div className="space-y-1">
             <h4 className="text-sm font-semibold text-fuchsia-200">@sh20raj</h4>
             <p className="text-sm">
-              This website is created and maintained by sh20raj. 
+              This website is created and maintained by <Link href="https://github.com/sh20raj" className=" underline">sh20raj</Link>. 
                 <br/>
 
             </p>
