@@ -19,16 +19,16 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src=""
               alt="@shadcn"
             />
-            <AvatarFallback>Maths</AvatarFallback>
+            <AvatarFallback>🍀</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(MA 103)</span> <br />{" "}
-          Mathematics I
+          <span className=" text-lg underline">(ES24101)</span> <br />{" "}
+          Environmental
         </h2>{" "}
       </div>
 
@@ -83,70 +83,52 @@ export default function Page() {
 }
 
 export function Syllabus() {
-  return (
-    <>
-      <div className="syllabus  shadow-lg rounded-lg p-6">
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 1: Sequences and Series
-          </h3>
-          <p className="text-gray-700">
-            Sequences, Convergence of Sequence. Series, Convergence of Series,
-            Tests for Convergence: Comparison tests, Ratio test, Cauchy’s root
-            test, Raabe’s test, Gauss test, Cauchy{"'"}s Integral test,
-            Alternating series, Leibnitz test, Absolute and Conditional
-            Convergence.
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 2: Matrices</h3>
-          <p className="text-gray-700">
-            Rank of a Matrix, elementary transformations, Row - reduced Echelon
-            form. Vectors, Linear Independence and Dependence of Vectors.
-            Consistency of system of linear equations. Eigenvalues,
-            Eigenvectors, Cayley - Hamilton theorem
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 3: Advance Differential Calculus
-          </h3>
-          <p className="text-gray-700">
-            Function of several variables, Limit, Continuity, Partial
-            derivatives, Euler’s theorem for homogeneous functions, Total
-            derivatives, Chain rules, Jacobians and its properties, Taylor
-            series for function of two variables, Maxima – Minima, Lagrange’s
-            method of multipliers.
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 4: Advance Integral Calculus
-          </h3>
-          <p className="text-gray-700">
-            Beta and Gamma functions: definition and properties. Double
-            integrals, double integrals in polar coordinates, Change of order of
-            integration, Triple Integrals, cylindrical and spherical coordinate
-            systems, transformation of coordinates, Applications of double and
-            triple integrals in areas and volumes.
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Vector Calculus</h3>
-          <p className="text-gray-700">
-            Scalar and vector point functions, gradient, directional derivative,
-            divergence, curl, vector equations and identities. Line Integral,
-            Work done, Conservative field, Green’s theorem in a plane, Surface
-            and volume integrals, Gauss – divergence theorem, Stoke’s theorem.
-          </p>
+  return  <div className="syllabus  shadow-lg rounded-lg p-6">
+        <div>
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 1: Ecosystem and Environment
+            </h3>
+            <p className="text-gray-700">
+              Concepts of Ecology and Environmental science, ecosystem: structure, function and services, Biogeochemical cycles, energy and nutrient flow, ecosystem management, fate of environmental pollutants, environmental status and reports on climate change.
+            </p>
+          </div>
+        
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">Module 2: Air Pollution</h3>
+            <p className="text-gray-700">
+              Structure and composition of unpolluted atmosphere, classification of air pollution sources, types of air pollutants, effects of air pollution, monitoring of air pollution, control methods and equipment for air pollution control, vehicular emissions and control, indoor air pollution, air pollution episodes and case studies.
+            </p>
+          </div>
+        
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 3: Water Pollution
+            </h3>
+            <p className="text-gray-700">
+              Types and Sources of Pollutants; effects of water pollution; Water quality monitoring, various water quality indices, water and waste water treatment: primary, secondary and tertiary treatment, advanced treatments (nitrate and phosphate removal); Sludge treatment and disposal.
+            </p>
+          </div>
+        
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 4: Water Resource
+            </h3>
+            <p className="text-gray-700">
+              Types and Sources of Pollutants; effects of water pollution; Water quality monitoring, various water quality indices, water and waste water treatment: primary, secondary and tertiary treatment, advanced treatments (nitrate and phosphate removal); Sludge treatment and disposal.
+            </p>
+          </div>
+        
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">Module 5: Water Pollution</h3>
+            <p className="text-gray-700">
+              Types and Sources of Pollutants; effects of water pollution; Water quality monitoring, various water quality indices, water and waste water treatment: primary, secondary and tertiary treatment, advanced treatments (nitrate and phosphate removal); Sludge treatment and disposal.
+            </p>
+          </div>
         </div>
       </div>
-    </>
-  );
+      
+  
 }
 
 export function PDFs() {

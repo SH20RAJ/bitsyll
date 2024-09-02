@@ -5,6 +5,11 @@ export let subjects = [
     slug: "MA24101",
   },
   {
+    name: "Environmental Science",
+    emoji: "🌍",
+    slug: "ES24101",
+  },
+  {
     name: "Chemistry",
     emoji: "🧪",
     slug: "CH24101",
@@ -18,11 +23,6 @@ export let subjects = [
     name: "Basic of Mechanical Engineering",
     emoji: "🔧",
     slug: "ME24101",
-  },
-  {
-    name: "Environmental Science",
-    emoji: "🌍",
-    slug: "ES24101",
   },
   {
     name: "Chemistry Lab",
