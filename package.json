@@ -42,6 +42,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
+    "disqus-react": "^1.1.5",
     "embla-carousel-react": "^8.2.0",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.438.0",
