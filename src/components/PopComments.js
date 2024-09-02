@@ -9,6 +9,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import DisqusComment from "./DisqusComment";
 
 
 export function PopComments() {
@@ -16,6 +17,7 @@ export function PopComments() {
     <Drawer>
       <DrawerTrigger asChild>
         <Button variant="outline">Open Comments {">"}</Button>
+        
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">
@@ -27,26 +29,12 @@ export function PopComments() {
           </DrawerHeader>
         </div>
         <div>
-
-<div id="disqus_thread" />
-<script dangerouslySetInnerHTML={{ __html : `
- var disqus_config = function () {
-    this.page.url = "PAGE_URL"; 
-    this.page.identifier = "PAGE_IDENTIFIER";
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://bitsyll.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-`}}>
-   
-</script>
+          <DisqusComment />
           
         </div>
       </DrawerContent>
+
+
     </Drawer>
   );
 }
