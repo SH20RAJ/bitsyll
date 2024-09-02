@@ -36,7 +36,7 @@ export function Subjects() {
             ))}
           </CommandGroup>
           <CommandSeparator />
-          <CommandGroup heading="Topics">
+          <CommandGroup heading="Topics (UnUpdated -> Contribute Now ✌️)">
             {topics.map((topic) => (
               <CommandItem key={topic.name} className="cursor-pointer">
                 <span className=" p-2">{topic.emoji}</span>
@@ -50,3 +50,6 @@ export function Subjects() {
     </>
   );
 }
+
+// subjects 
+
