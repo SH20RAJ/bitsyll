@@ -19,16 +19,16 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src=" "
               alt="@shadcn"
             />
-            <AvatarFallback>Maths</AvatarFallback>
+            <AvatarFallback>🛜</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(MA24101)</span> <br />{" "}
-          Mathematics I
+          <span className=" text-lg underline">(EC24101)</span> <br />{" "}
+          Basics of Electronics & Communication Engineering
         </h2>{" "}
       </div>
 
@@ -83,94 +83,97 @@ export default function Page() {
 }
 
 export function Syllabus() {
-  return (
-    <>
-      <div className="syllabus  shadow-lg rounded-lg p-6">
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 1: Sequences and Series
-          </h3>
-          <p className="text-gray-700">
-            Sequences, Convergence of Sequence. Series, Convergence of Series,
-            Tests for Convergence: Comparison tests, Ratio test, Cauchy’s root
-            test, Raabe’s test, Gauss test, Cauchy{"'"}s Integral test,
-            Alternating series, Leibnitz test, Absolute and Conditional
-            Convergence.
-          </p>
-        </div>
+    return (
+      <>
+        <div className="syllabus  shadow-lg rounded-lg p-6">
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 1: Diodes and Applications
+            </h3>
+            <p className="text-gray-700">
+              Introduction to PN junction diodes; Characteristics of semiconductor
+              diodes: V-I characteristics, diode-resistance, temperature-dependence,
+              diode-capacitance; DC & AC load lines; Breakdown Mechanisms; Zener
+              Diode – Operation and Applications; Diode as a Rectifier: Half Wave
+              and Full Wave Rectifiers with and without C-Filters.
+            </p>
+          </div>
 
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 2: Matrices</h3>
-          <p className="text-gray-700">
-            Rank of a Matrix, elementary transformations, Row - reduced Echelon
-            form. Vectors, Linear Independence and Dependence of Vectors.
-            Consistency of system of linear equations. Eigenvalues,
-            Eigenvectors, Cayley - Hamilton theorem
-          </p>
-        </div>
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 2: Bipolar Junction Transistors (BJT)
+            </h3>
+            <p className="text-gray-700">
+              PNP and NPN Transistors, Basic Transistor Action, Input and Output
+              Characteristics of CB, CE and CC Configurations, dc and ac load line
+              analysis, operating point, Transistor biasing: Fixed bias, emitter
+              bias/self-bias, Low-frequency response of CE amplifier. Field Effect
+              Transistors: JFET, Idea of Channel Formation, Pinch-Off and saturation
+              Voltage, Current-Voltage Output Characteristics; MOSFET: Basic
+              structure, operation and characteristics
+            </p>
+          </div>
 
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 3: Advance Differential Calculus
-          </h3>
-          <p className="text-gray-700">
-            Function of several variables, Limit, Continuity, Partial
-            derivatives, Euler’s theorem for homogeneous functions, Total
-            derivatives, Chain rules, Jacobians and its properties, Taylor
-            series for function of two variables, Maxima – Minima, Lagrange’s
-            method of multipliers.
-          </p>
-        </div>
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 3: Sinusoidal Oscillators
+            </h3>
+            <p className="text-gray-700">
+              Concept of positive and negative feedback, Barkhausen criterion for
+              sustained oscillations, Determination of Frequency and Condition of
+              oscillation, Hartley and Colpitt’s oscillator. Operational Amplifiers:
+              Characteristics of an Ideal and Practical Operational Amplifier (IC
+              741), Inverting and non-inverting amplifiers, Offset error voltages
+              and currents; Power supply rejection ratio, Slew Rate and concept of
+              Virtual Ground, Summing and Difference Amplifiers, Differentiator and
+              Integrator, RC phase shift oscillator.
+            </p>
+          </div>
 
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 4: Advance Integral Calculus
-          </h3>
-          <p className="text-gray-700">
-            Beta and Gamma functions: definition and properties. Double
-            integrals, double integrals in polar coordinates, Change of order of
-            integration, Triple Integrals, cylindrical and spherical coordinate
-            systems, transformation of coordinates, Applications of double and
-            triple integrals in areas and volumes.
-          </p>
-        </div>
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 4: Logic Gates and Boolean algebra
+            </h3>
+            <p className="text-gray-700">
+              Introduction to Boolean Algebra and Boolean operators, Symbolic
+              representation, Boolean algebraic function and Truth table of
+              different Digital logic Gates (AND, OR, NOT, NAND, NOR, EX-OR,
+              EX-NOR); Realization of Basic logic gates using universal gates,
+              Adder, Subtractor, adder/subtractor.
+            </p>
+          </div>
 
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Vector Calculus</h3>
-          <p className="text-gray-700">
-            Scalar and vector point functions, gradient, directional derivative,
-            divergence, curl, vector equations and identities. Line Integral,
-            Work done, Conservative field, Green’s theorem in a plane, Surface
-            and volume integrals, Gauss – divergence theorem, Stoke’s theorem.
-          </p>
+          <div className="module mb-6">
+            <h3 className="text-xl font-semibold ">
+              Module 5: Electronic communication
+            </h3>
+            <p className="text-gray-700">
+              Introduction to electronic communication system, Electromagnetic Communication spectrum band and applications, Elements of Electronic Communication System; Merits and demerits of analog and digital communication, Modes of communication; Signal radiation and propagation; Need for modulation; Introduction to Amplitude modulation and Angle modulation.
+            </p>
+          </div>
         </div>
-      </div>
-    </>
-  );
+      </>
+    );
 }
 
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Sequences and Series",
-      link: "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link",
+      title: "Module 1: Diodes and Applications",
+      link: "https://drive.google.com/file/d/1PlromX6l_OqjwXKP25d6usn6YyRsJ5tA/view?usp=sharing",
     },
     {
-      title: "Module 2: Matrices",
-      link: "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing",
+      title: "Module 2: Bipolar Junction Transistors (BJT)",
+      link: "https://drive.google.com/file/d/1zYU_Z6bsm8zQDqLn7rC6B3qty1ZgjB7l/view?usp=sharing",
     },
     {
-      title: "Module 3: Advance Differential Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 3: Sinusoidal Oscillators",
+      link: "https://drive.google.com/file/d/1rEs-mO3ZwvPcgvLtA5rVatuO8B0vokwF/view?usp=sharing",
     },
     {
-      title: "Module 4: Advance Integral Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
-    },
-    {
-      title: "Module 5: Vector Calculus",
-      link: "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing",
-    },
+      title: "Module 4: Logic Gates and Boolean algebra",
+      link: "https://drive.google.com/file/d/1Vb5WE_phDxUGWVZI2MrHbmf-QuukNwJv/view?usp=sharing",
+    }
   ];
   return (
     <div className="pdfs">
@@ -189,28 +192,12 @@ export function PYQs() {
   let pdfs = [
     {
       title: "Mid Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1bnbTF2Tl4BnoXXdYIzXzz75cGuWUGqv8/view?usp=sharing",
     },
     {
       title: "End Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
+      link: "https://drive.google.com/file/d/1LdsvJ_cG-1_a4Rn_FqLRz4ESmwDylhuB/view?usp=sharing",
+    }
   ];
   return (
     <div className="pyqs">
