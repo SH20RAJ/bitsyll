@@ -38,7 +38,7 @@ export default function ImportantData({ showHeading }) {
       id: 6,
       title: "Academic Calendar 📅",
       description: "This is the important data",
-      link: "https://www.bitmesra.ac.in/Show_Content_Section?cid=1&pid=1",
+      link: "https://bitmesra.ac.in/UploadedDocuments/pratyush_869/NewsUPloaded/News68e689b46c734b5f809ea3926c62996c_Academic%20Calendar%20-%20MO%202024.pdf",
     },
     {
       id: 7,
@@ -57,6 +57,11 @@ export default function ImportantData({ showHeading }) {
       title: "😻 Notes 📃",
       description: "This is the important data",
       link: "https://drive.google.com/drive/folders/1-0Xfwd73g-Y7mec64v5W0osI4CWT0B1v",
+    },{
+      id:10,
+      title:"📚 SIP",
+      description:"This is the important data",
+      link:"https://www.bitmesra.ac.in/UploadedDocuments/pratyush_869/NewsUPloaded/News3b14f09c37474b03b1e29617551cac9a_SIP_2024_Schedule_1.pdf"
     }
   ];
   return (
