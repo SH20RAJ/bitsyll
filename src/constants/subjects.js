@@ -54,4 +54,9 @@ export let subjects = [
     emoji: "💼",
     slug: "MC24105",
   },
+  {
+    name: "Programming for Problem Solving",
+    emoji: "💻",
+    slug: "CS24101",
+  }
 ];

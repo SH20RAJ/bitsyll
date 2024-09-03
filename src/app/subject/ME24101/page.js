@@ -19,16 +19,16 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src=" "
               alt="@shadcn"
             />
-            <AvatarFallback>Maths</AvatarFallback>
+            <AvatarFallback>🔧</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(MA24101)</span> <br />{" "}
-          Mathematics I
+          <span className=" text-lg underline">(ME24101)</span> <br />{" "}
+          Basic of Mechanical Engineering
         </h2>{" "}
       </div>
 
@@ -88,60 +88,70 @@ export function Syllabus() {
       <div className="syllabus  shadow-lg rounded-lg p-6">
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 1: Sequences and Series
+            Module 1: System of Forces and Structure Mechanics
           </h3>
           <p className="text-gray-700">
-            Sequences, Convergence of Sequence. Series, Convergence of Series,
-            Tests for Convergence: Comparison tests, Ratio test, Cauchy’s root
-            test, Raabe’s test, Gauss test, Cauchy{"'"}s Integral test,
-            Alternating series, Leibnitz test, Absolute and Conditional
-            Convergence.
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 2: Matrices</h3>
-          <p className="text-gray-700">
-            Rank of a Matrix, elementary transformations, Row - reduced Echelon
-            form. Vectors, Linear Independence and Dependence of Vectors.
-            Consistency of system of linear equations. Eigenvalues,
-            Eigenvectors, Cayley - Hamilton theorem
+            Addition of Forces, Moment of a Force, Couple, Varignon’s theorem,
+            Free Body Diagram, Equilibrium in Two and Three Dimensions,
+            Equivalent Forces and Moment. Types of Trusses, Plane and Space
+            Trusses. Analysis of Plane Trusses by: Method of Joints and Method
+            of Sections, Analysis of Frames with Hinged Joints. Hooke’s Law of
+            elasticity, Stress and Strain, Relation between elastic constants,
+            Thermal Stresses, Properties of surfaces such as centroid and area
+            moment of inertia.
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 3: Advance Differential Calculus
+            Module 2: Kinematics & Kinetics of rigid bodies
           </h3>
           <p className="text-gray-700">
-            Function of several variables, Limit, Continuity, Partial
-            derivatives, Euler’s theorem for homogeneous functions, Total
-            derivatives, Chain rules, Jacobians and its properties, Taylor
-            series for function of two variables, Maxima – Minima, Lagrange’s
-            method of multipliers.
+            Types of rigid body motion– translation, rotation about fixed axis,
+            equations defining the rotation of a rigid body about a fixed axis,
+            plane motion, absolute and relative velocity in plane motion,
+            instantaneous center of rotation. Equation of translational and
+            rotational motion, Newton’s law and D’Alembert’s principle –inertia
+            force and inertia couple.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">Module 3: Friction and Vibration</h3>
+          <p className="text-gray-700">
+            Interfacial Friction (a) Laws of dry friction, static & kinetic
+            co-efficient of friction, Analysis of static, kinetic and rolling
+            friction.(b) Analysis of frictional forces in inclined planes,
+            wedges, screw jacks and belt drives. Vibrations: Types of vibration,
+            free un-damped longitudinal vibrations, free damped longitudinal
+            vibrations.
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 4: Advance Integral Calculus
+            Module 4: Boilers and Internal Combustion Engine
           </h3>
           <p className="text-gray-700">
-            Beta and Gamma functions: definition and properties. Double
-            integrals, double integrals in polar coordinates, Change of order of
-            integration, Triple Integrals, cylindrical and spherical coordinate
-            systems, transformation of coordinates, Applications of double and
-            triple integrals in areas and volumes.
+            Boiler Mountings and Accessories, Fire Tube and Water Tube Boilers,
+            Cochran Boiler, Babcock and Wilcox Boiler. Basic components and
+            terminology of IC engines, working of four stroke/two stroke -
+            petrol/diesel engine, classification and application of IC engines.
+            Heat transfer: various modes of heat transfer, one dimensional
+            steady state conduction, Application to composite walls and
+            cylinder.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Vector Calculus</h3>
+          <h3 className="text-xl font-semibold ">
+            Module 5: Non-Conventional Energy and their resources
+          </h3>
           <p className="text-gray-700">
-            Scalar and vector point functions, gradient, directional derivative,
-            divergence, curl, vector equations and identities. Line Integral,
-            Work done, Conservative field, Green’s theorem in a plane, Surface
-            and volume integrals, Gauss – divergence theorem, Stoke’s theorem.
+            Renewable and Non-renewable Energy Resources, Advantages and
+            Disadvantages of Renewable Resources, Renewable Energy Forms and
+            Conversion, Solar Energy, Wind Energy, Tidal Energy, Ocean Thermal
+            Energy; Geothermal Energy, Nuclear Energy, Hydro Energy
           </p>
         </div>
       </div>
