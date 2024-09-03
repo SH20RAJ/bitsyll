@@ -18,10 +18,7 @@ export default function Page() {
       <div className="flex flex-col gap-4 justify-center items-center h-28 mt-20">
         <div>
           <Avatar className="h-20 w-20">
-            <AvatarImage
-              src=""
-              alt="@shadcn"
-            />
+            <AvatarImage src="" alt="@shadcn" />
             <AvatarFallback>🍀</AvatarFallback>
           </Avatar>
         </div>
@@ -53,7 +50,7 @@ export default function Page() {
         </AccordionItem>
 
         <AccordionItem value="item-5">
-          <AccordionTrigger>Best YouTube Videos</AccordionTrigger>
+          <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -83,77 +80,92 @@ export default function Page() {
 }
 
 export function Syllabus() {
-  return  <div className="syllabus  shadow-lg rounded-lg p-6">
-        <div>
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 1: Ecosystem and Environment
-            </h3>
-            <p className="text-gray-700">
-              Concepts of Ecology and Environmental science, ecosystem: structure, function and services, Biogeochemical cycles, energy and nutrient flow, ecosystem management, fate of environmental pollutants, environmental status and reports on climate change.
-            </p>
-          </div>
-        
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">Module 2: Air Pollution</h3>
-            <p className="text-gray-700">
-              Structure and composition of unpolluted atmosphere, classification of air pollution sources, types of air pollutants, effects of air pollution, monitoring of air pollution, control methods and equipment for air pollution control, vehicular emissions and control, indoor air pollution, air pollution episodes and case studies.
-            </p>
-          </div>
-        
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 3: Water Pollution
-            </h3>
-            <p className="text-gray-700">
-              Types and Sources of Pollutants; effects of water pollution; Water quality monitoring, various water quality indices, water and waste water treatment: primary, secondary and tertiary treatment, advanced treatments (nitrate and phosphate removal); Sludge treatment and disposal.
-            </p>
-          </div>
-        
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 4: Water Resource
-            </h3>
-            <p className="text-gray-700">
-              Types and Sources of Pollutants; effects of water pollution; Water quality monitoring, various water quality indices, water and waste water treatment: primary, secondary and tertiary treatment, advanced treatments (nitrate and phosphate removal); Sludge treatment and disposal.
-            </p>
-          </div>
-        
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">Module 5: Water Pollution</h3>
-            <p className="text-gray-700">
-              Types and Sources of Pollutants; effects of water pollution; Water quality monitoring, various water quality indices, water and waste water treatment: primary, secondary and tertiary treatment, advanced treatments (nitrate and phosphate removal); Sludge treatment and disposal.
-            </p>
-          </div>
+  return (
+    <div className="syllabus  shadow-lg rounded-lg p-6">
+      <div>
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 1: Ecosystem and Environment
+          </h3>
+          <p className="text-gray-700">
+            Concepts of Ecology and Environmental science, ecosystem: structure,
+            function and services, Biogeochemical cycles, energy and nutrient
+            flow, ecosystem management, fate of environmental pollutants,
+            environmental status and reports on climate change.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">Module 2: Air Pollution</h3>
+          <p className="text-gray-700">
+            Structure and composition of unpolluted atmosphere, classification
+            of air pollution sources, types of air pollutants, effects of air
+            pollution, monitoring of air pollution, control methods and
+            equipment for air pollution control, vehicular emissions and
+            control, indoor air pollution, air pollution episodes and case
+            studies.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">Module 3: Water Pollution</h3>
+          <p className="text-gray-700">
+            Types and Sources of Pollutants; effects of water pollution; Water
+            quality monitoring, various water quality indices, water and waste
+            water treatment: primary, secondary and tertiary treatment, advanced
+            treatments (nitrate and phosphate removal); Sludge treatment and
+            disposal.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">Module 4: Water Resource</h3>
+          <p className="text-gray-700">
+            Types and Sources of Pollutants; effects of water pollution; Water
+            quality monitoring, various water quality indices, water and waste
+            water treatment: primary, secondary and tertiary treatment, advanced
+            treatments (nitrate and phosphate removal); Sludge treatment and
+            disposal.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">Module 5: Water Pollution</h3>
+          <p className="text-gray-700">
+            Types and Sources of Pollutants; effects of water pollution; Water
+            quality monitoring, various water quality indices, water and waste
+            water treatment: primary, secondary and tertiary treatment, advanced
+            treatments (nitrate and phosphate removal); Sludge treatment and
+            disposal.
+          </p>
         </div>
       </div>
-      
-  
+    </div>
+  );
 }
 
 export function PDFs() {
   let pdfs = [
     {
       title: "Module 1: Ecosystem and Environment",
-      link: "https://drive.google.com/file/d/1uxoBV23gzDmOBvUiVmZC-NgmfTDlIdQk/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1uxoBV23gzDmOBvUiVmZC-NgmfTDlIdQk/view?usp=sharing",
     },
     {
       title: "Module 2: Air Pollution and control",
-      link: "https://drive.google.com/file/d/1CZybHWmUj-usGuEqcY0ZfgO7JoGXdbRi/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1CZybHWmUj-usGuEqcY0ZfgO7JoGXdbRi/view?usp=sharing",
     },
     {
       title: "Module 3: Water Pollution",
-      link: "https://drive.google.com/file/d/1S8K59u2vmVii0dq0CPUm7l19rkZijquA/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1S8K59u2vmVii0dq0CPUm7l19rkZijquA/view?usp=sharing",
     },
     {
       title: "Module 4: SOIL POLLUTION AND SOLID WASTE MANAGEMENT",
-      link: "https://drive.google.com/file/d/1ajJjYRB471qOmQ-92MeeGeiUOcuSUT5t/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1ajJjYRB471qOmQ-92MeeGeiUOcuSUT5t/view?usp=sharing",
     },
     {
       title: "Module 5: Noice Pollution",
-      link: "https://drive.google.com/file/d/1iTA3L_-bqVcG1d5O8M7s0N_Nriiqzhkw/view?usp=sharing"
-    }
-
+      link: "https://drive.google.com/file/d/1iTA3L_-bqVcG1d5O8M7s0N_Nriiqzhkw/view?usp=sharing",
+    },
   ];
   return (
     <div className="pdfs">
@@ -177,7 +189,7 @@ export function PYQs() {
     {
       title: "End Sem 2023",
       link: "https://drive.google.com/file/d/1KMieywWn2rvd8H3tnN741h4u0N-Tgh6_/view?usp=sharing",
-    }
+    },
   ];
   return (
     <div className="pyqs">

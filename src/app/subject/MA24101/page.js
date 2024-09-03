@@ -53,8 +53,10 @@ export default function Page() {
         </AccordionItem>
 
         <AccordionItem value="item-5">
-          <AccordionTrigger>Best YouTube Videos</AccordionTrigger>
-          <AccordionContent></AccordionContent>
+          <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
+          <AccordionContent>
+            <YoutubeVideos />
+          </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Important Links</AccordionTrigger>
@@ -220,6 +222,36 @@ export function PYQs() {
             {pdf.title}
           </a>
         </div>
+      ))}
+    </div>
+  );
+}
+
+export function YoutubeVideos() {
+  let videos = [
+    {
+      title: "Sequences and Series",
+      link: "https://www.youtube.com/embed/videoseries?si=zES-vDZCDWOO72ZQ&list=PLU6SqdYcYsfJqbZvQECrwnlQrp4fg6isX",
+    },
+    {
+      title: "Sequences and Series",
+      link: "https://www.youtube.com/embed/videoseries?si=zES-vDZCDWOO72ZQ&list=PLdM-WZokR4tazDny4O5ssNlYN0NzA9wy1",
+    },
+  ];
+  return (
+    <div className="videos">
+      {videos.map((video, index) => (
+        <iframe
+          key={index}
+          width={"100%"}
+          height={315}
+          src={video.link}
+          title="YouTube video player"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
       ))}
     </div>
   );

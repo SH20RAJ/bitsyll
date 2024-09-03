@@ -18,10 +18,7 @@ export default function Page() {
       <div className="flex flex-col gap-4 justify-center items-center h-28 mt-20">
         <div>
           <Avatar className="h-20 w-20">
-            <AvatarImage
-              src=" "
-              alt="@shadcn"
-            />
+            <AvatarImage src=" " alt="@shadcn" />
             <AvatarFallback>💻</AvatarFallback>
           </Avatar>
         </div>
@@ -53,7 +50,7 @@ export default function Page() {
         </AccordionItem>
 
         <AccordionItem value="item-5">
-          <AccordionTrigger>Best YouTube Videos</AccordionTrigger>
+          <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -83,70 +80,70 @@ export default function Page() {
 }
 
 export function Syllabus() {
-    return (
-      <>
-        <div className="syllabus  shadow-lg rounded-lg p-6">
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 1: Introduction to Programming
-            </h3>
-            <p className="text-gray-700">
-              Introduction to components of a computer system (disks, memory,
-              processor, where a program is stored and executed, operating system,
-              compilers etc.) Problem Solving: Steps to solve logical and numerical
-              problems. Representation of Algorithm: Flowchart/Pseudo code with
-              examples. From algorithms to programs; source code, variables (with
-              data types) variables and memory locations, Syntax and Logical Errors
-              in compilation, object and executable code.
-            </p>
-          </div>
-
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 2: Arithmetic expressions and Conditional Branching and Loops
-            </h3>
-            <p className="text-gray-700">
-              Arithmetic expressions and precedence, Conditional Branching and
-              Loops, Writing and evaluation of conditionals, Iterations, Loops.
-            </p>
-          </div>
-
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 3: Array, Character array, strings
-            </h3>
-            <p className="text-gray-700">
-              Array, Character array, strings. Case studies to discuss the various
-              Problems related to Basic science (Matrix addition, Matrix-matrix
-              multiplication, Roots of an equation etc.), Sorting, Searching.
-            </p>
-          </div>
-
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 4: Functions and Recursion
-            </h3>
-            <p className="text-gray-700">
-              Functions (including using built in libraries), Parameter passing in
-              functions, call by value, call by reference. Passing arrays to
-              functions, Recursion (Finding Factorial, Fibonacci series, Ackerman
-              function etc.).
-            </p>
-          </div>
-
-          <div className="module mb-6">
-            <h3 className="text-xl font-semibold ">
-              Module 5: Structures and Pointers
-            </h3>
-            <p className="text-gray-700">
-              Structures, Defining structures and Array of Structures Pointers:
-              Defining pointers, Use of Pointers in self-referential structures,
-              File Handling.
-            </p>
-          </div>
+  return (
+    <>
+      <div className="syllabus  shadow-lg rounded-lg p-6">
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 1: Introduction to Programming
+          </h3>
+          <p className="text-gray-700">
+            Introduction to components of a computer system (disks, memory,
+            processor, where a program is stored and executed, operating system,
+            compilers etc.) Problem Solving: Steps to solve logical and
+            numerical problems. Representation of Algorithm: Flowchart/Pseudo
+            code with examples. From algorithms to programs; source code,
+            variables (with data types) variables and memory locations, Syntax
+            and Logical Errors in compilation, object and executable code.
+          </p>
         </div>
-      </>
-    );
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 2: Arithmetic expressions and Conditional Branching and Loops
+          </h3>
+          <p className="text-gray-700">
+            Arithmetic expressions and precedence, Conditional Branching and
+            Loops, Writing and evaluation of conditionals, Iterations, Loops.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 3: Array, Character array, strings
+          </h3>
+          <p className="text-gray-700">
+            Array, Character array, strings. Case studies to discuss the various
+            Problems related to Basic science (Matrix addition, Matrix-matrix
+            multiplication, Roots of an equation etc.), Sorting, Searching.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 4: Functions and Recursion
+          </h3>
+          <p className="text-gray-700">
+            Functions (including using built in libraries), Parameter passing in
+            functions, call by value, call by reference. Passing arrays to
+            functions, Recursion (Finding Factorial, Fibonacci series, Ackerman
+            function etc.).
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 5: Structures and Pointers
+          </h3>
+          <p className="text-gray-700">
+            Structures, Defining structures and Array of Structures Pointers:
+            Defining pointers, Use of Pointers in self-referential structures,
+            File Handling.
+          </p>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export function PDFs() {
@@ -166,7 +163,7 @@ export function PDFs() {
     {
       title: "Module 4: Logic Gates and Boolean algebra",
       link: "https://drive.google.com/file/d/1Vb5WE_phDxUGWVZI2MrHbmf-QuukNwJv/view?usp=sharing",
-    }
+    },
   ];
   return (
     <div className="pdfs">
@@ -190,7 +187,7 @@ export function PYQs() {
     {
       title: "End Sem 2023",
       link: "https://drive.google.com/file/d/1LdsvJ_cG-1_a4Rn_FqLRz4ESmwDylhuB/view?usp=sharing",
-    }
+    },
   ];
   return (
     <div className="pyqs">

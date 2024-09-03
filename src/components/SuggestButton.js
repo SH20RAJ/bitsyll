@@ -14,7 +14,7 @@ export default function SuggestButton() {
         <Button className="w-full" variant="secondary">Suggest/Contribute Content</Button>
       </Link>
       <div className="flex gap-2">
-        <Link className=" w-full" href="https://github.com/sh20raj">
+        <Link className=" w-full" href="https://github.com/SH20RAJ/bitsyll">
           <Button className="w-full">Contribute Code</Button>
         </Link>
         <PopComments />

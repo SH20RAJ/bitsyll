@@ -53,7 +53,7 @@ export default function Page() {
         </AccordionItem>
 
         <AccordionItem value="item-5">
-          <AccordionTrigger>Best YouTube Videos</AccordionTrigger>
+          <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">

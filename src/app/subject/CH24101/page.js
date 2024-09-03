@@ -18,17 +18,13 @@ export default function Page() {
       <div className="flex flex-col gap-4 justify-center items-center h-28 mt-20">
         <div>
           <Avatar className="h-20 w-20">
-            <AvatarImage
-              src=""
-              alt="@shadcn"
-            />
+            <AvatarImage src="" alt="@shadcn" />
             <AvatarFallback>🧪</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(CH24101)</span> <br />{" "}
-          Chemistry
+          <span className=" text-lg underline">(CH24101)</span> <br /> Chemistry
         </h2>{" "}
       </div>
 
@@ -53,7 +49,7 @@ export default function Page() {
         </AccordionItem>
 
         <AccordionItem value="item-5">
-          <AccordionTrigger>Best YouTube Videos</AccordionTrigger>
+          <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -87,14 +83,12 @@ export function Syllabus() {
     <>
       <div className="syllabus  shadow-lg rounded-lg p-6">
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 1: Chemical Bonding
-          </h3>
+          <h3 className="text-xl font-semibold ">Module 1: Chemical Bonding</h3>
           <p className="text-gray-700">
-            Ionic bond: Radius ratio rule, Born-Landé equation, Born-Haber cycle.
-            Metallic Bond: valence bond and band theories, defects in solids,
-            Werner{"'"}s Theory, Bonding in Transition metal complexes, Ligands,
-            coordination complexes, Ligand Field, Crystal Field Theory,
+            Ionic bond: Radius ratio rule, Born-Landé equation, Born-Haber
+            cycle. Metallic Bond: valence bond and band theories, defects in
+            solids, Werner{"'"}s Theory, Bonding in Transition metal complexes,
+            Ligands, coordination complexes, Ligand Field, Crystal Field Theory,
             Octahedral, Tetrahedral and square planar complexes, CFSE, Jahn
             Teller theorem, electronic spectra, magnetism, and isomerization in
             coordination compounds.
@@ -186,7 +180,7 @@ export function PDFs() {
     {
       title: "Module 5: Phase and Chemical equilibrium",
       link: "https://drive.google.com/file/d/1RiwLERyl1TfSEcdh8P3GNEYAmUAzm20W/view?usp=sharing",
-    }
+    },
   ];
   return (
     <div className="pdfs">

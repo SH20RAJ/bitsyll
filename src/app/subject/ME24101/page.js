@@ -18,17 +18,14 @@ export default function Page() {
       <div className="flex flex-col gap-4 justify-center items-center h-28 mt-20">
         <div>
           <Avatar className="h-20 w-20">
-            <AvatarImage
-              src=" "
-              alt="@shadcn"
-            />
+            <AvatarImage src=" " alt="@shadcn" />
             <AvatarFallback>🔧</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(ME24101)</span> <br />{" "}
-          Basic of Mechanical Engineering
+          <span className=" text-lg underline">(ME24101)</span> <br /> Basic of
+          Mechanical Engineering
         </h2>{" "}
       </div>
 
@@ -53,7 +50,7 @@ export default function Page() {
         </AccordionItem>
 
         <AccordionItem value="item-5">
-          <AccordionTrigger>Best YouTube Videos</AccordionTrigger>
+          <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -117,7 +114,9 @@ export function Syllabus() {
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 3: Friction and Vibration</h3>
+          <h3 className="text-xl font-semibold ">
+            Module 3: Friction and Vibration
+          </h3>
           <p className="text-gray-700">
             Interfacial Friction (a) Laws of dry friction, static & kinetic
             co-efficient of friction, Analysis of static, kinetic and rolling
