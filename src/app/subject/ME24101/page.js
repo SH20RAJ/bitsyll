@@ -27,7 +27,7 @@ export default function Page() {
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(MA 103)</span> <br />{" "}
+          <span className=" text-lg underline">(MA24101)</span> <br />{" "}
           Mathematics I
         </h2>{" "}
       </div>
