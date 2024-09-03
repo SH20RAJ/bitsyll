@@ -19,16 +19,16 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src=""
               alt="@shadcn"
             />
-            <AvatarFallback>Maths</AvatarFallback>
+            <AvatarFallback>🧪</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(MA 103)</span> <br />{" "}
-          Mathematics I
+          <span className=" text-lg underline">(CH24101)</span> <br />{" "}
+          Chemistry
         </h2>{" "}
       </div>
 
@@ -88,60 +88,76 @@ export function Syllabus() {
       <div className="syllabus  shadow-lg rounded-lg p-6">
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 1: Sequences and Series
+            Module 1: Chemical Bonding
           </h3>
           <p className="text-gray-700">
-            Sequences, Convergence of Sequence. Series, Convergence of Series,
-            Tests for Convergence: Comparison tests, Ratio test, Cauchy’s root
-            test, Raabe’s test, Gauss test, Cauchy{"'"}s Integral test,
-            Alternating series, Leibnitz test, Absolute and Conditional
-            Convergence.
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 2: Matrices</h3>
-          <p className="text-gray-700">
-            Rank of a Matrix, elementary transformations, Row - reduced Echelon
-            form. Vectors, Linear Independence and Dependence of Vectors.
-            Consistency of system of linear equations. Eigenvalues,
-            Eigenvectors, Cayley - Hamilton theorem
+            Ionic bond: Radius ratio rule, Born-Landé equation, Born-Haber cycle.
+            Metallic Bond: valence bond and band theories, defects in solids,
+            Werner{"'"}s Theory, Bonding in Transition metal complexes, Ligands,
+            coordination complexes, Ligand Field, Crystal Field Theory,
+            Octahedral, Tetrahedral and square planar complexes, CFSE, Jahn
+            Teller theorem, electronic spectra, magnetism, and isomerization in
+            coordination compounds.
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 3: Advance Differential Calculus
+            Module 2: Organic Structure and Stereochemistry
           </h3>
           <p className="text-gray-700">
-            Function of several variables, Limit, Continuity, Partial
-            derivatives, Euler’s theorem for homogeneous functions, Total
-            derivatives, Chain rules, Jacobians and its properties, Taylor
-            series for function of two variables, Maxima – Minima, Lagrange’s
-            method of multipliers.
+            Covalent bond: Lewis structure, Valence Bond theory, Molecular
+            orbital theory, Molecular orbital of diatomic and polyatomic system,
+            hybridization, conjugated molecules, Huckel molecular orbital theory
+            of conjugated systems. Isomerism, Geometrical isomerism: cis–trans
+            and syn-anti isomerism; Optical isomerism & Chirality; Wedge,
+            Fischer, Newmann and Sawhorse Projection formulae and
+            interconversions; E/Z, D/L, R/S nomenclature system; Conformational
+            studies of ethane, n-butane, Cyclohexane.
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 4: Advance Integral Calculus
+            Module 3: Kinetics and Catalysis
           </h3>
           <p className="text-gray-700">
-            Beta and Gamma functions: definition and properties. Double
-            integrals, double integrals in polar coordinates, Change of order of
-            integration, Triple Integrals, cylindrical and spherical coordinate
-            systems, transformation of coordinates, Applications of double and
-            triple integrals in areas and volumes.
+            Order & molecularity of reactions: chain, parallel, Competing, Side,
+            Consecutive reactions; Kinetics of Fast reactions, Characteristics
+            of catalyst, types of catalysis, catalytic poison; Theories of
+            catalysis; Acid base catalysis: including kinetics, Enzyme
+            catalysis, Mechanism and kinetics of enzyme catalyzed reaction,
+            Michaelis-Menten equation, Important catalysts in industrial
+            processes; Hydrogenation using Wilkinsons catalyst, Hydroformylation
+            by using Cobalt-catalyst, Phase transfer catalyst.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Vector Calculus</h3>
+          <h3 className="text-xl font-semibold ">
+            Module 4: Spectroscopic Techniques
+          </h3>
           <p className="text-gray-700">
-            Scalar and vector point functions, gradient, directional derivative,
-            divergence, curl, vector equations and identities. Line Integral,
-            Work done, Conservative field, Green’s theorem in a plane, Surface
-            and volume integrals, Gauss – divergence theorem, Stoke’s theorem.
+            Absorption and emission Spectroscopy, Lambert-Beers Law, Principles
+            and applications of UVVisible, Factors influencing for UV-VIS
+            spectrum; Rotational and Vibrational spectroscopy, Principle of
+            FT-IR, and NMR spectroscopy; Modern techniques in structural
+            elucidation of compounds by UV-VIS, IR, & NMR Spectroscopy.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 5: Phase and Chemical equilibrium
+          </h3>
+          <p className="text-gray-700">
+            Phase Rule: Terms Involved, Phase diagram of one component (Water) &
+            two component (Pb/Ag) system & their applications. Law of chemical
+            equilibrium, equilibrium constants and their significance, Weak and
+            strong electrolytes, Standard electrode potential and its
+            application to different kinds of half cells, EMF and its
+            measurement and application, Batteries and Fuel Cells, Chemical and
+            Electrochemical corrosion, Factors affecting the rate of corrosion.
           </p>
         </div>
       </div>
@@ -152,25 +168,25 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Sequences and Series",
-      link: "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link",
+      title: "Module 1: Chemical Bonding",
+      link: "https://drive.google.com/file/d/1vAiXWWnv8EQHo65vXN8XLL772e-0Xzcp/view?usp=sharing",
     },
     {
-      title: "Module 2: Matrices",
-      link: "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing",
+      title: "Module 2: Organic Structure and Stereochemistry",
+      link: "https://drive.google.com/file/d/1Eig3jcEppu03hGUXUjM-XbiUBEVzeQUq/view?usp=sharing",
     },
     {
-      title: "Module 3: Advance Differential Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 3: Kinetics and Catalysis",
+      link: "https://drive.google.com/file/d/1NYsxfqW69LuN3YTnZ1yffNRLaLMhqG-m/view?usp=sharing",
     },
     {
-      title: "Module 4: Advance Integral Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 4: Spectroscopic Techniques",
+      link: "https://drive.google.com/file/d/1DF8n5rhFlkBi5hOPpjVjjkvXnR1FgViN/view?usp=sharing",
     },
     {
-      title: "Module 5: Vector Calculus",
-      link: "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing",
-    },
+      title: "Module 5: Phase and Chemical equilibrium",
+      link: "https://drive.google.com/file/d/1RiwLERyl1TfSEcdh8P3GNEYAmUAzm20W/view?usp=sharing",
+    }
   ];
   return (
     <div className="pdfs">
@@ -189,27 +205,11 @@ export function PYQs() {
   let pdfs = [
     {
       title: "Mid Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1z3sm9Eaaq2XcGvCy-vdNS6uZz9tO_qxh/view?usp=sharing",
     },
     {
       title: "End Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1u1ed-KP0c1RvSHvMLmy0ASCdn31VubCq/view?usp=sharing",
     },
   ];
   return (

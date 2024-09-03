@@ -134,25 +134,26 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Sequences and Series",
-      link: "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link",
+      title: "Module 1: Ecosystem and Environment",
+      link: "https://drive.google.com/file/d/1uxoBV23gzDmOBvUiVmZC-NgmfTDlIdQk/view?usp=sharing"
     },
     {
-      title: "Module 2: Matrices",
-      link: "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing",
+      title: "Module 2: Air Pollution and control",
+      link: "https://drive.google.com/file/d/1CZybHWmUj-usGuEqcY0ZfgO7JoGXdbRi/view?usp=sharing"
     },
     {
-      title: "Module 3: Advance Differential Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 3: Water Pollution",
+      link: "https://drive.google.com/file/d/1S8K59u2vmVii0dq0CPUm7l19rkZijquA/view?usp=sharing"
     },
     {
-      title: "Module 4: Advance Integral Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 4: SOIL POLLUTION AND SOLID WASTE MANAGEMENT",
+      link: "https://drive.google.com/file/d/1ajJjYRB471qOmQ-92MeeGeiUOcuSUT5t/view?usp=sharing"
     },
     {
-      title: "Module 5: Vector Calculus",
-      link: "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing",
-    },
+      title: "Module 5: Noice Pollution",
+      link: "https://drive.google.com/file/d/1iTA3L_-bqVcG1d5O8M7s0N_Nriiqzhkw/view?usp=sharing"
+    }
+
   ];
   return (
     <div className="pdfs">
@@ -171,28 +172,12 @@ export function PYQs() {
   let pdfs = [
     {
       title: "Mid Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1v2dZjtFcyoXn4ZT3EGxdyvncE6i3P99M/view?usp=sharing",
     },
     {
       title: "End Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
+      link: "https://drive.google.com/file/d/1KMieywWn2rvd8H3tnN741h4u0N-Tgh6_/view?usp=sharing",
+    }
   ];
   return (
     <div className="pyqs">

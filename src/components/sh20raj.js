@@ -1,4 +1,4 @@
-import { CalendarDays } from "lucide-react"
+import { CalendarDays, XIcon } from "lucide-react"
 
 import {
   Avatar,
@@ -12,6 +12,7 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import Link from "next/link"
+import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons"
 
 export function SH20RAJ() {
   return (
@@ -32,10 +33,12 @@ export function SH20RAJ() {
                 <br/>
 
             </p>
-            <div className="flex items-center pt-2">
-              <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}
-              <span className="text-xs text-muted-foreground">
-                Joined August 2024
+            <div className="flex items-center pt-2 justify-center items-center">
+              <span className="text-xs text-muted-foreground flex gap-4 text-center ">
+                <Link href={"https://instagram.com/sh20raj"}><InstagramLogoIcon className="h-4 w-4" /></Link>
+                <Link href={"https://github.com/sh20raj"}><GitHubLogoIcon className="h-4 w-4" /></Link>
+                <Link href={"https://twitter.com/sh20raj"}><XIcon className="h-4 w-4" /></Link>
+                <Link href={"https://www.linkedin.com/in/sh20raj/"}><LinkedInLogoIcon className="h-4 w-4" /></Link>
               </span>
             </div>
           </div>

@@ -6,52 +6,58 @@ export default function ImportantData({ showHeading }) {
   let data = [
     {
       id: 1,
-      title: "Class Routine",
+      title: "Class Routine 📅",
       description: "This is the important data",
       link: "https://drive.google.com/file/d/1QNgz9rbPaoU_zr1fmdVf8vLuo6LZZQyQ/view?usp=drive_link",
     },
     {
       id: 2,
-      title: "Exam Routine",
+      title: "Exam Routine 📅",
       description: "This is the important data",
       link: "/examroutine",
     },
     {
       id: 3,
-      title: "Syllabus",
+      title: "Syllabus 📚",
       description: "This is the important data",
       link: "/syllabus",
     },
     {
       id: 4,
-      title: "Clubs",
+      title: "Clubs 🎉",
       description: "This is the important data",
       link: "/clubs",
     },
     {
       id: 5,
-      title: "Website",
+      title: "Website 🌐",
       description: "This is the important data",
       link: "https://www.bitmesra.ac.in/",
     },
     {
       id: 6,
-      title: "Academic Calendar",
+      title: "Academic Calendar 📅",
       description: "This is the important data",
       link: "https://www.bitmesra.ac.in/Show_Content_Section?cid=1&pid=1",
     },
     {
       id: 7,
-      title: "BITHUB",
+      title: "BITHUB 🚀",
       description: "This is the important data",
       link: "https://bithub.co.in/",
     },
     {
       id: 8,
-      title: "Groups",
+      title: "WA Groups 📱",
       description: "This is the important data",
       link: "/groups",
     },
+    {
+      id: 9,
+      title: "😻 Notes 📃",
+      description: "This is the important data",
+      link: "https://drive.google.com/drive/folders/1-0Xfwd73g-Y7mec64v5W0osI4CWT0B1v",
+    }
   ];
   return (
     <div>
@@ -68,10 +74,10 @@ export default function ImportantData({ showHeading }) {
             <Link
               href={item.link}
               target="_"
-              className="w-full hover:underline"
+              className="w-full"
             >
               <Button
-                variant="ghost"
+                variant="link"
                 className=" w-full hover:underline"
                 target="_blank"
               >
