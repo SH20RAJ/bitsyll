@@ -51,7 +51,17 @@ export default function Page() {
 
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
-          <AccordionContent></AccordionContent>
+          <AccordionContent>
+            <p className="text-gray-700">
+              <a
+                href="https://www.youtube.com/@TIKLESACADEMY/videos"
+                target="_blank"
+                className="text-blue-500"
+              >
+                TIKLE{"'"}S ACADEMY
+              </a>
+            </p>
+          </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Important Links</AccordionTrigger>
@@ -161,24 +171,24 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Sequences and Series",
-      link: "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link",
+      title: "Module 1: System of Forces and Structure Mechanics",
+      link: "https://bithub.co.in/Bme_module_1.pdf",
     },
     {
-      title: "Module 2: Matrices",
-      link: "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing",
+      title: "Module 2: Kinematics & Kinetics of rigid bodies",
+      link: "https://bithub.co.in/Bme_module_2.pdf",
     },
     {
-      title: "Module 3: Advance Differential Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 3: Friction and Vibration",
+      link: "https://bithub.co.in/Bme_mod_3.pdf",
     },
     {
-      title: "Module 4: Advance Integral Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 4: Boilers and Internal Combustion Engine",
+      link: "https://bithub.co.in/Bme_mod_4.pdf",
     },
     {
-      title: "Module 5: Vector Calculus",
-      link: "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing",
+      title: "Module 5: Non-Conventional Energy and their resources",
+      link: "https://bithub.co.in/bme_mod_5.pdf",
     },
   ];
   return (
@@ -198,28 +208,12 @@ export function PYQs() {
   let pdfs = [
     {
       title: "Mid Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://bithub.co.in/bme_mid.pdf",
     },
     {
       title: "End Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
+      link: "https://bithub.co.in/bme_end.pdf",
+    }
   ];
   return (
     <div className="pyqs">

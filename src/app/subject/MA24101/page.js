@@ -28,7 +28,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
           <span className=" text-lg underline">(MA24101)</span> <br />{" "}
-          Mathematics I
+          Mathematics
         </h2>{" "}
       </div>
 
@@ -51,7 +51,6 @@ export default function Page() {
             <PYQs />
           </AccordionContent>
         </AccordionItem>
-
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent>

@@ -13,11 +13,11 @@ export default function Footer() {
         </Link> 2024 - <SH20RAJ/>
       </div>
       <div className="song fixed  m-0 bottom-0 w-full bg-black p-2">
-      <iframe
+      {/* <iframe
         src="https://archive.org/embed/BestOfArijitSingh"
         width={"100%"}
         height={40}
-      />
+      /> */}
       </div>
 
       <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=66d60ae0abc00d00197bfee9&product=sop' async='async'></script>
