@@ -51,7 +51,18 @@ export default function Page() {
 
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
-          <AccordionContent></AccordionContent>
+          <AccordionContent>
+            <p className="text-gray-700">
+              <a
+                href="https://www.youtube.com/channel/UCM-yUTYGmrNvKOCcAl21g3w"
+                target="_blank"
+                className="text-blue-500"
+              >
+                Jenny{"'"}s Lectures CS IT
+ 
+              </a>
+            </p>
+          </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Important Links</AccordionTrigger>
@@ -149,20 +160,60 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Diodes and Applications",
-      link: "https://drive.google.com/file/d/1PlromX6l_OqjwXKP25d6usn6YyRsJ5tA/view?usp=sharing",
+      title: "Algorithm and Flowchart",
+      link: "https://drive.google.com/file/d/17kxm6IcKJCCUCdUecjHjaiRLkGif4jLp/view?usp=drive_link",
     },
     {
-      title: "Module 2: Bipolar Junction Transistors (BJT)",
-      link: "https://drive.google.com/file/d/1zYU_Z6bsm8zQDqLn7rC6B3qty1ZgjB7l/view?usp=sharing",
+      title: "Array",
+      link: "https://drive.google.com/file/d/1YCPUqu1qYSZIiQwce0P2k37AVMPbTVED/view?usp=drive_link",
     },
     {
-      title: "Module 3: Sinusoidal Oscillators",
-      link: "https://drive.google.com/file/d/1rEs-mO3ZwvPcgvLtA5rVatuO8B0vokwF/view?usp=sharing",
+      title: "Bubble Sort",
+      link: "https://drive.google.com/file/d/1QyL2neOeTbaYemKB1wlam_H7aKo-quYc/view?usp=drive_link",
     },
     {
-      title: "Module 4: Logic Gates and Boolean algebra",
-      link: "https://drive.google.com/file/d/1Vb5WE_phDxUGWVZI2MrHbmf-QuukNwJv/view?usp=sharing",
+      title: "Data Type & Token",
+      link: "https://drive.google.com/file/d/1Zi0TBbYcn4XGlJVykg3PgUyq4X5YwV_6/view?usp=drive_link",
+    },
+    {
+      title: "Function",
+      link: "https://drive.google.com/file/d/1vezMVhmLBm9E87I_2Ryng4dNP-Ye3jWF/view?usp=drive_link",
+    },
+    {
+      title: "Generation of Language",
+      link: "https://drive.google.com/file/d/1EAashHYPUhWTig0ntFrDax-cNIbCLIgt/view?usp=drive_link",
+    },
+    {
+      title: "If-Else",
+      link: "https://drive.google.com/file/d/1RARPKhQSciyxhy7JtI2SF7yABxcH9bFH/view?usp=drive_link",
+    },
+    {
+      title: "Instruction",
+      link: "https://drive.google.com/file/d/1_2L8ZXtWMsjGqaIw0_bNCAqxDap5XZqc/view?usp=drive_link",
+    },
+    {
+      title: "Loop",
+      link: "https://drive.google.com/file/d/1mDNh5rEHTN2TkQ3yqvqJWzA7SN-1kTVy/view?usp=drive_link",
+    },
+    {
+      title: "Operator",
+      link: "https://drive.google.com/file/d/1oD3OdERrTFj8tB2hXqp1-FIOgh51g_cn/view?usp=drive_link",
+    },
+    {
+      title: "String",
+      link: "https://drive.google.com/file/d/14pUSvurKtvzvp238j9ygPdUQ8-3mb9WN/view?usp=drive_link",
+    },
+    {
+      title: "Structure",
+      link: "https://drive.google.com/file/d/1Dz2jDuo82SidpnrlX4IDJk_L7r60O57p/view?usp=drive_link",
+    },
+    {
+      title: "Switch",
+      link: "https://drive.google.com/file/d/1XgSgGyL_jSklduQNY6qKPSF-B5J1VFWJ/view?usp=drive_link",
+    },
+    {
+      title: "Types of Error",
+      link: "https://drive.google.com/file/d/1Bfve9kae-0MCDWe4qnMPQX6Rf7O-kdcd/view?usp=drive_link",
     },
   ];
   return (
@@ -182,11 +233,11 @@ export function PYQs() {
   let pdfs = [
     {
       title: "Mid Sem 2023",
-      link: "https://drive.google.com/file/d/1bnbTF2Tl4BnoXXdYIzXzz75cGuWUGqv8/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1h3TaLzIYeOavhL0SpCu_Kc7mMb1_PxPB/view?usp=drive_link",
     },
     {
       title: "End Sem 2023",
-      link: "https://drive.google.com/file/d/1LdsvJ_cG-1_a4Rn_FqLRz4ESmwDylhuB/view?usp=sharing",
+      link: "https://drive.google.com/file/d/17YkNtcmD4QHNU_ldukPK12psTerVoDVJ/view?usp=drive_link",
     },
   ];
   return (
