@@ -69,8 +69,6 @@ export default function Page() {
         </AccordionItem>
       </Accordion>
 
-      <SuggestButton />
-
       {/* <Important /> */}
 
       {/* <Topics subcode="MA24101" topics="topics" /> */}

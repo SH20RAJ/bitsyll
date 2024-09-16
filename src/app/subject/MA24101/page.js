@@ -74,8 +74,6 @@ export default function Page() {
         </AccordionItem>
       </Accordion>
 
-      <SuggestButton />
-
       {/* <Important /> */}
 
       {/* <Topics subcode="MA24101" topics="topics" /> */}
@@ -251,15 +249,13 @@ export function YoutubeVideos() {
   ];
   return (
     <div className="videos">
-      {
-        channels.map((channel, index) => (
-          <div key={index} className="video mb-4">
-            <a href={channel.link} target="_blank" className="text-blue-500">
-              {channel.title}
-            </a>
-          </div>
-        ))
-      }
+      {channels.map((channel, index) => (
+        <div key={index} className="video mb-4">
+          <a href={channel.link} target="_blank" className="text-blue-500">
+            {channel.title}
+          </a>
+        </div>
+      ))}
     </div>
   );
 }

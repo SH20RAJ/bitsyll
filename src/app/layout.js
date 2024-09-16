@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import dynamic from "next/dynamic";
+import SuggestButton from "@/components/SuggestButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Nav />
         <main>{children}</main>
+        <div className=" p-2 ">
+          <SuggestButton />
+        </div>
+        <br />
         <Footer />
       </body>
     </html>

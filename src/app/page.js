@@ -22,10 +22,7 @@ export default function Home() {
 
       <FAQ />
 
-      <div className=" p-2 ">
-        <SuggestButton />
-      </div>
-      <br />
+     
     </main>
   );
 }

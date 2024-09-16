@@ -80,8 +80,6 @@ export default function Page() {
         </AccordionItem>
       </Accordion>
 
-      <SuggestButton />
-
       {/* <Important /> */}
 
       {/* <Topics subcode="MA24101" topics="topics" /> */}
@@ -213,7 +211,7 @@ export function PYQs() {
     {
       title: "End Sem 2023",
       link: "https://bithub.co.in/bme_end.pdf",
-    }
+    },
   ];
   return (
     <div className="pyqs">
