@@ -37,7 +37,7 @@ export function FAQ() {
           <AccordionItem value="item-1">
             <AccordionTrigger>How to add content?</AccordionTrigger>
             <AccordionContent>
-              Contact the developer <Link className=" text-fuchsia-400" href={"https://instagram.com/sh20raj"}>@sh20raj</Link> for contributing, suggesting or adding content or Join the Whatsapp Group for contributing and sending feedback after that you may <span className=" text-fuchsia-400">leave the whatsapp group</span>.
+              Contact the developer <Link className=" text-fuchsia-400" href={"https://instagram.com/sh20raj"}>@sh20raj</Link> for contributing, suggesting or adding content or Join the <a className=" text-fuchsia-400" href="https://chat.whatsapp.com/GhtCO9w8Hrk8XAUzjM325y" target="_blank">Whatsapp Group</a> for contributing and sending feedback after that you may <span className=" text-fuchsia-400">leave the whatsapp group</span>.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
