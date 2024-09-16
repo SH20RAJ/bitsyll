@@ -227,31 +227,39 @@ export function PYQs() {
 }
 
 export function YoutubeVideos() {
-  let videos = [
+  let channels = [
     {
-      title: "Sequences and Series",
-      link: "https://www.youtube.com/embed/videoseries?si=zES-vDZCDWOO72ZQ&list=PLU6SqdYcYsfJqbZvQECrwnlQrp4fg6isX",
+      title: "Dr. Gajendra Purohit",
+      link: "https://www.youtube.com/@gajendrapurohit",
     },
     {
-      title: "Sequences and Series",
-      link: "https://www.youtube.com/embed/videoseries?si=zES-vDZCDWOO72ZQ&list=PLdM-WZokR4tazDny4O5ssNlYN0NzA9wy1",
+      title: "Bhagwan Singh Vishwakarma",
+      link: "https://www.youtube.com/@BhagwanSinghVishwakarma",
+    },
+    {
+      title: "Maths for All (English)",
+      link: "https://www.youtube.com/@mathsallinone5110",
+    },
+    {
+      title: "Last Moment Tuition",
+      link: "https://www.youtube.com/@Lastmomenttuitions",
+    },
+    {
+      title: "Btech Mathematics",
+      link: "https://www.youtube.com/@BTechMathematics",
     },
   ];
   return (
     <div className="videos">
-      {videos.map((video, index) => (
-        <iframe
-          key={index}
-          width={"100%"}
-          height={315}
-          src={video.link}
-          title="YouTube video player"
-          frameBorder={0}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      ))}
+      {
+        channels.map((channel, index) => (
+          <div key={index} className="video mb-4">
+            <a href={channel.link} target="_blank" className="text-blue-500">
+              {channel.title}
+            </a>
+          </div>
+        ))
+      }
     </div>
   );
 }

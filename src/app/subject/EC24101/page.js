@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { SH20RAJ } from "@/components/sh20raj";
 import ImportantData from "@/components/ImportantData";
-import { Button } from "@/components/ui/button";
 import SuggestButton from "@/components/SuggestButton";
 
 export default function Page() {
