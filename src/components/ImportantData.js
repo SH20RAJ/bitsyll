@@ -48,19 +48,19 @@ export default function ImportantData({ showHeading }) {
     },
     {
       id: 8,
-      title: "WA Groups 📱",
+      title: "WhatsApp Group 📱",
       description: "This is the important data",
-      link: "/groups",
+      link: "https://chat.whatsapp.com/GhtCO9w8Hrk8XAUzjM325y",
     },
     {
       id: 9,
-      title: "😻 Notes 📃",
+      title: "Notes 📃",
       description: "This is the important data",
       link: "https://drive.google.com/drive/folders/1-0Xfwd73g-Y7mec64v5W0osI4CWT0B1v",
     },
     {
       id:10,
-      title:"Best YouTube Channels 😎",
+      title:"Best YouTube Channels 🎥",
       description:"This is the important data",
       link:"https://github.com/SH20RAJ/bitsyll/issues/2"
     }
