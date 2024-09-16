@@ -57,11 +57,12 @@ export default function ImportantData({ showHeading }) {
       title: "😻 Notes 📃",
       description: "This is the important data",
       link: "https://drive.google.com/drive/folders/1-0Xfwd73g-Y7mec64v5W0osI4CWT0B1v",
-    },{
+    },
+    {
       id:10,
-      title:"📚 SIP",
+      title:"Best YouTube Channels 😎",
       description:"This is the important data",
-      link:"https://www.bitmesra.ac.in/UploadedDocuments/pratyush_869/NewsUPloaded/News3b14f09c37474b03b1e29617551cac9a_SIP_2024_Schedule_1.pdf"
+      link:"https://github.com/SH20RAJ/bitsyll/issues/2"
     }
   ];
   return (

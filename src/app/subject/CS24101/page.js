@@ -13,6 +13,29 @@ import { Button } from "@/components/ui/button";
 import SuggestButton from "@/components/SuggestButton";
 
 export default function Page() {
+  const youtubeChannels = [
+    {
+      title: "Jenny's Lectures CS IT",
+      link: "https://www.youtube.com/channel/UCM-yUTYGmrNvKOCcAl21g3w",
+    },
+    {
+      title: "Neso Academy",
+      link: "https://www.youtube.com/@nesoacademy",
+    },
+    {
+      title: "Saurabh Shukla Sir(SirG)",
+      link: "https://www.youtube.com/@cbysaurabhshuklasir32",
+    },
+    {
+      title: "Apna College",
+      link: "https://www.youtube.com/@ApnaCollegeOfficial",
+    },
+    {
+      title: "Code With Harry",
+      link: "https://www.youtube.com/@CodeWithHarry",
+    },
+  ];
+
   return (
     <div className="flex flex-col gap-8 px-4 py-8 min-h-screen">
       <div className="flex flex-col gap-4 justify-center items-center h-28 mt-20">
@@ -52,16 +75,17 @@ export default function Page() {
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent>
-            <p className="text-gray-700">
-              <a
-                href="https://www.youtube.com/channel/UCM-yUTYGmrNvKOCcAl21g3w"
-                target="_blank"
-                className="text-blue-500"
-              >
-                Jenny{"'"}s Lectures CS IT
- 
-              </a>
-            </p>
+            {youtubeChannels.map((channel, index) => (
+              <p key={index} className="text-gray-700">
+                <a
+                  href={channel.link}
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  {channel.title}
+                </a>
+              </p>
+            ))}
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
