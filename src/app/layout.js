@@ -32,6 +32,15 @@ export default function RootLayout({ children }) {
           src="https://www.googletagmanager.com/gtag/js?id=G-225MVECG7S"
         ></script>
         <script dangerouslySetInnerHTML={{ __html: script }} />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1828915420581549"
+          crossOrigin="anonymous"
+        ></script>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-1828915420581549"
+        ></meta>
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={inter.className}>
