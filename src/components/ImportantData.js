@@ -56,7 +56,7 @@ export default function ImportantData({ showHeading }) {
       id: 9,
       title: "Notes 📃",
       description: "This is the important data",
-      link: "https://drive.google.com/drive/folders/1-0Xfwd73g-Y7mec64v5W0osI4CWT0B1v",
+      link: "https://drive.google.com/drive/folders/19I3elwfFDGrfa6GIIocmjyXeyR1muUeW?usp=drive_link",
     },
     {
       id:10,

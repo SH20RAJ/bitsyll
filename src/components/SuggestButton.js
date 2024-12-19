@@ -1,8 +1,7 @@
-import React from "react";
+
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { PopComments } from "./PopComments";
-import { SH20RAJ } from "./sh20raj";
 
 export default function SuggestButton() {
   return (
@@ -24,7 +23,7 @@ export default function SuggestButton() {
       </div>
       <Link
         href={
-          "https://drive.google.com/drive/folders/1-0Xfwd73g-Y7mec64v5W0osI4CWT0B1v"
+          "https://drive.google.com/drive/folders/19I3elwfFDGrfa6GIIocmjyXeyR1muUeW?usp=drive_link"
         }
         target="_"
       >
