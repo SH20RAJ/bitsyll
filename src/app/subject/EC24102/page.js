@@ -17,31 +17,34 @@ export default function Page() {
       <div className="flex flex-col gap-4 justify-center items-center h-28 mt-20">
         <div>
           <Avatar className="h-20 w-20">
-            <AvatarImage src=" " alt="@shadcn" />
+            <AvatarImage
+              src="https://freesvg.org/img/pgb-chip-crypto-3.png"
+              alt="@shadcn"
+            />
             <AvatarFallback>🛜</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(EC24101)</span> <br /> Basics of
-          Electronics & Communication Engineering
+          <span className=" text-lg underline">(EC24102)</span> <br /> Basics of
+          Electronics & Communication Engineering Lab
         </h2>{" "}
       </div>
 
       <Accordion type="single" collapsible className="w-full mt-20">
-        <AccordionItem value="item-1">
+        {/* <AccordionItem value="item-1">
           <AccordionTrigger>Syllabus</AccordionTrigger>
           <AccordionContent>
             <Syllabus />
           </AccordionContent>
-        </AccordionItem>
+        </AccordionItem> */}
         <AccordionItem value="item-2">
           <AccordionTrigger>PDFs/Slides</AccordionTrigger>
           <AccordionContent>
             <PDFs />
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="PYQs">
+        {/* <AccordionItem value="PYQs">
           <AccordionTrigger>PYQs</AccordionTrigger>
           <AccordionContent>
             <PYQs />
@@ -51,7 +54,7 @@ export default function Page() {
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
-        </AccordionItem>
+        </AccordionItem> */}
         <AccordionItem value="item-3">
           <AccordionTrigger>Important Links</AccordionTrigger>
           <AccordionContent>
@@ -150,20 +153,8 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Diodes and Applications",
-      link: "https://drive.google.com/file/d/1PlromX6l_OqjwXKP25d6usn6YyRsJ5tA/view?usp=sharing",
-    },
-    {
-      title: "Module 2: Bipolar Junction Transistors (BJT)",
-      link: "https://drive.google.com/file/d/1zYU_Z6bsm8zQDqLn7rC6B3qty1ZgjB7l/view?usp=sharing",
-    },
-    {
-      title: "Module 3: Sinusoidal Oscillators",
-      link: "https://drive.google.com/file/d/1rEs-mO3ZwvPcgvLtA5rVatuO8B0vokwF/view?usp=sharing",
-    },
-    {
-      title: "Module 4: Logic Gates and Boolean algebra",
-      link: "https://drive.google.com/file/d/1Vb5WE_phDxUGWVZI2MrHbmf-QuukNwJv/view?usp=sharing",
+      title: "Lab Manual",
+      link: "https://drive.google.com/file/d/1oNLlpAbgLQNi8OfJyojjaIkjFtLxSL9g/view?usp=drive_link",
     },
   ];
   return (

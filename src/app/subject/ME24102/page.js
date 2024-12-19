@@ -62,15 +62,6 @@ export default function Page() {
             <ImportantData showHeading={false} />
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-4">
-          <AccordionTrigger>Contributions/Credits</AccordionTrigger>
-          <AccordionContent>
-            <p className="text-gray-700">
-              This page is contributed by <SH20RAJ />.
-            </p>
-            <p>Get your name here by contributing to this page.</p>
-          </AccordionContent>
-        </AccordionItem>
       </Accordion>
 
       {/* <Important /> */}

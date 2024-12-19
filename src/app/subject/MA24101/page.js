@@ -63,15 +63,6 @@ export default function Page() {
             <ImportantData showHeading={false} />
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-4">
-          <AccordionTrigger>Contributions/Credits</AccordionTrigger>
-          <AccordionContent>
-            <p className="text-gray-700">
-              This page is contributed by <SH20RAJ />.
-            </p>
-            <p>Get your name here by contributing to this page.</p>
-          </AccordionContent>
-        </AccordionItem>
       </Accordion>
 
       {/* <Important /> */}
@@ -127,16 +118,18 @@ export function Syllabus() {
             Module 4: Complex Variable-Differentiation & Integration
           </h3>
           <p className="text-gray-700">
-            Function of a complex variable, Limit, Continuity, Differentiability,
-            Analyticity, Analytic functions, Cauchy – Riemann equations. Harmonic
-            functions, Harmonic Conjugate. Cauchy’s theorem, Cauchy’s Integral
-            formula, Taylor and Laurent series expansions. Singularities and its
-            types, Residues, Residue theorem.
+            Function of a complex variable, Limit, Continuity,
+            Differentiability, Analyticity, Analytic functions, Cauchy – Riemann
+            equations. Harmonic functions, Harmonic Conjugate. Cauchy’s theorem,
+            Cauchy’s Integral formula, Taylor and Laurent series expansions.
+            Singularities and its types, Residues, Residue theorem.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Applied Probability</h3>
+          <h3 className="text-xl font-semibold ">
+            Module 5: Applied Probability
+          </h3>
           <p className="text-gray-700">
             Discrete and continuous random variables, cumulative distribution
             function, probability mass and density functions, expectation,

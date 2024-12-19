@@ -19,38 +19,38 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src="https://freesvg.org/img/techskills.png"
               alt="@shadcn"
             />
-            <AvatarFallback>Maths</AvatarFallback>
+            <AvatarFallback>Chemistry Lab</AvatarFallback>
           </Avatar>
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(MA24101)</span> <br />{" "}
-          Mathematics
+          <span className=" text-lg underline">(CH24102)</span> <br /> Chemistry
+          Lab
         </h2>{" "}
       </div>
 
       <Accordion type="single" collapsible className="w-full mt-20">
-        <AccordionItem value="item-1">
+        {/* <AccordionItem value="item-1">
           <AccordionTrigger>Syllabus</AccordionTrigger>
           <AccordionContent>
             <Syllabus />
           </AccordionContent>
-        </AccordionItem>
+        </AccordionItem> */}
         <AccordionItem value="item-2">
           <AccordionTrigger>PDFs/Slides</AccordionTrigger>
           <AccordionContent>
             <PDFs />
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="PYQs">
+        {/* <AccordionItem value="PYQs">
           <AccordionTrigger>PYQs</AccordionTrigger>
           <AccordionContent>
             <PYQs />
           </AccordionContent>
-        </AccordionItem>
+        </AccordionItem> */}
 
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
@@ -60,15 +60,6 @@ export default function Page() {
           <AccordionTrigger>Important Links</AccordionTrigger>
           <AccordionContent>
             <ImportantData showHeading={false} />
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-4">
-          <AccordionTrigger>Contributions/Credits</AccordionTrigger>
-          <AccordionContent>
-            <p className="text-gray-700">
-              This page is contributed by <SH20RAJ />.
-            </p>
-            <p>Get your name here by contributing to this page.</p>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -150,24 +141,8 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Sequences and Series",
-      link: "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link",
-    },
-    {
-      title: "Module 2: Matrices",
-      link: "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing",
-    },
-    {
-      title: "Module 3: Advance Differential Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
-    },
-    {
-      title: "Module 4: Advance Integral Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
-    },
-    {
-      title: "Module 5: Vector Calculus",
-      link: "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing",
+      title: "Lab Manual",
+      link: "https://drive.google.com/file/d/1X6onwQ4638QXr5B7AqKaCjHZyZDcWCgT/view?usp=drive_link",
     },
   ];
   return (

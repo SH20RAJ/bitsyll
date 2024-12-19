@@ -11,7 +11,7 @@ import {
   CommandShortcut,
 } from "@/components/ui/command";
 import { subjects } from "@/constants/subjects";
-import { topics } from "@/constants/topics";
+
 import Link from "next/link";
 
 export function Subjects() {
