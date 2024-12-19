@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Important from "@/components/subject/Important";
-import Topics from "@/components/subject/Topics";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   Accordion,
@@ -8,10 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { SH20RAJ } from "@/components/sh20raj";
 import ImportantData from "@/components/ImportantData";
-import { Button } from "@/components/ui/button";
-import SuggestButton from "@/components/SuggestButton";
 
 export default function Page() {
   return (
@@ -203,25 +199,9 @@ export function PYQs() {
 export function YoutubeVideos() {
   let channels = [
     {
-      title: "Dr. Gajendra Purohit",
-      link: "https://www.youtube.com/@gajendrapurohit",
-    },
-    {
-      title: "Bhagwan Singh Vishwakarma",
-      link: "https://www.youtube.com/@BhagwanSinghVishwakarma",
-    },
-    {
-      title: "Maths for All (English)",
-      link: "https://www.youtube.com/@mathsallinone5110",
-    },
-    {
-      title: "Last Moment Tuition",
-      link: "https://www.youtube.com/@Lastmomenttuitions",
-    },
-    {
-      title: "Btech Mathematics",
-      link: "https://www.youtube.com/@BTechMathematics",
-    },
+      title: "Technical Physics",
+      link: "https://www.youtube.com/@technicalphysics",
+    }
   ];
   return (
     <div className="videos">
