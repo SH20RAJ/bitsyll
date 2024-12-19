@@ -29,6 +29,11 @@ export let subjects = [
     emoji: "🔧",
     slug: "ME24101",
   },
+  {
+    name: "Physics",
+    emoji: "🏗️",
+    slug: "PH24101",
+  }
   ,
   {
     name: "Programming for Problem Solving",
@@ -51,18 +56,8 @@ export let subjects = [
     slug: "PE24102",
   },
   {
-    name: "Engineering Graphics",
-    emoji: "📐",
-    slug: "ME24102",
-  },
-  {
-    name: "NCC/NSS/PT & Games/Creative Arts",
+    name: "NSS",
     emoji: "🏅",
-    slug: "MC24101/MC24102/MC24103/MC24109",
-  },
-  {
-    name: "Entrepreneurship",
-    emoji: "💼",
-    slug: "MC24105",
+    slug: "NSS",
   }
 ];
