@@ -1,8 +1,13 @@
 export let subjects = [
   {
-    name: "Mathematics",
+    name: "Mathematics 1",
     emoji: "➕",
     slug: "MA24101",
+  },
+  {
+    name: "Mathematics 2",
+    emoji: "➕",
+    slug: "MA24102",
   },
   {
     name: "Environmental Science",
