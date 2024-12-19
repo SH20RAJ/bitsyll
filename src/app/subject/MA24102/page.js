@@ -75,63 +75,66 @@ export default function Page() {
 export function Syllabus() {
   return (
     <>
-      <div className="syllabus  shadow-lg rounded-lg p-6">
+      <div className="syllabus shadow-lg rounded-lg p-6">
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 1: Sequences and Series
+            Module 1: Ordinary Differential Equations – I
           </h3>
           <p className="text-gray-700">
-            Sequences, Convergence of Sequence. Series, Convergence of Series,
-            Tests for Convergence: Comparison tests, Ratio test, Cauchy’s root
-            test, Raabe’s test, Gauss test, Cauchy{"'"}s Integral test,
-            Alternating series, Leibnitz test, Absolute and Conditional
-            Convergence.
-          </p>
-        </div>
-
-        <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 2: Matrices</h3>
-          <p className="text-gray-700">
-            Rank of a Matrix, elementary transformations, Row - reduced Echelon
-            form. Vectors, Linear Independence and Dependence of Vectors.
-            Consistency of system of linear equations. Eigenvalues,
-            Eigenvectors, Cayley - Hamilton theorem
+            Linear differential equations, Wronskian, Linear independence and
+            dependence of solutions, Linear differential equations of second and
+            higher order, Operator method, Legendre’s and Euler – Cauchy’s form
+            of linear differential equation, Method of variation of parameters.
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 3: Advance Differential Calculus
+            Module 2: Ordinary Differential Equations – II
           </h3>
           <p className="text-gray-700">
-            Function of several variables, Limit, Continuity, Partial
-            derivatives, Euler’s theorem for homogeneous functions, Total
-            derivatives, Chain rules, Jacobians and its properties, Taylor
-            series for function of two variables, Maxima – Minima, Lagrange’s
-            method of multipliers.
+            Ordinary and singular points of differential equation, Power and
+            Frobenius series solutions. Bessel’s differential equation, Bessel
+            function of first kind and its properties. Legendre’s differential
+            equation, Legendre’s polynomial and its properties.
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 4: Advance Integral Calculus
+            Module 3: Fourier series and Partial Differential Equations
           </h3>
           <p className="text-gray-700">
-            Beta and Gamma functions: definition and properties. Double
-            integrals, double integrals in polar coordinates, Change of order of
-            integration, Triple Integrals, cylindrical and spherical coordinate
-            systems, transformation of coordinates, Applications of double and
-            triple integrals in areas and volumes.
+            Fourier series: Euler formulae for Fourier series, Dirichlet
+            conditions, Half range Fourier series. Partial Differential
+            Equations: Linear partial differential equations, Lagrange’s method.
+            Method of separation of variables and its application in solving one
+            dimensional wave and heat equations.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Vector Calculus</h3>
+          <h3 className="text-xl font-semibold ">
+            Module 4: Complex Variable-Differentiation & Integration
+          </h3>
           <p className="text-gray-700">
-            Scalar and vector point functions, gradient, directional derivative,
-            divergence, curl, vector equations and identities. Line Integral,
-            Work done, Conservative field, Green’s theorem in a plane, Surface
-            and volume integrals, Gauss – divergence theorem, Stoke’s theorem.
+            Function of a complex variable, Limit, Continuity,
+            Differentiability, Analyticity, Analytic functions, Cauchy – Riemann
+            equations. Harmonic functions, Harmonic Conjugate. Cauchy’s theorem,
+            Cauchy’s Integral formula, Taylor and Laurent series expansions.
+            Singularities and its types, Residues, Residue theorem.
+          </p>
+        </div>
+
+        <div className="module mb-6">
+          <h3 className="text-xl font-semibold ">
+            Module 5: Applied Probability
+          </h3>
+          <p className="text-gray-700">
+            Discrete and continuous random variables, cumulative distribution
+            function, probability mass and density functions, expectation,
+            variance, moment generating function. Introduction to Binomial,
+            Poisson and Normal Distribution.
           </p>
         </div>
       </div>
