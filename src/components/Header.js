@@ -1,12 +1,13 @@
 import React from "react";
 
-export default function Header() {
+export default function Hero() {
   return (
-    <div>
-      <div className="text-muted-foreground text-md m-2 py-2 ">
-        Hello, <br />
-        <span className=" text-white  text-2xl ">Fellow</span>
-      </div>
+    <div className="w-full max-w-6xl mx-auto ">
+      <img
+        className="w-full h-auto max-h-[600px] object-cover object-center"
+        src="./og-image.png"
+        alt=""
+      />
     </div>
   );
 }
