@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="w-full max-w-6xl mx-auto ">
       <img
         className="w-full h-auto max-h-[600px] object-cover object-center"
-        src="./og-image.png"
+        src="./BITSYLL.png"
         alt=""
       />
     </div>
