@@ -8,7 +8,7 @@ export default function ImportantData({ showHeading }) {
       id: 1,
       title: "Class Routine 📅",
       description: "This is the important data",
-      link: "https://drive.google.com/file/d/1QNgz9rbPaoU_zr1fmdVf8vLuo6LZZQyQ/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1hJD9_Fu6rY_mhVKe04PoS7dyNMEv_QFB/view?usp=drive_link",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export default function ImportantData({ showHeading }) {
       id: 6,
       title: "Academic Calendar 📅",
       description: "This is the important data",
-      link: "https://bitmesra.ac.in/UploadedDocuments/pratyush_869/NewsUPloaded/News68e689b46c734b5f809ea3926c62996c_Academic%20Calendar%20-%20MO%202024.pdf",
+      link: "https://drive.google.com/file/d/12JS2UD0lOanhqd3PlsdzmLJbsX_qb17U/view?usp=drive_link",
     },
     {
       id: 7,
@@ -59,11 +59,11 @@ export default function ImportantData({ showHeading }) {
       link: "https://drive.google.com/drive/folders/19I3elwfFDGrfa6GIIocmjyXeyR1muUeW?usp=drive_link",
     },
     {
-      id:10,
-      title:"Best YouTube Channels 🎥",
-      description:"This is the important data",
-      link:"https://github.com/SH20RAJ/bitsyll/issues/2"
-    }
+      id: 10,
+      title: "Best YouTube Channels 🎥",
+      description: "This is the important data",
+      link: "https://github.com/SH20RAJ/bitsyll/issues/2",
+    },
   ];
   return (
     <div>

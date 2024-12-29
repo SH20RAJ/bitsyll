@@ -21,6 +21,7 @@ export default function Page() {
             <AvatarImage
               src="https://freesvg.org/storage/img/thumb/fathertimeteaches.png"
               alt="@shadcn"
+              className="bg-white"
             />
             <AvatarFallback>Maths</AvatarFallback>
           </Avatar>
@@ -182,27 +183,11 @@ export function PYQs() {
   let pdfs = [
     {
       title: "Mid Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://drive.google.com/file/d/19sHz1yo23xhxXumMBldY0xBpuqGigaWr/view?usp=drive_link",
     },
     {
       title: "End Sem 2023",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2022",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "Mid Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
-    },
-    {
-      title: "End Sem 2021",
-      link: "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1KsHHwqzjG4sVGf95r9ky8s_-ixYNbKqr/view?usp=drive_link",
     },
   ];
   return (
