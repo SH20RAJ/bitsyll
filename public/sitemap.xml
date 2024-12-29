@@ -1,86 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://bitsyll.pages.dev/</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/MA24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/MA24102</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/ES24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/EC24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/EC24102</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/CS24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/CH24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/PH24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/CH24102</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/ME24101</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/PE24102</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/subject/NSS</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/syllabus</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bitsyll.pages.dev/clubs</loc>
-  <lastmod>2024-12-24T10:26:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://bitsyll.pages.dev/</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/MA24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/MA24102</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/ES24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/EC24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/EC24102</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/CS24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/CH24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/PH24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/CH24102</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/ME24101</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/PE24102</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/subject/NSS</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/syllabus</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://bitsyll.pages.dev/clubs</loc>
+        <lastmod>2024-12-24T10:26:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
 </urlset>
