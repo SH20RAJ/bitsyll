@@ -19,7 +19,7 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src="https://freesvg.org/storage/img/thumb/fathertimeteaches.png"
               alt="@shadcn"
             />
             <AvatarFallback>Maths</AvatarFallback>
@@ -145,24 +145,24 @@ export function Syllabus() {
 export function PDFs() {
   let pdfs = [
     {
-      title: "Module 1: Sequences and Series",
-      link: "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link",
+      title: "Module 1: Ordinary Differential Equations – I",
+      link: "https://drive.google.com/file/d/1eyHo4uBTmOyYvuZ6LBXpKi0u3h-Of-z1/view?usp=drive_link",
     },
     {
-      title: "Module 2: Matrices",
-      link: "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing",
+      title: "Module 2: Ordinary Differential Equations – II",
+      link: "https://drive.google.com/file/d/1FfGdiuP-DxvLK2ETgUeNoGv7-7CDctma/view?usp=drive_link",
     },
     {
-      title: "Module 3: Advance Differential Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 3: Fourier series and Partial Differential Equations",
+      link: "https://drive.google.com/file/d/1a0k_ly5THUXLfVcZZWvuNEuxfkDm_-bl/view?usp=drive_link",
     },
     {
-      title: "Module 4: Advance Integral Calculus",
-      link: "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing",
+      title: "Module 4: Complex Variable-Differentiation & Integration",
+      link: "https://drive.google.com/file/d/1THBjGfglh03NSYSnQEfHvcXScWbLbmkh/view?usp=drive_link",
     },
     {
-      title: "Module 5: Vector Calculus",
-      link: "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing",
+      title: "Module 5: Applied Probability",
+      link: "https://drive.google.com/file/d/18SIFtHhBhZ2MP6hQYWMZgDQIUo4hXBkr/view?usp=drive_link",
     },
   ];
   return (

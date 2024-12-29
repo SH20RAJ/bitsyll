@@ -19,7 +19,7 @@ export default function Page() {
         <div>
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-math-calculations-png-image_4124283.jpg"
+              src="https://freesvg.org/storage/img/thumb/Symbol_pi.png"
               alt="@shadcn"
             />
             <AvatarFallback>Maths</AvatarFallback>
