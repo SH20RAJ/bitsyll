@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 export default function Page() {
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center  ">Class Routine</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center  ">Academic Calendar</h1>
       <Card className="overflow-hidden">
         <CardContent className="p-0">
           <iframe
