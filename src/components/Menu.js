@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon, HomeIcon, MailIcon, PencilIcon, BookOpenIcon, UsersIcon, PhoneIcon } from "lucide-react";
+import { CalendarIcon, HomeIcon, MailIcon, PencilIcon, BookOpenIcon, UsersIcon, PhoneIcon, NotebookPen } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -66,8 +66,7 @@ const Icons = {
 
 const DATA = {
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-
+    { href: "https://drive.google.com/drive/folders/19I3elwfFDGrfa6GIIocmjyXeyR1muUeW?usp=drive_link", icon: NotebookPen, label: "Notes" },
     { href: "/routine", icon: BookOpenIcon, label: "Class Routine" },
     { href: "/contacts", icon: UsersIcon, label: "Contacts" },
     { href: "https://chat.whatsapp.com/GhtCO9w8Hrk8XAUzjM325y", icon: PhoneIcon, label: "WhatsApp" },
