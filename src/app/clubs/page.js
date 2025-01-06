@@ -1,10 +1,11 @@
 import React from "react";
 import clubs from "./clubs.json";
 import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { Globe, User2 } from "lucide-react";
+import { Globe, User2, Youtube } from "lucide-react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const ClubList = () => {
   let clubs2 = clubs.clubs;
@@ -17,8 +18,14 @@ const ClubList = () => {
               Clubs & Societies
             </h1>
             <p className="text-muted-foreground text-center max-w-[600px]">
-              Discover and connect with various clubs and societies at BITS
-              Pilani.
+              Discover and connect with various clubs and societies at{" "}
+              <Link
+                href={"https://www.bitmesra.ac.in/"}
+                className="text-fuchsia-400"
+              >
+                BIT Mesra{" "}
+              </Link>
+              .
             </p>
           </div>
 
@@ -104,6 +111,22 @@ const ClubList = () => {
                           rel="noopener noreferrer"
                         >
                           <LinkedInLogoIcon className="h-4 w-4" />
+                        </a>
+                      </Button>
+                    )}
+                    {club.youtube && (
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        asChild
+                        className="h-8 w-8"
+                      >
+                        <a
+                          href={club.youtube}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Youtube className="h-4 w-4" />
                         </a>
                       </Button>
                     )}

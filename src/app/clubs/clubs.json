@@ -176,9 +176,11 @@
     {
       "id": 7,
       "shortname": "Robolution",
-      "logo": "https://example.com/robolution-logo.png",
+      "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQH6_rFMPu9vyg/company-logo_200_200/company-logo_200_200/0/1630531207442?e=1744243200&v=beta&t=aI_FeUSgYLMZBIIBEV074_r1mWLaRHlfd0HXQrUcJpU",
       "website": "https://robolution.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/robolutionbitmesra",
+      "socialmedialink": "https://www.instagram.com/robolution.bitm/",
+      "instagram": "https://www.instagram.com/robolution.bitm/",
+      "linkedin": "https://www.linkedin.com/company/robolution-bit-mesra/?originalSubdomain=in",
       "name": "Robolution",
       "type": "Technical",
       "faculty_advisor": {
@@ -201,9 +203,12 @@
     {
       "id": 8,
       "shortname": "Firebolt Racing",
-      "logo": "https://example.com/firebolt-logo.png",
-      "website": "https://firebolt.bitmesra.ac.in",
+      "logo": "https://www.fireboltracing.com/images/logo1.png",
+      "website": "https://www.fireboltracing.com/",
       "socialmedialink": "https://facebook.com/fireboltbitmesra",
+      "instagram": "https://www.instagram.com/firebolt_racing/",
+      "youtube": "https://www.youtube.com/c/FireboltRacing",
+      "linkedin": "https://www.linkedin.com/company/firebolt-racing/?originalSubdomain=in",
       "name": "Team Firebolt Racing",
       "type": "Technical",
       "faculty_advisor": {
@@ -226,9 +231,11 @@
     {
       "id": 9,
       "shortname": "Srijan",
-      "logo": "https://example.com/srijan-logo.png",
-      "website": "https://srijan.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/srijanbitmesra",
+      "logo": "https://teamsrijan.org/assets/images/branding/teamsrijan-logo-light.webp",
+      "website": "https://teamsrijan.org/",
+      "socialmedialink": "https://www.instagram.com/team_srijan/",
+      "instagram": "https://www.instagram.com/team_srijan/",
+      "linkedin": "https://www.linkedin.com/in/teamsrijan/?originalSubdomain=in",
       "name": "Team Srijan",
       "type": "Technical",
       "faculty_advisor": {
@@ -514,6 +521,17 @@
       "achievements": [
         "Winners at Tata Crucible Campus Quiz and Think India Quiz."
       ]
+    },
+    {
+      "id": 21,
+      "shortname": "Aerospace",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQG9sBr2HxsXEw/company-logo_200_200/company-logo_200_200/0/1630670024008/aerospace_society_bit_mesra_logo?e=1744243200&v=beta&t=kjwfYe12EPd5xZpK73vk1PjBN1Z7KLTWEKDuQKHljJE",
+      "website": "https://www.instagram.com/aerosoc_bitmesra/",
+      "socialmedialink": "https://www.instagram.com/aerosoc_bitmesra/",
+      "name": "Aerospace Society, BIT Mesra",
+      "type": "Self-Development",
+      "instagram": "https://www.instagram.com/aerosoc_bitmesra/",
+      "linkedin": "https://in.linkedin.com/company/aerospace-society-bit-mesra"
     }
   ]
 }
