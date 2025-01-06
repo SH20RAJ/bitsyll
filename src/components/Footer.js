@@ -4,8 +4,14 @@ import Link from "next/link";
 import { SH20RAJ } from "./sh20raj";
 import Script from "next/script";
 
-
 export default function Footer() {
+  let audios = [
+    "https://cdn.jsdelivr.net/gh/DrivePlyr/video-storage@main/Harry%20Styles%20-%20Watermelon%20Sugar%20(Official%20Audio).mp3",
+    "https://ia804601.us.archive.org/9/items/BestOfArijitSingh/Atif%20Aslam%20Arijit%20Singhs%20Hit%20song%20collections%20%20Audio%20JukeBox.mp3",
+    "https://ia804601.us.archive.org/9/items/BestOfArijitSingh/Valentines%20Day%20Special%20%20Best%20of%20Arijit%20Singh%20%20Romantic%20Songs%202016.mp3",
+    "https://ia800708.us.archive.org/22/items/EdSheeranShapeOfYou_201811/Ed%20Sheeran%20-%20Shape%20Of%20You.mp3",
+  ];
+
   return (
     <footer className=" ">
       <div className="container mx-auto px-4 text-center mb-20">
@@ -16,11 +22,11 @@ export default function Footer() {
         </Link>{" "}
         2024 - <SH20RAJ />
       </div>
-      <div className="song fixed  m-0 bottom-0 w-full bg-black p-2">
+      <div className="song fixed  h-6 m-0 bottom-0 w-full bg-black p-2">
         <div
-          className="essential_audio"
+          className="essential_audio w-full"
           data-loop="true"
-          data-url="https://cdn.jsdelivr.net/gh/DrivePlyr/video-storage@main/Harry%20Styles%20-%20Watermelon%20Sugar%20(Official%20Audio).mp3"
+          data-url={audios[Math.floor(Math.random() * audios.length)]}
         ></div>
 
         <Script
