@@ -3,6 +3,8 @@ import { Card } from "./ui/card";
 import Link from "next/link";
 import { SH20RAJ } from "./sh20raj";
 import Script from "next/script";
+import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { XIcon } from "lucide-react";
 
 export default function Footer() {
   let audios = [
@@ -21,6 +23,24 @@ export default function Footer() {
           <span className="text-fuchsia-500">Syll</span>
         </Link>{" "}
         2024 - <SH20RAJ />
+        <span>
+          <div className="flex items-center pt-2 justify-center items-center">
+            <span className="text-xs text-muted-foreground flex gap-4 text-center ">
+              <Link href={"https://instagram.com/sh20raj"}>
+                <InstagramLogoIcon className="h-4 w-4 hover:text-fuchsia-400 hover:shadow-lg" />
+              </Link>
+              <Link href={"https://github.com/sh20raj"}>
+                <GitHubLogoIcon className="h-4 w-4 hover:text-white hover:shadow-lg" />
+              </Link>
+              <Link href={"https://twitter.com/sh20raj"}>
+                <XIcon className="h-4 w-4 hover:text-white hover:shadow-lg" />
+              </Link>
+              <Link href={"https://www.linkedin.com/in/sh20raj/"}>
+                <LinkedInLogoIcon className="h-4 w-4 hover:text-blue-600 hover:shadow-lg" />
+              </Link>
+            </span>
+          </div>
+        </span>
       </div>
       <div className="song fixed  h-6 m-0 bottom-0 w-full bg-black p-2">
         <div

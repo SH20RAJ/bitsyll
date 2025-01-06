@@ -1,0 +1,519 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "shortname": "ACM",
+      "logo": "https://media.licdn.com/dms/image/v2/D560BAQFlPAzTrp2sug/company-logo_200_200/company-logo_200_200/0/1715538983221/acmbitmesra_logo?e=1744243200&v=beta&t=fWTXB9A8F6nUjDQ_N9tn-ly3RHacx-qgUQWRZm_h8_o",
+      "website": "https://www.instagram.com/acmbitm",
+      "socialmedialink": "https://www.instagram.com/acmbitm",
+      "name": "Association of Computer Machinery (ACM)",
+      "type": "Technical",
+      "instagram": "https://www.instagram.com/acmbitm/",
+      "linkedin": "https://www.linkedin.com/company/acmbitm/?originalSubdomain=in",
+      "faculty_advisor": {
+        "name": "Mr. Sumit Srivastava",
+        "email": "sumit@bitmesra.ac.in",
+        "phone": "+91-8986758348"
+      },
+      "president": {
+        "name": "Aashray Agarwal",
+        "email": "agarwal.aashray96@gmail.com",
+        "phone": "+91-8294263760",
+        "roll_number": "BE/10244/2015"
+      },
+      "description": "ACM is an international scientific and educational organization dedicated to advancing the art, science, engineering, and application of information technology. ACM BIT Mesra Students Chapter aims at enhancing the computing skills of students through workshops, coding contests, and global competitions.",
+      "achievements": [
+        "Promotes participation in global competitions like GSoC and ACM-ICPC.",
+        "Alumni network includes professionals at Facebook, Google, Microsoft, and Goldman Sachs.",
+        "Average package of ACM Club Members is above 20 LPA."
+      ]
+    },
+    {
+      "id": 2,
+      "shortname": "EDC",
+      "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQE6cHtp6gRFFA/company-logo_200_200/company-logo_200_200/0/1630649691447/edcbitm_logo?e=1744243200&v=beta&t=vvYIPPtbpIo38J8Oq34wViDsuF8adMPxTmH7biCXJgw",
+      "website": "https://www.edcbitmesra.in/",
+      "socialmedialink": "https://facebook.com/edcbitmesra",
+      "instagram": "https://www.instagram.com/edcbitmesra/",
+      "linkedin": "https://in.linkedin.com/company/edcbitmesra/",
+      "name": "Entrepreneurship Development Cell (EDC)",
+      "type": "Technical",
+      "faculty_advisors": [
+        {
+          "name": "Dr. Shakti Prasad Pattanayak",
+          "email": "sppattanayak@bitmesra.ac.in",
+          "phone": "+91-7320069799"
+        },
+        {
+          "name": "Dr. Kirti Avishek",
+          "email": "kavishek@bitmesra.ac.in",
+          "phone": "+91-8294934737"
+        },
+        {
+          "name": "Dr. Yogender Aggarwal",
+          "email": "yogender.aggarwal@gmail.com",
+          "phone": "+91-9431991797"
+        }
+      ],
+      "president": {
+        "name": "Archit Sankritya",
+        "email": "archits98@gmail.com",
+        "phone": "+91-8294283314",
+        "roll_number": "IMH/10006/2015"
+      },
+      "description": "EDC fosters the spirit of entrepreneurship among students by providing mentorship, workshops, and access to investors and venture capitalists.",
+      "achievements": [
+        "Winner of National Entrepreneurship Championship 2015.",
+        "Winner of Entrepreneurship Summit 2014 and 2016.",
+        "Mentorship provided to startups on and off campus."
+      ]
+    },
+    {
+      "id": 3,
+      "shortname": "EPAC",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQGRjmBamn5hwA/company-logo_200_200/company-logo_200_200/0/1630657787970?e=1744243200&v=beta&t=-wXwgmXyUCs5UAY8h08CndiR6e8zXsOv41uKMgLDzF8",
+      "website": "https://epacbitmesra.in/",
+      "socialmedialink": "https://www.linkedin.com/company/epac-bitmesra/?originalSubdomain=in",
+      "linkedin": "https://www.linkedin.com/company/epac-bitmesra/?originalSubdomain=in",
+      "instagram": "https://www.instagram.com/epac.bitmesra/",
+      "name": "Environment Protection and Awareness Club (EPAC)",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. R. Naresh Kumar",
+        "email": "maresh@bitmesra.ac.in",
+        "phone": "+91-9801160279"
+      },
+      "president": {
+        "name": "Komal Banka",
+        "email": "komalbanka@gmail.com",
+        "phone": "+91-7677083332",
+        "roll_number": "BE/10593/2015"
+      },
+      "description": "EPAC works towards environmental protection and awareness through initiatives like paper bag distribution and science fests.",
+      "achievements": [
+        "Installed dustbins across the campus.",
+        "Organized Jharkhand Science and Environment Fest (JSEF) with 600+ participants."
+      ]
+    },
+    {
+      "id": 4,
+      "shortname": "IEEE",
+      "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQEOIz_InSnozA/company-logo_200_200/company-logo_200_200/0/1630494347169/ieee_student_branch_bit_mesra_logo?e=1744243200&v=beta&t=FNFAQC3YrsZyeixEyz1QsosUTm_ZJj7VGeTb2rzyRvo",
+      "website": "https://www.ieeebitmesra.in/",
+      "socialmedialink": "https://www.instagram.com/ieee.bitm/?hl=en",
+      "instagram": "https://www.instagram.com/ieee.bitm/?hl=en",
+      "linkedin": "https://in.linkedin.com/company/ieee-student-branch-bit-mesra",
+      "name": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. Vijayalaxmi",
+        "email": "vlaxmi@bitmesra.ac.in",
+        "phone": "+91-9431382579"
+      },
+      "president": {
+        "name": "Anuj Sinha",
+        "email": "sinha.anuj30@gmail.com",
+        "phone": "+91-8002823738",
+        "roll_number": "BE/10274/2015"
+      },
+      "description": "IEEE BIT Mesra conducts workshops and events to enhance technical knowledge and skills among students.",
+      "achievements": [
+        "Global IEEE membership with access to conferences and publications."
+      ]
+    },
+    {
+      "id": 5,
+      "shortname": "IET",
+      "logo": "https://media.licdn.com/dms/image/v2/C510BAQEHc4TQq7NBLg/company-logo_200_200/company-logo_200_200/0/1630583794488?e=1744243200&v=beta&t=hsoLEyIZwIcxcoBzXjt5S2ErmPbLeLUZLNqy7yLQMWY",
+      "website": "https://iet-bitmesra.netlify.app/",
+      "socialmedialink": "https://facebook.com/ietbitmesra",
+      "instagram": "https://www.instagram.com/ietbitmesra/",
+      "linkedin": "https://in.linkedin.com/company/iet-on-campus-bit-mesra/",
+      "name": "Institution of Engineering and Technology (IET)",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. D.K. Upadhyay",
+        "email": "dileep18@rediffmail.com",
+        "phone": "+91-9470978325"
+      },
+      "president": {
+        "name": "Aakarshit Uppal",
+        "email": "aakarshituppal@gmail.com",
+        "phone": "+91-9939311767",
+        "roll_number": "BE/10130/2015"
+      },
+      "description": "IET promotes innovation and technical skills through workshops and events.",
+      "achievements": [
+        "Global IET membership with access to journals, internships, and scholarships."
+      ]
+    },
+    {
+      "id": 6,
+      "shortname": "IETE",
+      "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHi0SQYKlFzvA/company-logo_200_200/company-logo_200_200/0/1630575708724?e=1744243200&v=beta&t=QgcELwptZdmiciehOKuzqb5p_bbwdrYcBenSkrx2Ht8",
+      "website": "https://ietebitmesra.github.io/",
+      "linkedin": "https://www.linkedin.com/company/iete-bit-mesra/?originalSubdomain=in",
+      "instagram": "https://www.instagram.com/iete_bitmesra/",
+      "socialmedialink": "https://www.instagram.com/iete_bitmesra/",
+      "name": "Institution of Electronics and Telecommunication Engineers (IETE)",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Prof. G.S. Gupta",
+        "email": "gaurishankergupta@bitmesra.ac.in",
+        "phone": "+91-9471301045"
+      },
+      "president": {
+        "name": "Divyansh Saurabh",
+        "email": "divyanshsaurabh007@gmail.com",
+        "phone": "+91-7250296224",
+        "roll_number": "BE/10068/2015"
+      },
+      "description": "IETE focuses on electronics and communication through workshops, industrial visits, and projects.",
+      "achievements": [
+        "Conducts Circuital Aptitude Test (CAT) and National Science Congress (NSC)."
+      ]
+    },
+    {
+      "id": 7,
+      "shortname": "Robolution",
+      "logo": "https://example.com/robolution-logo.png",
+      "website": "https://robolution.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/robolutionbitmesra",
+      "name": "Robolution",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. Arun Dayal Udai",
+        "email": "arunudai@bitmesra.ac.in",
+        "phone": "+91-9523125843"
+      },
+      "president": {
+        "name": "Nishant Raj",
+        "email": "nishant.nrshk@gmail.com",
+        "phone": "+91-8340513486",
+        "roll_number": "BE/10487/2015"
+      },
+      "description": "Robolution is the official robotics team of BIT Mesra, participating in competitions like ABU Robocon.",
+      "achievements": [
+        "Best Rookie Team in Robocon 2013.",
+        "Prize for best use of Mathworks tools in Robocon 2015."
+      ]
+    },
+    {
+      "id": 8,
+      "shortname": "Firebolt Racing",
+      "logo": "https://example.com/firebolt-logo.png",
+      "website": "https://firebolt.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/fireboltbitmesra",
+      "name": "Team Firebolt Racing",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. Paritosh Mehata",
+        "email": "pmahata@bitmesra.ac.in",
+        "phone": "+91-7607487861"
+      },
+      "president": {
+        "name": "Kumar Apurva",
+        "email": "apurvakumarsingh@gmail.com",
+        "phone": "+91-9102890549",
+        "roll_number": "BE/10249/2015"
+      },
+      "description": "Firebolt Racing is the official off-road racing team of BIT Mesra, participating in BAJA SAE India.",
+      "achievements": [
+        "2nd in Design Event at BAJA Student India 2015.",
+        "6th in Suspension Traction at BAJA SAE India 2018."
+      ]
+    },
+    {
+      "id": 9,
+      "shortname": "Srijan",
+      "logo": "https://example.com/srijan-logo.png",
+      "website": "https://srijan.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/srijanbitmesra",
+      "name": "Team Srijan",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. Somak Datta",
+        "email": "somakdatta@bitmesra.ac.in",
+        "phone": "+91-7631255287"
+      },
+      "president": {
+        "name": "Vineeth Nair",
+        "email": "vineeth_kooldude99@yahoo.in",
+        "phone": "+91-8294261243",
+        "roll_number": "BE/10438/2015"
+      },
+      "description": "Team Srijan is the Formula Student team of BIT Mesra, designing and building race cars for competitions.",
+      "achievements": [
+        "Participated in Formula Student UK, Italy, and India.",
+        "Ranked 5th in Formula Bharat 2018."
+      ]
+    },
+    {
+      "id": 10,
+      "shortname": "Aveon",
+      "logo": "https://example.com/aveon-logo.png",
+      "website": "https://aveon.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/aveonbitmesra",
+      "name": "Team Aveon",
+      "type": "Technical",
+      "faculty_advisor": {
+        "name": "Dr. Aftab Alam",
+        "email": "aftabalam5555@gmail.com",
+        "phone": "+91-7319710450"
+      },
+      "president": {
+        "name": "Pranjal Mahajan",
+        "email": "pmpranji@gmail.com",
+        "phone": "+91-7595827517",
+        "roll_number": "BE/10685/2015"
+      },
+      "description": "Team Aveon focuses on student mentorship and professional development.",
+      "achievements": [
+        "Provides internships, research projects, and social initiatives."
+      ]
+    },
+    {
+      "id": 11,
+      "shortname": "Dance & Music",
+      "logo": "https://example.com/dancemusic-logo.png",
+      "website": "https://dancemusic.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/dancemusicbitmesra",
+      "name": "Dance and Music Club",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Mr. Mrinal Kumar Pathak",
+        "email": "mrinalkpathak@gmail.com",
+        "phone": "+91-7677256764"
+      },
+      "co_coordinator": {
+        "name": "Mrs. Alka Srivastava",
+        "email": "alkasrivastava@bitmesra.ac.in",
+        "phone": "+91-9415654368"
+      },
+      "presidents": [
+        {
+          "name": "Samadrito Bose",
+          "email": "bosesamadrito@gmail.com",
+          "phone": "+91-7292887967",
+          "roll_number": "BE/10402/2015"
+        },
+        {
+          "name": "Ananya Bhattacharya",
+          "email": "meetann97@gmail.com",
+          "phone": "+91-8294499693",
+          "roll_number": "BE/10037/2015"
+        }
+      ],
+      "description": "The Dance and Music Club organizes events like BIT’s Got Talent, Live Jams, and Dhwani Fest.",
+      "achievements": [
+        "Winners at IIT Guwahati and IIT Kharagpur cultural fests."
+      ]
+    },
+    {
+      "id": 12,
+      "shortname": "Ehsaas",
+      "logo": "https://example.com/ehsaas-logo.png",
+      "website": "https://ehsaas.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/ehsaasbitmesra",
+      "name": "Dramatics Society (Ehsaas)",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Dr. Sandeep Kumar Singh",
+        "email": "dr.sandeeppharmaceutics@yahoo.com",
+        "phone": "+91-9234653731"
+      },
+      "president": {
+        "name": "Piyush Agarwal",
+        "email": "piyushagarwal0207.pa@gmail.com",
+        "phone": "+91-7739736822",
+        "roll_number": "BE/10087/2015"
+      },
+      "description": "Ehsaas promotes theatrical arts through plays, mime, and skits.",
+      "achievements": [
+        "Awards at Mood Indigo (IIT Bombay) and Spring Fest (IIT Kharagpur)."
+      ]
+    },
+    {
+      "id": 13,
+      "shortname": "FAS",
+      "logo": "https://example.com/fas-logo.png",
+      "website": "https://fas.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/fasbitmesra",
+      "name": "Fine Arts Society (FAS)",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Dr. Janmejoy Gupta",
+        "email": "janmejoy71@yahoo.com",
+        "phone": "+91-7870807048"
+      },
+      "president": {
+        "name": "Aakrati Jain",
+        "email": "aakratijain26@gmail.com",
+        "phone": "+91-9425797926",
+        "roll_number": "BE/10700/2015"
+      },
+      "description": "FAS promotes art and design through workshops and exhibitions.",
+      "achievements": ["Organized Spectra Art Fest with 300+ participants."]
+    },
+    {
+      "id": 14,
+      "shortname": "Leo Club",
+      "logo": "https://example.com/leo-logo.png",
+      "website": "https://leo.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/leobitmesra",
+      "name": "Leo Club",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Dr. Rajeev Kumar",
+        "email": "rajeevkumar@bitmesra.ac.in",
+        "phone": "+91-9431382591"
+      },
+      "president": {
+        "name": "Tanisha Singh",
+        "email": "tanishasomvanshi07@gmail.com",
+        "phone": "+91-9628838800",
+        "roll_number": "BE/10505/2015"
+      },
+      "description": "Leo Club focuses on community service and social initiatives.",
+      "achievements": [
+        "Organized blood donation camps and NO SMOKING campaigns."
+      ]
+    },
+    {
+      "id": 15,
+      "shortname": "LitSoc",
+      "logo": "https://example.com/litsoc-logo.png",
+      "website": "https://litsoc.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/litsocbitmesra",
+      "name": "Literary Society (LitSoc)",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Dr. Sanjay Kumar",
+        "email": "skumar@bitmesra.ac.in",
+        "phone": "+91-9431386274"
+      },
+      "president": {
+        "name": "Aditya Kumar Jha",
+        "email": "adityakj0113@gmail.com",
+        "phone": "+91-8102098868",
+        "roll_number": "BE/10590/2015"
+      },
+      "description": "LitSoc promotes literature through events like Rostra and Lit-Night.",
+      "achievements": [
+        "Organized eastern India’s largest literary fest, Rostra."
+      ]
+    },
+    {
+      "id": 16,
+      "shortname": "NAPS",
+      "logo": "https://example.com/naps-logo.png",
+      "website": "https://naps.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/napsbitmesra",
+      "name": "News and Publication Society (NAPS)",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Dr. Vijay Nath",
+        "email": "vijaynath@bitmesra.ac.in",
+        "phone": "+91-9973886214"
+      },
+      "president": {
+        "name": "Ishan Mohan",
+        "email": "ishan1507@gmail.com",
+        "phone": "+91-8521131916",
+        "roll_number": "BE/10691/2015"
+      },
+      "description": "NAPS is the official media house of BIT Mesra, covering campus events and publishing articles.",
+      "achievements": ["Conducted award ceremonies and interviews with alumni."]
+    },
+    {
+      "id": 17,
+      "shortname": "Psoc",
+      "logo": "https://example.com/psoc-logo.png",
+      "website": "https://psoc.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/psocbitmesra",
+      "name": "Photographic Society (Psoc)",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Dr. Priyank Kumar",
+        "email": "priyankkumar@bitmesra.ac.in",
+        "phone": "+91-9470137267"
+      },
+      "president": {
+        "name": "Ashish Kumar Singh",
+        "email": "ashishsinghs1126@gmail.com",
+        "phone": "+91-8619472302",
+        "roll_number": "BE/10484/2015"
+      },
+      "description": "Psoc promotes photography and filmmaking through workshops and events.",
+      "achievements": ["Won competitions at Spring Fest and Mood Indigo."]
+    },
+    {
+      "id": 18,
+      "shortname": "Rotaract",
+      "logo": "https://example.com/rotaract-logo.png",
+      "website": "https://rotaract.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/rotaractbitmesra",
+      "name": "Rotaract Club",
+      "type": "Cultural",
+      "faculty_advisor": {
+        "name": "Mr. Prem Prakash",
+        "email": "pprakash@bitmesra.ac.in",
+        "phone": "+91-9431161491"
+      },
+      "president": {
+        "name": "Nikita Gupta",
+        "email": "nikita0808gupta@gmail.com",
+        "phone": "+91-9471786154",
+        "roll_number": "BE/10362/2015"
+      },
+      "description": "Rotaract Club focuses on social service and community development.",
+      "achievements": ["Organized blood donation camps and cleanliness drives."]
+    },
+    {
+      "id": 19,
+      "shortname": "SMAC",
+      "logo": "https://example.com/smac-logo.png",
+      "website": "https://smac.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/smacbitmesra",
+      "name": "Student Mentorship and Adventure Club (SMAC)",
+      "type": "Self-Development",
+      "faculty_advisor": {
+        "name": "Dr. Sukalyan Chakraborty",
+        "email": "sukalyanchakraborty@bitmesra.ac.in",
+        "phone": "+91-8521761339"
+      },
+      "president": {
+        "name": "Aditya Jalan",
+        "email": "adityajalan1997@gmail.com",
+        "phone": "+91-9031235490",
+        "roll_number": "BE/10246/2015"
+      },
+      "description": "SMAC promotes sports, adventure, and mentorship among students.",
+      "achievements": ["Organized Vajra (sports fest) and Futsal events."]
+    },
+    {
+      "id": 20,
+      "shortname": "UNESQUO",
+      "logo": "https://example.com/unesquo-logo.png",
+      "website": "https://unesquo.bitmesra.ac.in",
+      "socialmedialink": "https://facebook.com/unesquobitmesra",
+      "name": "UNESQUO",
+      "type": "Self-Development",
+      "faculty_advisor": {
+        "name": "Dr. S.K. Mishra",
+        "email": "sudhanshumishra@bitmesra.ac.in",
+        "phone": "+91-8986822135"
+      },
+      "president": {
+        "name": "Ashish Deopa",
+        "email": "ashishdeopa@gmail.com",
+        "phone": "+91-7292887792",
+        "roll_number": "BE/10329/2015"
+      },
+      "description": "UNESQUO is the official speaking and quizzing club of BIT Mesra.",
+      "achievements": [
+        "Winners at Tata Crucible Campus Quiz and Think India Quiz."
+      ]
+    }
+  ]
+}

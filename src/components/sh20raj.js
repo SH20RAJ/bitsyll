@@ -23,27 +23,38 @@ export function SH20RAJ() {
       <HoverCardContent className="w-80">
         <div className="flex justify-between space-x-4">
           <Avatar>
-            <AvatarImage src="https://www.upwork.com/profile-portraits/c1EEk49thpSZWgjnN-ifAhfV1vKVDDVwhLgobWe4b154zwD8icpmp-zoYifLRQ4zUx" />
+            <AvatarImage src="https://shaswat.live/_next/image?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD4D03AQFIkAHICJTVYw%2Fprofile-displayphoto-shrink_800_800%2FB4DZQhkEXAGkAc-%2F0%2F1735729938543%3Fe%3D1741219200%26v%3Dbeta%26t%3DN1Vbujx_p42Fg21eHbJhU92Y0J6bfH3ID3VBTcHwI8w&w=256&q=75" />
             <AvatarFallback>Sh</AvatarFallback>
           </Avatar>
           <div className="space-y-1">
             <h4 className="text-sm font-semibold text-fuchsia-200">@sh20raj</h4>
             <p className="text-sm">
-              This website is created and maintained by <Link href="https://github.com/sh20raj" className=" underline">sh20raj</Link>. 
-                <br/>
-
+              This website is created and maintained by{" "}
+              <Link href="https://github.com/sh20raj" className=" underline">
+                sh20raj
+              </Link>
+              .
+              <br />
             </p>
             <div className="flex items-center pt-2 justify-center items-center">
               <span className="text-xs text-muted-foreground flex gap-4 text-center ">
-                <Link href={"https://instagram.com/sh20raj"}><InstagramLogoIcon className="h-4 w-4" /></Link>
-                <Link href={"https://github.com/sh20raj"}><GitHubLogoIcon className="h-4 w-4" /></Link>
-                <Link href={"https://twitter.com/sh20raj"}><XIcon className="h-4 w-4" /></Link>
-                <Link href={"https://www.linkedin.com/in/sh20raj/"}><LinkedInLogoIcon className="h-4 w-4" /></Link>
+                <Link href={"https://instagram.com/sh20raj"}>
+                  <InstagramLogoIcon className="h-4 w-4" />
+                </Link>
+                <Link href={"https://github.com/sh20raj"}>
+                  <GitHubLogoIcon className="h-4 w-4" />
+                </Link>
+                <Link href={"https://twitter.com/sh20raj"}>
+                  <XIcon className="h-4 w-4" />
+                </Link>
+                <Link href={"https://www.linkedin.com/in/sh20raj/"}>
+                  <LinkedInLogoIcon className="h-4 w-4" />
+                </Link>
               </span>
             </div>
           </div>
         </div>
       </HoverCardContent>
     </HoverCard>
-  )
+  );
 }
