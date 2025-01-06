@@ -18,7 +18,8 @@ export default function Footer() {
       </div>
       <div className="song fixed  m-0 bottom-0 w-full bg-black p-2">
         <div
-          class="essential_audio"
+          className="essential_audio"
+          data-loop="true"
           data-url="https://cdn.jsdelivr.net/gh/DrivePlyr/video-storage@main/Harry%20Styles%20-%20Watermelon%20Sugar%20(Official%20Audio).mp3"
         ></div>
 
@@ -29,6 +30,10 @@ export default function Footer() {
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/essential-audio-player@2.1.0/essential_audio.min.css"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://essential-audio-player.net/css/player/essential_audio_ribbon_rounded.css"
         ></link>
 
         {/* <iframe
