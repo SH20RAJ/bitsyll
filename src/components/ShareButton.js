@@ -20,20 +20,27 @@ export default function ShareButton() {
     };
 
     const shareOnWhatsApp = () => {
-        const sharetext = `🎓 Welcome to Bitians.org! 🚀
+        const sharetext = `🎓 Hey there! Check out Bitians.org! 🚀
 
-    📚 Your one-stop destination for BIT Mesra's vibrant community
+        🌈 It's the coolest spot for BIT Mesra peeps to hang out!
 
-    ✨ What's in store:
-    • Connect with fellow BITians
-    • Stay updated with campus buzz
-    • Share knowledge & experiences
-    • Build lasting networks
+        ✨ Cool stuff we've got:
+        🤝 Make awesome BITian friends
+        🎭 Really Anonymous confessions 💕
+        📢 Get all the campus gossip
+        🧠 Share your big brain energy
+        🌟 Build your squad
+        📱 Super light app (just 5MB!)
+        😂 Epic BIT Mesra memes
+        💭 Chat & vibe with BITians
+        📰 Hot campus updates
+        🔐 BIT insider secrets
+        💻 Cool open source stuff
 
-    🌟 Join us in making college life extraordinary!
-
-    `;
-        const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(sharetext + '\n' + url)}`;
+        🎉 Come join the fun! Let's make college life awesome! 
+        
+        `;
+        const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(sharetext + '\nWebsite :- ' + url)}`;
         window.open(whatsappUrl, '_blank');
     };
 
@@ -47,7 +54,7 @@ export default function ShareButton() {
                 />
                 <Button
                     onClick={handleCopy}
-                    className="absolute right-1 top-1/2 -translate-y-1/2 h-8 px-3 hover:bg-gray-100"
+                    className="absolute right-1 top-1/2 -translate-y-1/2 h-8 px-3 hover:bg-gray-100 hover:text-gray-800"
                     variant="ghost"
                 >
                     {copied ? (

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import { Dock, DockIcon } from "@/components/ui/dock";
+import { ChatBubbleIcon } from "@radix-ui/react-icons";
 
 const Icons = {
   calendar: CalendarIcon,
@@ -69,7 +70,7 @@ const DATA = {
     { href: "https://drive.google.com/drive/folders/19I3elwfFDGrfa6GIIocmjyXeyR1muUeW?usp=drive_link", icon: NotebookPen, label: "Notes" },
     { href: "/routine", icon: BookOpenIcon, label: "Class Routine" },
     { href: "/contacts", icon: UsersIcon, label: "Contacts" },
-    { href: "https://chat.whatsapp.com/GhtCO9w8Hrk8XAUzjM325y", icon: PhoneIcon, label: "WhatsApp" },
+    { href: "https://chat.whatsapp.com/GhtCO9w8Hrk8XAUzjM325y", icon: ChatBubbleIcon, label: "WhatsApp" },
     { href: "/calendar", icon: CalendarIcon, label: "Calendar" },
   ],
   contact: {
