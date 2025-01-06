@@ -12,7 +12,7 @@ export function Subjects() {
       </h2>
       <hr className="border-1 border-gray-100 opacity-20" />
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-6 p-4">
         {subjects.map((subject) => (
           <Link href={"subject/" + subject.slug} key={subject.name}>
             <motion.div
