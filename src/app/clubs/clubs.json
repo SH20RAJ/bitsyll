@@ -258,9 +258,11 @@
     {
       "id": 10,
       "shortname": "Aveon",
-      "logo": "https://example.com/aveon-logo.png",
-      "website": "https://aveon.bitmesra.ac.in",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQEVbnAS5SkCyg/company-logo_200_200/company-logo_200_200/0/1630671435385?e=1744243200&v=beta&t=MgtVQT9r_x4HS17BW7ZWH4h4j3lykCb4Xx1h8OyFsIc",
+      "website": "https://teamaveon.org/",
       "socialmedialink": "https://facebook.com/aveonbitmesra",
+      "linkedin":"https://in.linkedin.com/company/team-aveon",
+      "instagram":"https://www.instagram.com/teamaveon/",
       "name": "Team Aveon",
       "type": "Technical",
       "faculty_advisor": {
@@ -282,9 +284,10 @@
     {
       "id": 11,
       "shortname": "Dance & Music",
-      "logo": "https://example.com/dancemusic-logo.png",
-      "website": "https://dancemusic.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/dancemusicbitmesra",
+      "logo": "https://i.imgur.com/PCnJDzA.jpeg",
+      "website": "https://www.instagram.com/danceclubbitmesra/?hl=en",
+      "socialmedialink": "https://www.instagram.com/danceclubbitmesra/?hl=en",
+       "instagram":"https://www.instagram.com/danceclubbitmesra/",
       "name": "Dance and Music Club",
       "type": "Cultural",
       "faculty_advisor": {
@@ -319,9 +322,11 @@
     {
       "id": 12,
       "shortname": "Ehsaas",
-      "logo": "https://example.com/ehsaas-logo.png",
+      "logo": "https://media.licdn.com/dms/image/v2/C510BAQHI_EDyKpfyXg/company-logo_200_200/company-logo_200_200/0/1630571017647?e=1744243200&v=beta&t=lRLwPqvXQ8P2O_7Grm5tnz5wPNlsC3h0WNW68-iae-g",
       "website": "https://ehsaas.bitmesra.ac.in",
       "socialmedialink": "https://facebook.com/ehsaasbitmesra",
+      "linkedin":"https://in.linkedin.com/company/ehsaasbitmesra",
+      "instagram":"https://www.instagram.com/ehsaas_bitm/",
       "name": "Dramatics Society (Ehsaas)",
       "type": "Cultural",
       "faculty_advisor": {
@@ -343,9 +348,11 @@
     {
       "id": 13,
       "shortname": "FAS",
-      "logo": "https://example.com/fas-logo.png",
-      "website": "https://fas.bitmesra.ac.in",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQEbHbtIoJyzdA/company-logo_200_200/company-logo_200_200/0/1630649004260/fas_bitmesra_logo?e=1744243200&v=beta&t=Bdqu_YdHZe1rdeSOsogzDUt9DCZ9dC0ZOgpBurjKKf4",
+      "website": "https://fasmesra.vercel.app/",
       "socialmedialink": "https://facebook.com/fasbitmesra",
+      "linkedin":"https://in.linkedin.com/company/fas-bitmesra",
+      "instagram":"https://www.instagram.com/fasbitmesra/?hl=en",
       "name": "Fine Arts Society (FAS)",
       "type": "Cultural",
       "faculty_advisor": {
@@ -365,9 +372,11 @@
     {
       "id": 14,
       "shortname": "Leo Club",
-      "logo": "https://example.com/leo-logo.png",
-      "website": "https://leo.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/leobitmesra",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQFrb-zvemhL3g/company-logo_200_200/company-logo_200_200/0/1640679968601/leo_club_bit_mesra_logo?e=1744243200&v=beta&t=qyhW4gPZqUnFEYEbIxKpfr3zI2P7pQCEgdBUGnqN9bk",
+      "website": "https://leobitmesra.vercel.app/",
+      "socialmedialink": "https://leoclubbitmesra.github.io/LEOClub-Website/index.html",
+      "linkedin":"https://in.linkedin.com/company/leo-club-bit-mesra",
+      "instagram":"https://www.instagram.com/leoclub_bitmesra/?hl=en",
       "name": "Leo Club",
       "type": "Cultural",
       "faculty_advisor": {
@@ -389,9 +398,11 @@
     {
       "id": 15,
       "shortname": "LitSoc",
-      "logo": "https://example.com/litsoc-logo.png",
-      "website": "https://litsoc.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/litsocbitmesra",
+      "logo": "https://media.licdn.com/dms/image/v2/C510BAQF6Xhn-PHGung/company-logo_200_200/company-logo_200_200/0/1631411705518/literary_society_bit_mesra_logo?e=1744243200&v=beta&t=TaIBhrMson4ouSxgg-yeOy_GYDwfeSgTnbXlK7iIzwc",
+      "website": "https://www.theliterarysocietybitm.com/",
+      "socialmedialink": "https://www.instagram.com/litsocbitm_/?hl=en",
+      "linkedin":"https://in.linkedin.com/company/literary-society-bit-mesra",
+      "instagram":"https://www.instagram.com/litsocbitm_/?hl=en",
       "name": "Literary Society (LitSoc)",
       "type": "Cultural",
       "faculty_advisor": {
@@ -413,9 +424,11 @@
     {
       "id": 16,
       "shortname": "NAPS",
-      "logo": "https://example.com/naps-logo.png",
-      "website": "https://naps.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/napsbitmesra",
+      "logo": "https://media.licdn.com/dms/image/v2/C510BAQG1Jy26vjtewA/company-logo_200_200/company-logo_200_200/0/1630568374408?e=1744243200&v=beta&t=9uCfqMFMECSbMrJA73QoCxlENM7eQgXVsnAoPgqe-hM",
+      "website": "https://napsbit.wordpress.com/",
+      "socialmedialink": "https://www.instagram.com/naps_bitmesra/",
+      "linkedin":"https://in.linkedin.com/company/naps-bit",
+      "instagram":"https://www.instagram.com/naps_bitmesra/",
       "name": "News and Publication Society (NAPS)",
       "type": "Cultural",
       "faculty_advisor": {
@@ -435,9 +448,12 @@
     {
       "id": 17,
       "shortname": "Psoc",
-      "logo": "https://example.com/psoc-logo.png",
-      "website": "https://psoc.bitmesra.ac.in",
+      "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQG5qg1N3PoVKQ/company-logo_200_200/company-logo_200_200/0/1630539550930/photographic_society_bit_mesra_logo?e=1744243200&v=beta&t=xICTgRmV1FMzo6odPjz3QQJ5UEjKUiQdOxJTAlF1vUY",
+      "website": "https://www.youtube.com/@photographicsocietybitmesr5393",
       "socialmedialink": "https://facebook.com/psocbitmesra",
+      "linkedin":"https://in.linkedin.com/company/photographic-society-bit-mesra",
+      "instagram":"https://www.instagram.com/psoc.bitm/",
+      "youtube":"https://www.youtube.com/@photographicsocietybitmesr5393",
       "name": "Photographic Society (Psoc)",
       "type": "Cultural",
       "faculty_advisor": {
@@ -457,9 +473,12 @@
     {
       "id": 18,
       "shortname": "Rotaract",
-      "logo": "https://example.com/rotaract-logo.png",
-      "website": "https://rotaract.bitmesra.ac.in",
+      "logo": "https://media.licdn.com/dms/image/v2/D560BAQGPEOosBTv6lQ/company-logo_200_200/company-logo_200_200/0/1689230267654?e=1744243200&v=beta&t=WObczAWtopM03w4q23Wpuj6FdjSVT0oc4rdbFIWCZdo",
+      "website": "https://rotaract21.wixsite.com/rotaractbitmesra",
       "socialmedialink": "https://facebook.com/rotaractbitmesra",
+      "linkedin":"https://in.linkedin.com/company/rotaract-club-of-bit-mesra",
+      "instagram":"https://www.instagram.com/rotaract_bitmesra/",
+      "youtube":"https://www.youtube.com/@rotaractclubbitmesra",
       "name": "Rotaract Club",
       "type": "Cultural",
       "faculty_advisor": {
@@ -477,33 +496,13 @@
       "achievements": ["Organized blood donation camps and cleanliness drives."]
     },
     {
-      "id": 19,
-      "shortname": "SMAC",
-      "logo": "https://example.com/smac-logo.png",
-      "website": "https://smac.bitmesra.ac.in",
-      "socialmedialink": "https://facebook.com/smacbitmesra",
-      "name": "Student Mentorship and Adventure Club (SMAC)",
-      "type": "Self-Development",
-      "faculty_advisor": {
-        "name": "Dr. Sukalyan Chakraborty",
-        "email": "sukalyanchakraborty@bitmesra.ac.in",
-        "phone": "+91-8521761339"
-      },
-      "president": {
-        "name": "Aditya Jalan",
-        "email": "adityajalan1997@gmail.com",
-        "phone": "+91-9031235490",
-        "roll_number": "BE/10246/2015"
-      },
-      "description": "SMAC promotes sports, adventure, and mentorship among students.",
-      "achievements": ["Organized Vajra (sports fest) and Futsal events."]
-    },
-    {
       "id": 20,
       "shortname": "UNESQUO",
-      "logo": "https://example.com/unesquo-logo.png",
-      "website": "https://unesquo.bitmesra.ac.in",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQGr3aoG9XZgBw/company-logo_200_200/company-logo_200_200/0/1630663649028?e=1744243200&v=beta&t=uKeJgSz7rwGJ3OFQRYRIdkQgTpmHiie_VVEeyWyLSW0",
+      "website": "https://unesquo.in/",
       "socialmedialink": "https://facebook.com/unesquobitmesra",
+      "linkedin":"https://in.linkedin.com/company/unesquo-bit-mesra",
+      "instagram":"https://www.instagram.com/unesquo/",
       "name": "UNESQUO",
       "type": "Self-Development",
       "faculty_advisor": {
