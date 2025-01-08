@@ -8,7 +8,7 @@ export default function ImportantData({ showHeading }) {
       id: 1,
       title: "Class Routine 📅",
       description: "This is the important data",
-      link: "https://drive.google.com/file/d/1hJD9_Fu6rY_mhVKe04PoS7dyNMEv_QFB/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1c_8zEnw6alUJRUGS8BGOQMviVHmRGKY6/view?usp=drive_link",
     },
     {
       id: 2,

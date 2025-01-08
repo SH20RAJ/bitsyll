@@ -9,7 +9,7 @@ export default function Page() {
       <Card className="overflow-hidden">
         <CardContent className="p-0">
           <iframe
-            src="https://drive.google.com/file/d/1hJD9_Fu6rY_mhVKe04PoS7dyNMEv_QFB/preview"
+            src="https://drive.google.com/file/d/1c_8zEnw6alUJRUGS8BGOQMviVHmRGKY6/preview"
             className="w-full h-[70vh]"
             allow="autoplay"
           ></iframe>
@@ -17,7 +17,7 @@ export default function Page() {
         <CardFooter className="bg-gray-50 justify-end space-x-2 p-4">
           <Button variant="outline" asChild>
             <a
-              href="https://drive.google.com/file/d/1hJD9_Fu6rY_mhVKe04PoS7dyNMEv_QFB/view"
+              href="https://drive.google.com/file/d/1c_8zEnw6alUJRUGS8BGOQMviVHmRGKY6/view"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -25,7 +25,7 @@ export default function Page() {
             </a>
           </Button>
           <Button asChild>
-            <a href="https://drive.google.com/uc?export=download&id=1hJD9_Fu6rY_mhVKe04PoS7dyNMEv_QFB">
+            <a href="https://drive.google.com/uc?export=download&id=1c_8zEnw6alUJRUGS8BGOQMviVHmRGKY6">
               Download
             </a>
           </Button>

@@ -21,7 +21,7 @@ export default function Home() {
 
       
       <FAQ />
-      <div className="flex flex-col items-center m-8">
+      {/* <div className="flex flex-col items-center m-8">
       <h2 className="text-2xl text-center font-bold leading-10">
         <span className="text</div>-4xl">
         Bitians.
@@ -42,8 +42,8 @@ export default function Home() {
       <blockquote className="mt-4 border-l-4 border-gray-300 pl-4 italic text-gray-600">
         Currently the website got into beta testing phase ✌️.
       </blockquote>
-      </div>
-
+      </div> */}
+{/* 
       <div className="flex justify-around items-center">
       <Button asChild className="bg-primary block">
         <a
@@ -60,12 +60,12 @@ export default function Home() {
         link={"https://median.co/share/yplqde"}
         title={"Bitians App "}
       />
-      </div>
-      <ShareButton />
+      </div> */}
+      {/* <ShareButton /> */}
       
       
       
-      <Separator className="mt-4" />
+      {/* <Separator className="mt-4" /> */}
 
       <div className="flex justify-center my-8 gap-10">
       <AppDownloadButton

@@ -12,6 +12,7 @@ export default function Footer() {
     "https://ia804601.us.archive.org/9/items/BestOfArijitSingh/Atif%20Aslam%20Arijit%20Singhs%20Hit%20song%20collections%20%20Audio%20JukeBox.mp3",
     "https://ia804601.us.archive.org/9/items/BestOfArijitSingh/Valentines%20Day%20Special%20%20Best%20of%20Arijit%20Singh%20%20Romantic%20Songs%202016.mp3",
     "https://ia800708.us.archive.org/22/items/EdSheeranShapeOfYou_201811/Ed%20Sheeran%20-%20Shape%20Of%20You.mp3",
+    "https://ia601802.us.archive.org/10/items/LuisFonsiDespacitoFt.DaddyYankee_201712/Luis%20Fonsi%20-%20Despacito%20ft.%20Daddy%20Yankee.mp3",
   ];
 
   return (
