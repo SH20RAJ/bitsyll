@@ -11,14 +11,14 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 
 const branches = [
-  { value: "cse", label: "Computer Science Engineering" },
-  { value: "ce", label: "Civil Engineering" },
-  { value: "ece", label: "Electronics & Communication Engineering" },
-  { value: "eee", label: "Electrical & Electronics Engineering" },
-  { value: "me", label: "Mechanical Engineering" },
-  { value: "pie", label: "Production & Industrial Engineering" },
-  { value: "ai", label: "Artificial Intelligence" },
-  { value: "other", label: "Other" },
+  { value: "cse", label: "Computer Science Engineering (F)" },
+  { value: "ce", label: "Chemical Engineering (M,N)" },
+  { value: "ece", label: "Electronics & Communication Engineering (A,B)" },
+  { value: "eee", label: "Electrical & Electronics Engineering (C,D)" },
+  { value: "me", label: "Mechanical Engineering (I,J)" },
+  { value: "pie", label: "Production & Industrial Engineering (L,O)" },
+  { value: "ai", label: "Artificial Intelligence (G,H)" },
+  { value: "other", label: "Physics (K,P)" },
 ];
 
 export default function RoutineViewer() {
@@ -44,7 +44,7 @@ export default function RoutineViewer() {
       <div className="mb-6">
         <Select value={selectedBranch} onValueChange={handleBranchChange}>
           <SelectTrigger className="w-full">
-            <SelectValue placeholder="Select your branch" />
+            <SelectValue placeholder="Select your branch/section" />
           </SelectTrigger>
           <SelectContent>
             {branches.map((branch) => (
