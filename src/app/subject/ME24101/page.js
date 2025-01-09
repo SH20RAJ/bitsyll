@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Important from "@/components/subject/Important";
 import Topics from "@/components/subject/Topics";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -84,72 +85,46 @@ export function Syllabus() {
       <div className="syllabus  shadow-lg rounded-lg p-6">
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 1: System of Forces and Structure Mechanics
+            Module 1: Non-Conventional Energy and their resources
           </h3>
           <p className="text-gray-700">
-            Addition of Forces, Moment of a Force, Couple, Varignon’s theorem,
-            Free Body Diagram, Equilibrium in Two and Three Dimensions,
-            Equivalent Forces and Moment. Types of Trusses, Plane and Space
-            Trusses. Analysis of Plane Trusses by: Method of Joints and Method
-            of Sections, Analysis of Frames with Hinged Joints. Hooke’s Law of
-            elasticity, Stress and Strain, Relation between elastic constants,
-            Thermal Stresses, Properties of surfaces such as centroid and area
-            moment of inertia.
+            Renewable and Non-renewable Energy Resources, Advantages and Disadvantages of Renewable Resources, Renewable Energy Forms and Conversion, Solar Energy, Wind Energy, Tidal Energy, Ocean Thermal Energy; Geothermal Energy, Nuclear Energy, Hydro Energy
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 2: Kinematics & Kinetics of rigid bodies
+            Module 2: System of Forces and Structure Mechanics
           </h3>
           <p className="text-gray-700">
-            Types of rigid body motion– translation, rotation about fixed axis,
-            equations defining the rotation of a rigid body about a fixed axis,
-            plane motion, absolute and relative velocity in plane motion,
-            instantaneous center of rotation. Equation of translational and
-            rotational motion, Newton’s law and D’Alembert’s principle –inertia
-            force and inertia couple.
+            Addition of Forces, Moment of a Force, Couple, Varignon's theorem, Free Body Diagram, Equilibrium in Two and Three Dimensions, Equivalent Forces and Moment. Types of Trusses, Plane and Space Trusses. Analysis of Plane Trusses by: Method of Joints and Method of Sections, Analysis of Frames with Hinged Joints. Hooke's Law of elasticity, Stress and Strain, Relation between elastic constants, Thermal Stresses, Properties of surfaces such as centroid and area moment of inertia. (09)
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 3: Friction and Vibration
+            Module 3: Kinematics & Kinetics of rigid bodies
           </h3>
           <p className="text-gray-700">
-            Interfacial Friction (a) Laws of dry friction, static & kinetic
-            co-efficient of friction, Analysis of static, kinetic and rolling
-            friction.(b) Analysis of frictional forces in inclined planes,
-            wedges, screw jacks and belt drives. Vibrations: Types of vibration,
-            free un-damped longitudinal vibrations, free damped longitudinal
-            vibrations.
+            Types of rigid body motion- translation, rotation about fixed axis, equations defining the rotation of a rigid body about a fixed axis, plane motion, absolute and relative velocity in plane motion, instantaneous center of rotation. Equation of translational and rotational motion, Newton's law and D'Alembert's principle - inertia force and inertia couple. (09)
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 4: Boilers and Internal Combustion Engine
+            Module 4: Robotics
           </h3>
           <p className="text-gray-700">
-            Boiler Mountings and Accessories, Fire Tube and Water Tube Boilers,
-            Cochran Boiler, Babcock and Wilcox Boiler. Basic components and
-            terminology of IC engines, working of four stroke/two stroke -
-            petrol/diesel engine, classification and application of IC engines.
-            Heat transfer: various modes of heat transfer, one dimensional
-            steady state conduction, Application to composite walls and
-            cylinder.
+            Introduction to robotics, Law of robotics, Classification of robots based on: DOF, Structure, Drive technology and workspace geometry, robot subsystem, criteria for selecting a robot, applications of robotics. (09)
           </p>
         </div>
 
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">
-            Module 5: Non-Conventional Energy and their resources
+            Module 5: Boilers and Internal Combustion Engine
           </h3>
           <p className="text-gray-700">
-            Renewable and Non-renewable Energy Resources, Advantages and
-            Disadvantages of Renewable Resources, Renewable Energy Forms and
-            Conversion, Solar Energy, Wind Energy, Tidal Energy, Ocean Thermal
-            Energy; Geothermal Energy, Nuclear Energy, Hydro Energy
+            Boiler Mountings and Accessories, Fire Tube and Water Tube Boilers, Cochran Boiler, Lancashire Boiler, Locomotive Boiler, Babcock and Wilcox Boiler; Boiler Mountings & accessories, Basic components and terminology of IC engines, working of four stroke/two stroke - petrol/diesel engine, classification and application of IC engines.
           </p>
         </div>
       </div>

@@ -9,6 +9,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
+import { Button } from "./ui/button";
 
 const branches = [
   { value: "cse", label: "Computer Science Engineering (F)" },
@@ -39,8 +41,15 @@ export default function RoutineViewer() {
 
   return (
     <div className="container mx-auto p-4 max-w-4xl">
-      <h1 className="text-2xl font-bold mb-6">Routine Viewer</h1>
-      
+      <div className="flex justify-between">
+        <h1 className="text-2xl font-bold mb-6">Routine Viewer</h1>
+        <Link
+          href={"https://drive.google.com/file/d/1H24ZcZNAe6qobnF1uiIIyoEdRPWzbsK3/view?usp=sharing"}
+        >
+          <Button>Latest Syllabus</Button>
+        </Link>
+      </div>
+
       <div className="mb-6">
         <Select value={selectedBranch} onValueChange={handleBranchChange}>
           <SelectTrigger className="w-full">

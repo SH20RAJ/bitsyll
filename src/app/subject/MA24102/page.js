@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Important from "@/components/subject/Important";
 import Topics from "@/components/subject/Topics";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -78,64 +79,47 @@ export function Syllabus() {
     <>
       <div className="syllabus shadow-lg rounded-lg p-6">
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 1: Ordinary Differential Equations – I
+          <h3 className="text-xl font-semibold">
+            MODULE - I: Ordinary Differential Equations - I
           </h3>
           <p className="text-gray-700">
-            Linear differential equations, Wronskian, Linear independence and
-            dependence of solutions, Linear differential equations of second and
-            higher order, Operator method, Legendre’s and Euler – Cauchy’s form
-            of linear differential equation, Method of variation of parameters.
+            Linear differential equations, Wronskian, Linear independence and dependence of solutions, Linear differential equations of second and higher order, Operator method, Euler - Cauchy's differential equation, Legendre's linear differential equation, Method of variation of parameters, Method of change of independent variable, Normal form method. [9 L]
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 2: Ordinary Differential Equations – II
+          <h3 className="text-xl font-semibold">
+            MODULE - II: Ordinary Differential Equations - II
           </h3>
           <p className="text-gray-700">
-            Ordinary and singular points of differential equation, Power and
-            Frobenius series solutions. Bessel’s differential equation, Bessel
-            function of first kind and its properties. Legendre’s differential
-            equation, Legendre’s polynomial and its properties.
+            Power series, ordinary and singular points of differential equation, Power and Frobenius series solutions. Bessel's differential equation and its series solution, Bessel function of first kind and its properties. Legendre's differential equation and its series solution, Legendre's polynomial and its properties. [9 L]
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 3: Fourier series and Partial Differential Equations
+          <h3 className="text-xl font-semibold">
+            MODULE - III: Partial Differential Equations
           </h3>
           <p className="text-gray-700">
-            Fourier series: Euler formulae for Fourier series, Dirichlet
-            conditions, Half range Fourier series. Partial Differential
-            Equations: Linear partial differential equations, Lagrange’s method.
-            Method of separation of variables and its application in solving one
-            dimensional wave and heat equations.
+            Fourier series, Euler formulae for Fourier series for length of interval 2n, Dirichlet conditions, Fourier series for arbitrary length of interval, Half range Fourier series. Linear and quasi - linear partial differential equations, Lagrange's method, Linear - partial differential equations with constant coefficients, Method of separation of variables and its application in solving one dimensional wave and heat equations.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 4: Complex Variable-Differentiation & Integration
+          <h3 className="text-xl font-semibold">
+            MODULE - IV: Complex Variable
           </h3>
           <p className="text-gray-700">
-            Function of a complex variable, Limit, Continuity,
-            Differentiability, Analyticity, Analytic functions, Cauchy – Riemann
-            equations. Harmonic functions, Harmonic Conjugate. Cauchy’s theorem,
-            Cauchy’s Integral formula, Taylor and Laurent series expansions.
-            Singularities and its types, Residues, Residue theorem.
+            Function of a complex variable, Limit, Continuity, Differentiability, Analyticity, Analytic functions, Cauchy - Riemann equations (Cartesian and Polar form), Harmonic functions, Complex [9L]
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 5: Applied Probability
+          <h3 className="text-xl font-semibold">
+            MODULE - V: Probability and Statistics
           </h3>
           <p className="text-gray-700">
-            Discrete and continuous random variables, cumulative distribution
-            function, probability mass and density functions, expectation,
-            variance, moment generating function. Introduction to Binomial,
-            Poisson and Normal Distribution.
+            Definition and scope of statistics, average and dispersion, skewness and kurtosis, graphical statistics, classical and empirical definitions of probability, addition theorem, Conditional padabi varatip camon the distindepen denteren, Bage the men, discrete any contions, mathematical expectation, variance, moment generating function.
           </p>
         </div>
       </div>

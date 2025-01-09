@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Important from "@/components/subject/Important";
 import Topics from "@/components/subject/Topics";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -75,63 +76,45 @@ export default function Page() {
 export function Syllabus() {
   return (
     <>
-      <div className="syllabus  shadow-lg rounded-lg p-6">
+      <div className="syllabus shadow-lg rounded-lg p-6">
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 1: Sequences and Series
+          <h3 className="text-xl font-semibold">
+            MODULE - I: Sequences and Series
           </h3>
           <p className="text-gray-700">
-            Sequences, Convergence of Sequence. Series, Convergence of Series,
-            Tests for Convergence: Comparison tests, Ratio test, Cauchy’s root
-            test, Raabe’s test, Gauss test, Cauchy{"'"}s Integral test,
-            Alternating series, Leibnitz test, Absolute and Conditional
-            Convergence.
+            Infinite Sequences, Monotonic Sequences, Bounded Sequences, Convergence of Sequences, Cauchy's General Principle of Convergence. Infinite series, Convergence of Infinite Series, Tests for Convergence: Comparison tests, Ratio test, Cauchy's root test, Raabe's test, Logarithmic Test, Gauss test, Cauchy's Integral test, Alternating series, Leibnitz test.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 2: Matrices</h3>
+          <h3 className="text-xl font-semibold">MODULE - II: Matrices</h3>
           <p className="text-gray-700">
-            Rank of a Matrix, elementary transformations, Row - reduced Echelon
-            form. Vectors, Linear Independence and Dependence of Vectors.
-            Consistency of system of linear equations. Eigenvalues,
-            Eigenvectors, Cayley - Hamilton theorem
+            Special Matrices (Symmetric, Skew - Symmetric, Orthogonal Matrix, Unitary Matrix), Elementary Transformations, Rank of a Matrix, Row - reduced Echelon form, Normal From, Vectors, Linear Independence and Dependence of Vectors, System of linear equations, Introduction to Linear Transformations, Eigenvalues, Eigenvectors, Cayley - Hamilton theorem.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 3: Advance Differential Calculus
+          <h3 className="text-xl font-semibold">
+            MODULE - III: Multivariable Differential Calculus
           </h3>
           <p className="text-gray-700">
-            Function of several variables, Limit, Continuity, Partial
-            derivatives, Euler’s theorem for homogeneous functions, Total
-            derivatives, Chain rules, Jacobians and its properties, Taylor
-            series for function of two variables, Maxima – Minima, Lagrange’s
-            method of multipliers.
+            Function of several variables, Limit, Continuity, Partial derivatives, Euler's theorem for homogeneous functions, Total derivatives, Chain rules, Jacobians and its properties, Taylor series for function of two variables, Maxima – Minima, Lagrange's method of multipliers.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">
-            Module 4: Advance Integral Calculus
+          <h3 className="text-xl font-semibold">
+            MODULE - IV: Multivariable Integral Calculus
           </h3>
           <p className="text-gray-700">
-            Beta and Gamma functions: definition and properties. Double
-            integrals, double integrals in polar coordinates, Change of order of
-            integration, Triple Integrals, cylindrical and spherical coordinate
-            systems, transformation of coordinates, Applications of double and
-            triple integrals in areas and volumes.
+            Double integrals, double integrals in polar coordinates, Change of order of integration, Triple Integrals, cylindrical and spherical coordinate systems, transformation of coordinates, Applications of double and triple integrals in areas and volumes. Beta and gamma functions.
           </p>
         </div>
 
         <div className="module mb-6">
-          <h3 className="text-xl font-semibold ">Module 5: Vector Calculus</h3>
+          <h3 className="text-xl font-semibold">MODULE - V: Vector Calculus</h3>
           <p className="text-gray-700">
-            Scalar and vector point functions, gradient, directional derivative,
-            divergence, curl, vector equations and identities. Line Integral,
-            Work done, Conservative field, Green’s theorem in a plane, Surface
-            and volume integrals, Gauss – divergence theorem, Stoke’s theorem.
+            Scalar and vector point functions, gradient, directional derivative, divergence, curl, vector equations and identities. Line Integral, Work done, Conservative field, Green's theorem in a plane, Surface and volume integrals, Gauss – divergence theorem, Stoke's theorem.
           </p>
         </div>
       </div>
