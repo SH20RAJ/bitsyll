@@ -3,6 +3,7 @@ import { FAQ } from "@/components/FAQ";
 import Header from "@/components/Header";
 import ImportantData from "@/components/ImportantData";
 import Menu from "@/components/Menu";
+import RoutineViewer from "@/components/RoutineViewer";
 import ShareButton from "@/components/ShareButton";
 import { Subjects } from "@/components/Subjects2";
 import { Button } from "@/components/ui/button";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <main>
       <Menu />
+      <RoutineViewer />
       <Subjects />
       <ImportantData />
      
