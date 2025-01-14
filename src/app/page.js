@@ -72,7 +72,7 @@ export default function Home() {
       <div className="flex justify-center flex-col items-center my-8 gap-4">
  <h1 className="text-2xl font-bold text-center mb-4">Get Offline Access</h1>
           <p className="text-gray-200 text-center mb-6">
-            Download our fully tested, safe app for Android and iPhone
+            Download our fully tested, open source app for Android and iPhone
           </p>      <AppDownloadButton
         link={"https://median.co/share/ayewex"}
         title={"Bitsyll App"}
