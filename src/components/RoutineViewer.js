@@ -13,7 +13,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 
 const branches = [
-  { value: "cse", label: "Computer Science Engineering (F)" },
+  { value: "cse", label: "Computer Science Engineering (E,F)" },
   { value: "ce", label: "Chemical Engineering (M,N)" },
   { value: "ece", label: "Electronics & Communication Engineering (A,B)" },
   { value: "eee", label: "Electrical & Electronics Engineering (C,D)" },
