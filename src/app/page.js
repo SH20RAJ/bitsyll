@@ -69,15 +69,18 @@ export default function Home() {
       
       {/* <Separator className="mt-4" /> */}
 
-      <div className="flex justify-center my-8 gap-10">
-      <AppDownloadButton
+      <div className="flex justify-center flex-col items-center my-8 gap-4">
+ <h1 className="text-2xl font-bold text-center mb-4">Get Offline Access</h1>
+          <p className="text-gray-200 text-center mb-6">
+            Download our fully tested, safe app for Android and iPhone
+          </p>      <AppDownloadButton
         link={"https://median.co/share/ayewex"}
-        title={"Bitsyll App 📱"}
+        title={"Bitsyll App"}
       />
-      <AppDownloadButton
+      {/* <AppDownloadButton
         link={"https://median.co/share/yplqde"}
         title={"Bitians App 🚀"}
-      />
+      /> */}
       </div>
 
 
