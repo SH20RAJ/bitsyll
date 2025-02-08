@@ -27,25 +27,25 @@ export default function Page() {
         </div>
         <h2 className="text-2xl font-bold  mb-4 text-center">
           {" "}
-          <span className=" text-lg underline">(EC24102)</span> <br /> Basics of
-          Electronics & Communication Engineering Lab
+          <span className=" text-lg underline">(EE24101)</span> <br /> Basic
+          Electrical Engineering
         </h2>{" "}
       </div>
 
       <Accordion type="single" collapsible className="w-full mt-20">
-        {/* <AccordionItem value="item-1">
+        <AccordionItem value="item-1">
           <AccordionTrigger>Syllabus</AccordionTrigger>
           <AccordionContent>
             <Syllabus />
           </AccordionContent>
-        </AccordionItem> */}
+        </AccordionItem>
         <AccordionItem value="item-2">
           <AccordionTrigger>PDFs/Slides</AccordionTrigger>
           <AccordionContent>
             <PDFs />
           </AccordionContent>
         </AccordionItem>
-        {/* <AccordionItem value="PYQs">
+        <AccordionItem value="PYQs">
           <AccordionTrigger>PYQs</AccordionTrigger>
           <AccordionContent>
             <PYQs />
@@ -55,7 +55,7 @@ export default function Page() {
         <AccordionItem value="item-5">
           <AccordionTrigger>Best YouTube Video/Playlist</AccordionTrigger>
           <AccordionContent></AccordionContent>
-        </AccordionItem> */}
+        </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Important Links</AccordionTrigger>
           <AccordionContent>
@@ -137,6 +137,18 @@ export function PDFs() {
     {
       title: "ALL PDF's AND NOTES FOLDER",
       link: "https://drive.google.com/drive/folders/114lWXFwqxmjA8oVkPd-_tRUXbOtULQQl",
+    },
+    {
+      title: "BITSYLL FOLDER COLLECTION",
+      link: "https://drive.google.com/drive/u/4/folders/1y4Xy__O9J7oIueVbF30Wka4gVfoF7C49",
+    },
+    {
+      title: "Module 1",
+      link: "https://drive.google.com/file/d/11wOfkR6rF-5GCZQOkztHTbqvyKtTXBB6/view?usp=drive_link",
+    },
+    {
+      title: "Module 2",
+      link: "https://drive.google.com/file/d/1yYnkmG59Y4kgX8-eJ42PuAWaqRPTHbbq/view?usp=drive_link",
     },
   ];
   return (
