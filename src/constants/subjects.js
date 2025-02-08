@@ -65,6 +65,12 @@ export let subjects = [
     logo: "https://www.svgrepo.com/show/406570/mechanical-arm.svg",
   },
   {
+    name: " Basic Electrical Engineering",
+    emoji: "⚡",
+    slug: "EE24101",
+    logo: "https://www.svgrepo.com/show/490969/computer.svg",
+  },
+  {
     name: "Workshop Practice",
     emoji: "🛠️",
     slug: "PE24102",
