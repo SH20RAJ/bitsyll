@@ -71,7 +71,7 @@ export default function Page() {
 export function Syllabus() {
   return (
     <>
-      <div className="syllabus shadow-lg rounded-lg p-6">
+      <div className="syllabus shadow-lg rounded-lg p-0">
         <div className="module mb-6">
           <h3 className="text-xl font-semibold ">Module 1: Physical Optics</h3>
           <p className="text-gray-700">

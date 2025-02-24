@@ -50,33 +50,32 @@ export function Subjects() {
                 <div className="absolute -right-8 -top-8">
                   <div className="h-32 w-32 rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-500/20 group-hover:scale-110 transition-transform duration-500 blur-2xl" />
                 </div>
-
-                <div className="relative z-10 flex flex-col items-center">
-                  <motion.div 
-                    whileHover={{ rotate: 360 }}
-                    transition={{ duration: 1, type: "spring" }}
-                    className="mb-6 p-3 rounded-xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 group-hover:from-indigo-500/30 group-hover:to-purple-500/30 transition-colors duration-300"
-                  >
-                    <img
-                      src={subject.logo}
-                      alt={subject.name}
-                      className="h-16 w-16 rounded-lg object-cover transform group-hover:scale-110 transition-transform duration-300"
-                    />
-                  </motion.div>
-
-                  <h3 className="text-lg font-bold text-gray-800 dark:text-white group-hover:text-indigo-500 transition-colors duration-300 text-center mb-2">
-                    {subject.name}
-                  </h3>
-                  
-                  <p className="text-sm text-gray-600 dark:text-gray-400 group-hover:text-indigo-400 transition-colors duration-300 text-center">
-                    {subject.slug}
-                  </p>
-                </div>
-              </motion.div>
-            </Link>
-          </motion.div>
-        ))}
-        </div>
+              
+              <div className="relative z-10 flex flex-col items-center">
+                <motion.div 
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 1, type: "spring" }}
+                  className="mb-6 p-3 rounded-xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 group-hover:from-indigo-500/30 group-hover:to-purple-500/30 transition-colors duration-300"
+                >
+                  <img
+                    src={subject.logo}
+                    alt={subject.name}
+                    className="h-16 w-16 rounded-lg object-cover transform group-hover:scale-110 transition-transform duration-300"
+                  />
+                </motion.div>
+              
+                <h3 className="text-lg font-bold text-gray-800 dark:text-white group-hover:text-indigo-500 transition-colors duration-300 text-center mb-2">
+                  {subject.name}
+                </h3>
+                
+                <p className="text-sm text-gray-600 dark:text-gray-400 group-hover:text-indigo-400 transition-colors duration-300 text-center">
+                  {subject.slug}
+                </p>
+              </div>
+            </motion.div>
+          </Link>
+        </motion.div>
+      ))}
       </div>
 
       <style jsx global>{`
@@ -87,7 +86,9 @@ export function Subjects() {
         .animate-gradient {
           animation: gradient 15s linear infinite;
         }
-      `}</style>
+      `}
+      </style>
+    </div>
     </div>
   );
 }

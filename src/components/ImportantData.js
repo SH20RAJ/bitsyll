@@ -65,32 +65,58 @@ export default function ImportantData({ showHeading }) {
       link: "https://github.com/SH20RAJ/bitsyll/issues/2",
     },
   ];
+  
   return (
-    <div>
-      {showHeading  && (
-        <h2 className="text-2xl font-bold p-1 ">
-          Important Data <span className=" w-full self-end ">{""}</span>
-        </h2>
+    <div className="px-4 py-6 bg-gray-50 dark:bg-gray-900 min-h-screen">
+      {showHeading && (
+        <div className="mb-6">
+          <h2 className="text-3xl font-bold text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            Important Data
+          </h2>
+          <p className="text-center text-gray-600 dark:text-gray-400 mt-2">
+            Access all your academic resources in one place
+          </p>
+        </div>
       )}
-      <hr className="border-1 border-gray-100 opacity-20" />
 
-      <div className="grid grid-cols-2 gap-4 mt-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {data.map((item) => (
-          <div key={item.id} className="flex flex-wrap ">
-            <Link
-              href={item.link}
-              target="_"
-              className="w-full"
-            >
-              <Button
-                variant="link"
-                className=" w-full hover:underline"
-                target="_blank"
-              >
-                {item.title}
-              </Button>
-            </Link>
-          </div>
+          <Link
+            key={item.id}
+            href={item.link}
+            target="_blank"
+            className="block"
+          >
+            <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900">
+                  <span className="text-xl">{item.title.split(' ').pop()}</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-semibold text-gray-800 dark:text-gray-200">
+                    {item.title.split(' ').slice(0, -1).join(' ')}
+                  </h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {item.description}
+                  </p>
+                </div>
+                <div className="text-blue-600 dark:text-blue-400">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    className="h-5 w-5" 
+                    viewBox="0 0 20 20" 
+                    fill="currentColor"
+                  >
+                    <path 
+                      fillRule="evenodd" 
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" 
+                      clipRule="evenodd" 
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
