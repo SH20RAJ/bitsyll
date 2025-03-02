@@ -3,13 +3,13 @@ export let subjects = [
     name: "Mathematics 1",
     emoji: "➕",
     slug: "MA24101",
-    logo: "https://freesvg.org/storage/img/thumb/Symbol_pi.png",
+    logo: "https://www.svgrepo.com/show/178066/maths-technology.svg",
   },
   {
     name: "Mathematics 2",
     emoji: "➕",
     slug: "MA24102",
-    logo: "https://freesvg.org/storage/img/thumb/fathertimeteaches.png",
+    logo: "https://www.svgrepo.com/show/210554/maths-add.svg",
   },
   {
     name: "Environmental Science",
@@ -29,6 +29,13 @@ export let subjects = [
     emoji: "🔌",
     slug: "EC24102",
     logo: "https://www.svgrepo.com/show/444574/tech-circuit.svg",
+  },
+
+  {
+    name: "Biology",
+    emoji: "🤰",
+    slug: "BE24102",
+    logo: "https://www.svgrepo.com/show/530142/biology.svg",
   },
 
   {
