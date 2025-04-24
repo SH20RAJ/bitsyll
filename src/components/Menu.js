@@ -82,43 +82,66 @@ const DATA = {
 
 export default function DockDemo() {
   return (
-    <div className="relative flex h-[250px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border border-blue-700/30 bg-blue-900/20 shadow-lg">
-      <span className="pointer-events-none whitespace-pre-wrap text-center text-7xl font-bold leading-none mb-6">
-        <span className="text-white">Bit</span><span className="bg-blue-600 rounded-xl text-white ml-2 p-2 shadow-md">Syll</span>
-      </span>
-      <Menu/>
+    <div className="relative w-full py-12 overflow-hidden">
+      {/* Background elements */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 bg-[#0a1129]" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e3a8a10_1px,transparent_1px),linear-gradient(to_bottom,#1e3a8a10_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-3xl"></div>
+      </div>
+
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center mb-12">
+          <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm font-medium mb-4">
+            <span className="mr-2">🎓</span> Quick Access
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Navigate <span className="text-blue-400">BitSyll</span> Resources
+          </h2>
+
+          <p className="text-gray-300 text-center max-w-2xl mb-8">
+            Access all your academic resources with our intuitive navigation system
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
+          {DATA.navbar.map((item, index) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="group flex flex-col items-center p-6 bg-[#0c1631]/90 rounded-xl border border-[#1e3a8a]/30 hover:border-blue-500/50 shadow-lg hover:shadow-blue-900/20 transition-all duration-300"
+            >
+              <div className="w-12 h-12 flex items-center justify-center bg-blue-600/20 rounded-lg mb-4 group-hover:bg-blue-600/30 transition-colors">
+                <item.icon className="h-6 w-6 text-blue-400" />
+              </div>
+              <span className="text-sm font-medium text-white text-center">{item.label}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
 
 export function Menu() {
   return (
-    <div className="mt-4">
-      <TooltipProvider>
-        <Dock direction="middle">
-          {DATA.navbar.map((item) => (
-            <DockIcon key={item.label}>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Link
-                    href={item.href}
-                    aria-label={item.label}
-                    className={cn(
-                      buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12 rounded-lg bg-blue-700/40 hover:bg-blue-600/50 transition-colors duration-200",
-                    )}
-                  >
-                    <item.icon className="size-5 text-white" />
-                  </Link>
-                </TooltipTrigger>
-                <TooltipContent className="bg-blue-800 text-white border-blue-700">
-                  <p>{item.label}</p>
-                </TooltipContent>
-              </Tooltip>
-            </DockIcon>
-          ))}
-        </Dock>
-      </TooltipProvider>
+    <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="flex items-center gap-1 p-1.5 bg-[#0c1631]/90 backdrop-blur-md rounded-full border border-[#1e3a8a]/50 shadow-xl">
+        {DATA.navbar.map((item) => (
+          <Link
+            key={item.label}
+            href={item.href}
+            className="relative group p-3 rounded-full hover:bg-blue-600/20 transition-colors"
+          >
+            <item.icon className="h-5 w-5 text-gray-300 group-hover:text-white transition-colors" />
+
+            <span className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-1 bg-[#0c1631] border border-[#1e3a8a]/50 rounded-md text-xs font-medium text-white opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+              {item.label}
+            </span>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

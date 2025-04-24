@@ -13,22 +13,7 @@ export default function Home() {
       <Menu />
       <div className="container mx-auto px-4 space-y-12">
         <RoutineViewer />
-        
-        <div className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-lg shadow-lg p-6 text-center">
-          <h1 className="text-3xl font-bold text-white mb-4">Discover SketchFlow</h1>
-          <p className="text-white mb-6">
-            Unleash your creativity with SketchFlow, the ultimate tool for designers and artists. Create stunning designs and collaborate with ease.
-          </p>
-          <a
-            href="https://sketchflow.space/?from=bitsyll"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-white text-purple-700 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-gray-200 transition duration-300"
-          >
-            Visit SketchFlow
-          </a>
-        </div>
-
+      
         <Subjects />
         
         <div className="backdrop-blur-sm bg-white/10 rounded-lg p-0">
@@ -56,22 +41,4 @@ export default function Home() {
   );
 }
 
-
-const SketchFlowPromo = () => {
-  return (
-    <div className="flex flex-col items-center my-8 p-6 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-lg shadow-lg">
-      <h1 className="text-3xl font-bold text-white mb-4">Discover SketchFlow</h1>
-      <p className="text-white text-center mb-6">
-        Unleash your creativity with SketchFlow, the ultimate tool for designers and artists. Create stunning designs and collaborate with ease.
-      </p>
-      <a
-        href="https://sketchflow.space/?from=bitsyll"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-white text-purple-700 font-semibold py-2 px-4 rounded-full shadow-md hover:bg-gray-200 transition duration-300"
-      >
-        Visit SketchFlow
-      </a>
-    </div>
-  );
-};
+ 
