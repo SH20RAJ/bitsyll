@@ -222,8 +222,62 @@
       "credits": 4,
       "semester": 4,
       "department": "Computer Science and Engineering",
-      "description": "Programming for Problem Solving course for engineering students.",
-      "syllabus": [],
+      "description": "Introduction to programming concepts using C language. Topics include data types, operators, control structures, functions, arrays, pointers, and file handling.",
+      "syllabus": [
+        {
+          "unit": "Module 1: Introduction to Programming",
+          "topics": [
+            "Introduction to Computer Programming",
+            "Problem Solving Techniques",
+            "Algorithm Development",
+            "Flowcharts and Pseudocode with examples",
+            "From algorithms to programs",
+            "Source code, variables with data types",
+            "Variables and memory locations",
+            "Syntax and Logical Errors in compilation",
+            "Object and executable code"
+          ]
+        },
+        {
+          "unit": "Module 2: Arithmetic expressions and Conditional Branching and Loops",
+          "topics": [
+            "Arithmetic expressions and precedence",
+            "Conditional Branching and Loops",
+            "Writing and evaluation of conditionals",
+            "Iterations",
+            "Loops"
+          ]
+        },
+        {
+          "unit": "Module 3: Array, Character array, strings",
+          "topics": [
+            "Array, Character array, strings",
+            "Case studies to discuss the various Problems related to Basic science",
+            "Matrix addition, Matrix-matrix multiplication",
+            "Roots of an equation",
+            "Sorting, Searching"
+          ]
+        },
+        {
+          "unit": "Module 4: Functions and Recursion",
+          "topics": [
+            "Functions (including using built in libraries)",
+            "Parameter passing in functions",
+            "Call by value, call by reference",
+            "Passing arrays to functions",
+            "Recursion (Finding Factorial, Fibonacci series, Ackerman function)"
+          ]
+        },
+        {
+          "unit": "Module 5: Structures and Pointers",
+          "topics": [
+            "Structures, Defining structures and Array of Structures",
+            "Pointers: Defining pointers",
+            "Use of Pointers in self-referential structures",
+            "File Handling"
+          ]
+        }
+      ],
       "books": [
         {
           "title": "Programming for Problem Solving Textbook",
@@ -573,8 +627,72 @@
       "credits": 4,
       "semester": 4,
       "department": "Mathematics",
-      "description": "Mathematics 1 course for engineering students.",
-      "syllabus": [],
+      "description": "This course covers differential and integral calculus, differential equations, and linear algebra fundamentals essential for engineering applications.",
+      "syllabus": [
+        {
+          "unit": "MODULE - I: Sequences and Series",
+          "topics": [
+            "Infinite Sequences",
+            "Monotonic Sequences",
+            "Bounded Sequences",
+            "Convergence of Sequences",
+            "Cauchy's General Principle of Convergence",
+            "Infinite series",
+            "Convergence of Infinite Series",
+            "Tests for Convergence: Comparison tests, Ratio test, Cauchy's root test",
+            "Raabe's test, Logarithmic Test, Gauss test, Cauchy's Integral test",
+            "Alternating series, Leibnitz test"
+          ]
+        },
+        {
+          "unit": "MODULE - II: Matrices",
+          "topics": [
+            "Special Matrices (Symmetric, Skew-Symmetric, Orthogonal Matrix, Unitary Matrix)",
+            "Elementary Transformations",
+            "Rank of a Matrix",
+            "Row-reduced Echelon form, Normal From",
+            "Vectors, Linear Independence and Dependence of Vectors",
+            "System of linear equations",
+            "Introduction to Linear Transformations",
+            "Eigenvalues, Eigenvectors, Cayley-Hamilton theorem"
+          ]
+        },
+        {
+          "unit": "MODULE - III: Multivariable Differential Calculus",
+          "topics": [
+            "Function of several variables",
+            "Limit, Continuity, Partial derivatives",
+            "Euler's theorem for homogeneous functions",
+            "Total derivatives, Chain rules",
+            "Jacobians and its properties",
+            "Taylor series for function of two variables",
+            "Maxima – Minima, Lagrange's method of multipliers"
+          ]
+        },
+        {
+          "unit": "MODULE - IV: Multivariable Integral Calculus",
+          "topics": [
+            "Double integrals, double integrals in polar coordinates",
+            "Change of order of integration",
+            "Triple Integrals, cylindrical and spherical coordinate systems",
+            "Transformation of coordinates",
+            "Applications of double and triple integrals in areas and volumes",
+            "Beta and gamma functions"
+          ]
+        },
+        {
+          "unit": "MODULE - V: Vector Calculus",
+          "topics": [
+            "Scalar and vector point functions",
+            "Gradient, directional derivative, divergence, curl",
+            "Vector equations and identities",
+            "Line Integral, Work done, Conservative field",
+            "Green's theorem in a plane",
+            "Surface and volume integrals",
+            "Gauss – divergence theorem, Stoke's theorem"
+          ]
+        }
+      ],
       "books": [
         {
           "title": "Mathematics 1 Textbook",
@@ -677,8 +795,74 @@
       "credits": 4,
       "semester": 4,
       "department": "Mathematics",
-      "description": "Mathematics 2 course for engineering students.",
-      "syllabus": [],
+      "description": "This course covers differential equations, Fourier series, partial differential equations, complex variables, and probability and statistics.",
+      "syllabus": [
+        {
+          "unit": "MODULE - I: Ordinary Differential Equations - I",
+          "topics": [
+            "Linear differential equations",
+            "Wronskian, Linear independence and dependence of solutions",
+            "Linear differential equations of second and higher order",
+            "Operator method",
+            "Euler - Cauchy's differential equation",
+            "Legendre's linear differential equation",
+            "Method of variation of parameters",
+            "Method of change of independent variable",
+            "Normal form method"
+          ]
+        },
+        {
+          "unit": "MODULE - II: Ordinary Differential Equations - II",
+          "topics": [
+            "Power series, ordinary and singular points of differential equation",
+            "Power and Frobenius series solutions",
+            "Bessel's differential equation and its series solution",
+            "Bessel function of first kind and its properties",
+            "Legendre's differential equation and its series solution",
+            "Legendre's polynomial and its properties"
+          ]
+        },
+        {
+          "unit": "MODULE - III: Partial Differential Equations",
+          "topics": [
+            "Fourier series, Euler formulae for Fourier series",
+            "Dirichlet conditions",
+            "Fourier series for arbitrary length of interval",
+            "Half range Fourier series",
+            "Linear and quasi-linear partial differential equations",
+            "Lagrange's method",
+            "Linear-partial differential equations with constant coefficients",
+            "Method of separation of variables",
+            "Applications in solving one dimensional wave and heat equations"
+          ]
+        },
+        {
+          "unit": "MODULE - IV: Complex Variable",
+          "topics": [
+            "Function of a complex variable",
+            "Limit, Continuity, Differentiability",
+            "Analyticity, Analytic functions",
+            "Cauchy-Riemann equations (Cartesian and Polar form)",
+            "Harmonic functions",
+            "Complex integration"
+          ]
+        },
+        {
+          "unit": "MODULE - V: Probability and Statistics",
+          "topics": [
+            "Definition and scope of statistics",
+            "Average and dispersion",
+            "Skewness and kurtosis",
+            "Graphical statistics",
+            "Classical and empirical definitions of probability",
+            "Addition theorem",
+            "Conditional probability",
+            "Discrete and continuous distributions",
+            "Mathematical expectation, variance",
+            "Moment generating function"
+          ]
+        }
+      ],
       "books": [
         {
           "title": "Mathematics 2 Textbook",
