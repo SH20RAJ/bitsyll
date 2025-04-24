@@ -48,7 +48,7 @@ export function AppDownload() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://github.com/SH20RAJ/bitsyll/releases" target="_blank" rel="noopener noreferrer">
+              <Link href="https://median.co/share/ayewex" target="_blank" rel="noopener noreferrer">
                 <motion.div 
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}

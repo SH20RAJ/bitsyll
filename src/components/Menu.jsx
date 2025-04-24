@@ -55,7 +55,7 @@ export default function Menu() {
           </button>
         </SheetTrigger>
 
-        <SheetContent side="left" className="w-[300px] sm:w-[350px] border-r border-premium-border bg-premium-bg-card p-0">
+        <SheetContent side="left" className="w-[85%] sm:w-[350px] border-r border-premium-border bg-premium-bg-card p-0">
           <div className="h-full flex flex-col">
             {/* Header */}
             <SheetHeader className="p-6 border-b border-premium-border/30">

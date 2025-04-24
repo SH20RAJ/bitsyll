@@ -54,147 +54,200 @@ export default function RoutineViewer() {
   const currentDay = today === 0 ? "Sunday" : days[today - 1];
 
   return (
-    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-premium-bg-dark to-premium-bg-card border border-premium-border shadow-premium-lg">
-      {/* Background elements */}
-      <div className="absolute inset-0 bg-blue-glow-radial opacity-30"></div>
-      <div className="absolute inset-0 bg-grid-pattern bg-[size:30px_30px]"></div>
+    <div className="space-y-12">
+      {/* Modern Routine Viewer */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-premium-bg-dark to-premium-bg-card border border-premium-border shadow-premium-lg">
+        {/* Background elements */}
+        <div className="absolute inset-0 bg-blue-glow-radial opacity-30"></div>
+        <div className="absolute inset-0 bg-grid-pattern bg-[size:30px_30px]"></div>
 
-      <div className="relative z-10 p-6 md:p-8">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
-          <div>
-            <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm font-medium mb-2">
-              <Calendar size={14} className="mr-2" /> Class Schedule
+        <div className="relative z-10 p-6 md:p-8">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+            <div>
+              <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm font-medium mb-2">
+                <Calendar size={14} className="mr-2" /> Class Schedule
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold text-white">
+                Your Class Routine
+              </h1>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold text-white">
-              Your Class Routine
-            </h1>
+
+            <Link
+              href={"https://drive.google.com/file/d/1H24ZcZNAe6qobnF1uiIIyoEdRPWzbsK3/view?usp=sharing"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-premium-md hover:shadow-premium-lg transition-all duration-300 hover:translate-y-[-2px]">
+                <FileText size={16} className="mr-2" />
+                Latest Syllabus
+              </Button>
+            </Link>
           </div>
 
-          <Link
-            href={"https://drive.google.com/file/d/1H24ZcZNAe6qobnF1uiIIyoEdRPWzbsK3/view?usp=sharing"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-premium-md hover:shadow-premium-lg transition-all duration-300 hover:translate-y-[-2px]">
-              <FileText size={16} className="mr-2" />
-              Latest Syllabus
-            </Button>
-          </Link>
-        </div>
-
-        <div className="mb-8">
-          <label className="block text-sm font-medium text-gray-400 mb-2">
-            Select Your Branch & Section
-          </label>
-          <Select value={selectedBranch} onValueChange={handleBranchChange}>
-            <SelectTrigger className="w-full bg-premium-bg-dark border-premium-border focus:ring-blue-500 focus:border-blue-500 h-12 rounded-xl">
-              <SelectValue placeholder="Choose your branch/section" />
-            </SelectTrigger>
-            <SelectContent className="bg-premium-bg-card border-premium-border">
-              {branches.map((branch) => (
-                <SelectItem
-                  key={branch.value}
-                  value={branch.value}
-                  className="focus:bg-blue-600/20 focus:text-white"
-                >
-                  <div className="flex items-center">
-                    <span className="mr-2 text-blue-400">{branch.icon}</span>
-                    {branch.label}
-                  </div>
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-
-        {selectedBranch ? (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Card className="overflow-hidden border-premium-border bg-premium-bg-dark shadow-premium-lg">
-              <CardContent className="p-0">
-                {isLoading ? (
-                  <div className="flex items-center justify-center h-[400px]">
-                    <div className="w-12 h-12 rounded-full border-4 border-blue-600/30 border-t-blue-600 animate-spin"></div>
-                  </div>
-                ) : (
-                  <div>
-                    {/* Day indicator */}
-                    <div className="flex overflow-x-auto py-3 px-4 bg-premium-bg-card border-b border-premium-border">
-                      {days.map((day) => (
-                        <div
-                          key={day}
-                          className={`flex-shrink-0 px-4 py-2 mx-1 rounded-lg text-sm font-medium ${
-                            day === currentDay
-                              ? "bg-blue-600 text-white"
-                              : "bg-premium-bg-dark text-gray-400 hover:bg-blue-600/10 hover:text-white"
-                          } transition-colors cursor-pointer`}
-                        >
-                          {day}
-                        </div>
-                      ))}
+          <div className="mb-8">
+            <label className="block text-sm font-medium text-gray-400 mb-2">
+              Select Your Branch & Section
+            </label>
+            <Select value={selectedBranch} onValueChange={handleBranchChange}>
+              <SelectTrigger className="w-full bg-premium-bg-dark border-premium-border focus:ring-blue-500 focus:border-blue-500 h-12 rounded-xl">
+                <SelectValue placeholder="Choose your branch/section" />
+              </SelectTrigger>
+              <SelectContent className="bg-premium-bg-card border-premium-border">
+                {branches.map((branch) => (
+                  <SelectItem
+                    key={branch.value}
+                    value={branch.value}
+                    className="focus:bg-blue-600/20 focus:text-white"
+                  >
+                    <div className="flex items-center">
+                      <span className="mr-2 text-blue-400">{branch.icon}</span>
+                      {branch.label}
                     </div>
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
 
-                    {/* Routine image */}
-                    <div className="relative">
-                      <img
-                        src={`/icons/routine/${selectedBranch}.png`}
-                        alt={`${selectedBranch} routine`}
-                        className="w-full h-auto"
-                      />
+          {selectedBranch ? (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <Card className="overflow-hidden border-premium-border bg-premium-bg-dark shadow-premium-lg">
+                <CardContent className="p-0">
+                  {isLoading ? (
+                    <div className="flex items-center justify-center h-[400px]">
+                      <div className="w-12 h-12 rounded-full border-4 border-blue-600/30 border-t-blue-600 animate-spin"></div>
+                    </div>
+                  ) : (
+                    <div>
+                      {/* Day indicator */}
+                      <div className="flex overflow-x-auto py-3 px-4 bg-premium-bg-card border-b border-premium-border">
+                        {days.map((day) => (
+                          <div
+                            key={day}
+                            className={`flex-shrink-0 px-4 py-2 mx-1 rounded-lg text-sm font-medium ${
+                              day === currentDay
+                                ? "bg-blue-600 text-white"
+                                : "bg-premium-bg-dark text-gray-400 hover:bg-blue-600/10 hover:text-white"
+                            } transition-colors cursor-pointer`}
+                          >
+                            {day}
+                          </div>
+                        ))}
+                      </div>
 
-                      {/* Download button */}
-                      <div className="absolute bottom-4 right-4">
-                        <Button
-                          size="sm"
-                          className="bg-premium-bg-dark/80 backdrop-blur-sm border border-premium-border hover:bg-blue-600 transition-colors"
-                        >
-                          <Download size={14} className="mr-2" />
-                          Save Image
-                        </Button>
+                      {/* Routine image */}
+                      <div className="relative">
+                        <img
+                          src={`/icons/routine/${selectedBranch}.png`}
+                          alt={`${selectedBranch} routine`}
+                          className="w-full h-auto"
+                        />
+
+                        {/* Download button */}
+                        <div className="absolute bottom-4 right-4">
+                          <Button
+                            size="sm"
+                            className="bg-premium-bg-dark/80 backdrop-blur-sm border border-premium-border hover:bg-blue-600 transition-colors"
+                          >
+                            <Download size={14} className="mr-2" />
+                            Save Image
+                          </Button>
+                        </div>
                       </div>
                     </div>
+                  )}
+                </CardContent>
+              </Card>
+
+              {/* Additional info */}
+              <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex items-center p-4 rounded-xl bg-premium-bg-dark border border-premium-border">
+                  <div className="w-10 h-10 rounded-lg bg-blue-600/20 flex items-center justify-center mr-4">
+                    <Clock size={20} className="text-blue-400" />
                   </div>
-                )}
+                  <div>
+                    <h3 className="text-sm font-medium text-gray-300">Class Duration</h3>
+                    <p className="text-white font-medium">50 Minutes per Period</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center p-4 rounded-xl bg-premium-bg-dark border border-premium-border">
+                  <div className="w-10 h-10 rounded-lg bg-blue-600/20 flex items-center justify-center mr-4">
+                    <School size={20} className="text-blue-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-medium text-gray-300">Academic Year</h3>
+                    <p className="text-white font-medium">2023-2024</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          ) : (
+            <div className="flex flex-col items-center justify-center py-16 px-4 text-center">
+              <div className="w-16 h-16 rounded-full bg-blue-600/20 flex items-center justify-center mb-4">
+                <Calendar size={24} className="text-blue-400" />
+              </div>
+              <h3 className="text-xl font-medium text-white mb-2">No Routine Selected</h3>
+              <p className="text-gray-400 max-w-md">
+                Please select your branch and section from the dropdown above to view your class routine.
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Original Routine Viewer (for compatibility) */}
+      <div className="mt-12 pt-12 border-t border-premium-border/30">
+        <div className="flex items-center mb-8">
+          <div className="w-10 h-10 rounded-lg bg-blue-600/20 flex items-center justify-center mr-4">
+            <Calendar size={20} className="text-blue-400" />
+          </div>
+          <h2 className="text-xl font-bold text-white">Original Routine Viewer</h2>
+        </div>
+
+        <div className="container mx-auto p-4 max-w-4xl backdrop-blur-sm bg-white/5 rounded-xl border border-premium-border/30">
+          <div className="flex justify-between items-center mb-6">
+            <h3 className="text-lg font-medium text-white">Select your branch/section</h3>
+            <Link
+              href={"https://drive.google.com/file/d/1H24ZcZNAe6qobnF1uiIIyoEdRPWzbsK3/view?usp=sharing"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="sm">Latest Syllabus</Button>
+            </Link>
+          </div>
+
+          <div className="mb-6">
+            <Select value={selectedBranch} onValueChange={handleBranchChange}>
+              <SelectTrigger>
+                <SelectValue placeholder="Select your branch/section" />
+              </SelectTrigger>
+              <SelectContent>
+                {branches.map((branch) => (
+                  <SelectItem key={branch.value} value={branch.value}>
+                    {branch.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+
+          {selectedBranch && (
+            <Card>
+              <CardContent className="p-4">
+                <img
+                  src={`/icons/routine/${selectedBranch}.png`}
+                  alt={`${selectedBranch} routine`}
+                  className="w-full h-auto"
+                />
               </CardContent>
             </Card>
-
-            {/* Additional info */}
-            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-center p-4 rounded-xl bg-premium-bg-dark border border-premium-border">
-                <div className="w-10 h-10 rounded-lg bg-blue-600/20 flex items-center justify-center mr-4">
-                  <Clock size={20} className="text-blue-400" />
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-gray-300">Class Duration</h3>
-                  <p className="text-white font-medium">50 Minutes per Period</p>
-                </div>
-              </div>
-
-              <div className="flex items-center p-4 rounded-xl bg-premium-bg-dark border border-premium-border">
-                <div className="w-10 h-10 rounded-lg bg-blue-600/20 flex items-center justify-center mr-4">
-                  <School size={20} className="text-blue-400" />
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-gray-300">Academic Year</h3>
-                  <p className="text-white font-medium">2023-2024</p>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        ) : (
-          <div className="flex flex-col items-center justify-center py-16 px-4 text-center">
-            <div className="w-16 h-16 rounded-full bg-blue-600/20 flex items-center justify-center mb-4">
-              <Calendar size={24} className="text-blue-400" />
-            </div>
-            <h3 className="text-xl font-medium text-white mb-2">No Routine Selected</h3>
-            <p className="text-gray-400 max-w-md">
-              Please select your branch and section from the dropdown above to view your class routine.
-            </p>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
