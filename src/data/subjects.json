@@ -1,0 +1,529 @@
+{
+  "subjects": [
+    {
+      "id": "CS24101",
+      "code": "CS24101",
+      "title": "Computer Programming",
+      "credits": 4,
+      "semester": 1,
+      "department": "Computer Science and Engineering",
+      "description": "Introduction to programming concepts using C language. Topics include data types, operators, control structures, functions, arrays, pointers, and file handling.",
+      "syllabus": [
+        {
+          "unit": "Unit 1: Introduction to Programming",
+          "topics": [
+            "Introduction to Computer Programming",
+            "Problem Solving Techniques",
+            "Algorithm Development",
+            "Flowcharts and Pseudocode"
+          ]
+        },
+        {
+          "unit": "Unit 2: C Programming Basics",
+          "topics": [
+            "C Character Set, Tokens, Keywords",
+            "Data Types and Variables",
+            "Operators and Expressions",
+            "Input/Output Functions"
+          ]
+        },
+        {
+          "unit": "Unit 3: Control Structures",
+          "topics": [
+            "Decision Making: if, if-else, nested if, switch",
+            "Loops: for, while, do-while",
+            "Jump Statements: break, continue, goto"
+          ]
+        },
+        {
+          "unit": "Unit 4: Arrays and Strings",
+          "topics": [
+            "One-dimensional Arrays",
+            "Multi-dimensional Arrays",
+            "String Handling Functions",
+            "Array of Strings"
+          ]
+        },
+        {
+          "unit": "Unit 5: Functions and Pointers",
+          "topics": [
+            "Function Declaration and Definition",
+            "Parameter Passing: Call by Value and Call by Reference",
+            "Recursion",
+            "Pointers: Concepts and Applications"
+          ]
+        }
+      ],
+      "books": [
+        {
+          "title": "Let Us C",
+          "author": "Yashavant Kanetkar",
+          "publisher": "BPB Publications",
+          "edition": "16th Edition"
+        },
+        {
+          "title": "Programming in ANSI C",
+          "author": "E. Balagurusamy",
+          "publisher": "McGraw Hill Education",
+          "edition": "8th Edition"
+        },
+        {
+          "title": "The C Programming Language",
+          "author": "Brian W. Kernighan and Dennis M. Ritchie",
+          "publisher": "Prentice Hall",
+          "edition": "2nd Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Complete C Programming Notes",
+          "url": "/notes/computer-programming"
+        },
+        {
+          "type": "video",
+          "title": "C Programming Tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR"
+        },
+        {
+          "type": "practice",
+          "title": "C Programming Exercises",
+          "url": "https://www.hackerrank.com/domains/c"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Dr. Rajesh Kumar",
+          "email": "rajesh.kumar@bitmesra.ac.in",
+          "office": "CSE Department, Room 301"
+        },
+        {
+          "name": "Prof. Anita Singh",
+          "email": "anita.singh@bitmesra.ac.in",
+          "office": "CSE Department, Room 305"
+        }
+      ]
+    },
+    {
+      "id": "MA24101",
+      "code": "MA24101",
+      "title": "Mathematics I",
+      "credits": 4,
+      "semester": 1,
+      "department": "Mathematics",
+      "description": "This course covers differential and integral calculus, differential equations, and linear algebra fundamentals essential for engineering applications.",
+      "syllabus": [
+        {
+          "unit": "Unit 1: Differential Calculus",
+          "topics": [
+            "Limits and Continuity",
+            "Differentiation",
+            "Mean Value Theorems",
+            "Taylor's and Maclaurin's Series",
+            "Maxima and Minima"
+          ]
+        },
+        {
+          "unit": "Unit 2: Integral Calculus",
+          "topics": [
+            "Indefinite Integrals",
+            "Definite Integrals",
+            "Applications of Definite Integrals",
+            "Multiple Integrals"
+          ]
+        },
+        {
+          "unit": "Unit 3: Differential Equations",
+          "topics": [
+            "First Order Differential Equations",
+            "Linear Differential Equations",
+            "Homogeneous Differential Equations",
+            "Applications of Differential Equations"
+          ]
+        },
+        {
+          "unit": "Unit 4: Linear Algebra",
+          "topics": [
+            "Matrices and Determinants",
+            "System of Linear Equations",
+            "Eigenvalues and Eigenvectors",
+            "Diagonalization of Matrices"
+          ]
+        },
+        {
+          "unit": "Unit 5: Vector Calculus",
+          "topics": [
+            "Vector Differentiation",
+            "Gradient, Divergence, and Curl",
+            "Vector Integration",
+            "Line, Surface, and Volume Integrals"
+          ]
+        }
+      ],
+      "books": [
+        {
+          "title": "Advanced Engineering Mathematics",
+          "author": "Erwin Kreyszig",
+          "publisher": "Wiley",
+          "edition": "10th Edition"
+        },
+        {
+          "title": "Higher Engineering Mathematics",
+          "author": "B.S. Grewal",
+          "publisher": "Khanna Publishers",
+          "edition": "44th Edition"
+        },
+        {
+          "title": "Calculus and Analytic Geometry",
+          "author": "Thomas and Finney",
+          "publisher": "Pearson",
+          "edition": "9th Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Mathematics I Complete Notes",
+          "url": "/notes/mathematics-1"
+        },
+        {
+          "type": "video",
+          "title": "Calculus Video Lectures",
+          "url": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5"
+        },
+        {
+          "type": "practice",
+          "title": "Calculus Problem Set",
+          "url": "/resources/math-problem-set.pdf"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Dr. Priya Sharma",
+          "email": "priya.sharma@bitmesra.ac.in",
+          "office": "Mathematics Department, Room 201"
+        },
+        {
+          "name": "Prof. Sanjay Mishra",
+          "email": "sanjay.mishra@bitmesra.ac.in",
+          "office": "Mathematics Department, Room 205"
+        }
+      ]
+    },
+    {
+      "id": "PH24101",
+      "code": "PH24101",
+      "title": "Physics",
+      "credits": 4,
+      "semester": 1,
+      "department": "Physics",
+      "description": "This course covers fundamental physics concepts including mechanics, waves, optics, and modern physics with applications in engineering.",
+      "syllabus": [
+        {
+          "unit": "Unit 1: Mechanics",
+          "topics": [
+            "Newton's Laws of Motion",
+            "Work, Energy, and Power",
+            "Rotational Dynamics",
+            "Gravitation"
+          ]
+        },
+        {
+          "unit": "Unit 2: Waves and Oscillations",
+          "topics": [
+            "Simple Harmonic Motion",
+            "Damped and Forced Oscillations",
+            "Wave Motion",
+            "Superposition of Waves"
+          ]
+        },
+        {
+          "unit": "Unit 3: Optics",
+          "topics": [
+            "Interference",
+            "Diffraction",
+            "Polarization",
+            "Optical Instruments"
+          ]
+        },
+        {
+          "unit": "Unit 4: Electromagnetism",
+          "topics": [
+            "Electric Fields and Potentials",
+            "Magnetic Fields",
+            "Electromagnetic Induction",
+            "Maxwell's Equations"
+          ]
+        },
+        {
+          "unit": "Unit 5: Modern Physics",
+          "topics": [
+            "Special Theory of Relativity",
+            "Quantum Mechanics",
+            "Atomic Structure",
+            "Nuclear Physics"
+          ]
+        }
+      ],
+      "books": [
+        {
+          "title": "Physics for Scientists and Engineers",
+          "author": "Serway and Jewett",
+          "publisher": "Cengage Learning",
+          "edition": "9th Edition"
+        },
+        {
+          "title": "Concepts of Modern Physics",
+          "author": "Arthur Beiser",
+          "publisher": "McGraw Hill Education",
+          "edition": "6th Edition"
+        },
+        {
+          "title": "Fundamentals of Physics",
+          "author": "Halliday, Resnick, and Walker",
+          "publisher": "Wiley",
+          "edition": "10th Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Physics Complete Notes",
+          "url": "/notes/physics"
+        },
+        {
+          "type": "video",
+          "title": "Physics Video Lectures",
+          "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV"
+        },
+        {
+          "type": "practice",
+          "title": "Physics Problem Set",
+          "url": "/resources/physics-problem-set.pdf"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Dr. Amit Kumar",
+          "email": "amit.kumar@bitmesra.ac.in",
+          "office": "Physics Department, Room 101"
+        },
+        {
+          "name": "Prof. Sunita Rao",
+          "email": "sunita.rao@bitmesra.ac.in",
+          "office": "Physics Department, Room 105"
+        }
+      ]
+    },
+    {
+      "id": "EC24101",
+      "code": "EC24101",
+      "title": "Basic Electronics",
+      "credits": 4,
+      "semester": 1,
+      "department": "Electronics and Communication Engineering",
+      "description": "Introduction to electronic devices, circuits, and systems. Topics include semiconductor devices, amplifiers, digital circuits, and basic communication systems.",
+      "syllabus": [
+        {
+          "unit": "Unit 1: Semiconductor Devices",
+          "topics": [
+            "Semiconductor Materials",
+            "PN Junction Diodes",
+            "Bipolar Junction Transistors",
+            "Field Effect Transistors"
+          ]
+        },
+        {
+          "unit": "Unit 2: Analog Circuits",
+          "topics": [
+            "Diode Applications",
+            "Transistor Biasing",
+            "Small Signal Amplifiers",
+            "Power Amplifiers"
+          ]
+        },
+        {
+          "unit": "Unit 3: Operational Amplifiers",
+          "topics": [
+            "Op-Amp Characteristics",
+            "Linear Applications",
+            "Non-linear Applications",
+            "Active Filters"
+          ]
+        },
+        {
+          "unit": "Unit 4: Digital Electronics",
+          "topics": [
+            "Number Systems and Boolean Algebra",
+            "Logic Gates",
+            "Combinational Circuits",
+            "Sequential Circuits"
+          ]
+        },
+        {
+          "unit": "Unit 5: Communication Systems",
+          "topics": [
+            "Modulation Techniques",
+            "Transmitters and Receivers",
+            "Digital Communication",
+            "Introduction to Microwave Engineering"
+          ]
+        }
+      ],
+      "books": [
+        {
+          "title": "Electronic Devices and Circuit Theory",
+          "author": "Robert L. Boylestad and Louis Nashelsky",
+          "publisher": "Pearson",
+          "edition": "11th Edition"
+        },
+        {
+          "title": "Microelectronic Circuits",
+          "author": "Adel S. Sedra and Kenneth C. Smith",
+          "publisher": "Oxford University Press",
+          "edition": "7th Edition"
+        },
+        {
+          "title": "Digital Design",
+          "author": "M. Morris Mano",
+          "publisher": "Pearson",
+          "edition": "5th Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Basic Electronics Notes",
+          "url": "/notes/basic-electronics"
+        },
+        {
+          "type": "video",
+          "title": "Electronics Video Lectures",
+          "url": "https://www.youtube.com/playlist?list=PLwjK_iyK4LLCAN5TddEZyliDZ_qI3Pj5p"
+        },
+        {
+          "type": "practice",
+          "title": "Electronics Lab Experiments",
+          "url": "/resources/electronics-lab.pdf"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Dr. Ravi Shankar",
+          "email": "ravi.shankar@bitmesra.ac.in",
+          "office": "ECE Department, Room 401"
+        },
+        {
+          "name": "Prof. Meena Gupta",
+          "email": "meena.gupta@bitmesra.ac.in",
+          "office": "ECE Department, Room 405"
+        }
+      ]
+    },
+    {
+      "id": "ME24101",
+      "code": "ME24101",
+      "title": "Engineering Mechanics",
+      "credits": 4,
+      "semester": 1,
+      "department": "Mechanical Engineering",
+      "description": "Study of forces and their effects on engineering systems in static and dynamic conditions. Covers equilibrium, friction, centroids, moments of inertia, and kinematics.",
+      "syllabus": [
+        {
+          "unit": "Unit 1: Fundamentals of Mechanics",
+          "topics": [
+            "Units and Dimensions",
+            "Laws of Mechanics",
+            "Vectors and Scalars",
+            "Force Systems"
+          ]
+        },
+        {
+          "unit": "Unit 2: Statics",
+          "topics": [
+            "Equilibrium of Particles",
+            "Free Body Diagrams",
+            "Equilibrium of Rigid Bodies",
+            "Structural Analysis"
+          ]
+        },
+        {
+          "unit": "Unit 3: Friction",
+          "topics": [
+            "Laws of Friction",
+            "Applications of Friction",
+            "Belt Friction",
+            "Rolling Resistance"
+          ]
+        },
+        {
+          "unit": "Unit 4: Centroids and Moments of Inertia",
+          "topics": [
+            "Centroids of Lines, Areas, and Volumes",
+            "Theorems of Pappus and Guldinus",
+            "Moments of Inertia",
+            "Parallel Axis Theorem"
+          ]
+        },
+        {
+          "unit": "Unit 5: Dynamics",
+          "topics": [
+            "Kinematics of Particles",
+            "Kinetics of Particles",
+            "Work-Energy Principle",
+            "Impulse and Momentum"
+          ]
+        }
+      ],
+      "books": [
+        {
+          "title": "Engineering Mechanics: Statics and Dynamics",
+          "author": "R.C. Hibbeler",
+          "publisher": "Pearson",
+          "edition": "14th Edition"
+        },
+        {
+          "title": "Vector Mechanics for Engineers: Statics and Dynamics",
+          "author": "Ferdinand P. Beer, E. Russell Johnston, and Phillip J. Cornwell",
+          "publisher": "McGraw Hill Education",
+          "edition": "11th Edition"
+        },
+        {
+          "title": "Engineering Mechanics",
+          "author": "S.S. Bhavikatti and K.G. Rajashekarappa",
+          "publisher": "New Age International",
+          "edition": "5th Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Engineering Mechanics Notes",
+          "url": "/notes/engineering-mechanics"
+        },
+        {
+          "type": "video",
+          "title": "Mechanics Video Lectures",
+          "url": "https://www.youtube.com/playlist?list=PLLbvVfERDON8YtODxYZ8Uo5QGlUFxWYCO"
+        },
+        {
+          "type": "practice",
+          "title": "Mechanics Problem Set",
+          "url": "/resources/mechanics-problem-set.pdf"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Dr. Sunil Verma",
+          "email": "sunil.verma@bitmesra.ac.in",
+          "office": "ME Department, Room 501"
+        },
+        {
+          "name": "Prof. Deepak Sharma",
+          "email": "deepak.sharma@bitmesra.ac.in",
+          "office": "ME Department, Room 505"
+        }
+      ]
+    }
+  ]
+}

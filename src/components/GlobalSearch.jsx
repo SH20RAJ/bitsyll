@@ -326,7 +326,7 @@ export default function GlobalSearch({ className = "" }) {
                     <div className="grid grid-cols-2 gap-2">
                       <Link
                         href="/routine"
-                        onClick={() => setIsOpen(false)}
+                        onClick={closeSearch}
                         className="flex items-center p-3 rounded-lg bg-[#0a1129] hover:bg-blue-600/10 text-gray-300 hover:text-white transition-colors"
                       >
                         <Calendar size={16} className="mr-2 text-blue-400" />
