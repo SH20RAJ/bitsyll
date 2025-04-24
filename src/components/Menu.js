@@ -75,28 +75,26 @@ const DATA = {
   ],
   contact: {
     social: {
-        
+
     },
   },
 };
 
-export  default function DockDemo() {
+export default function DockDemo() {
   return (
-    <div className="relative flex h-[300px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-      <span className="pointer-events-none whitespace-pre-wrap text-center text-8xl font-bold leading-none">
-        <span className="text-white">Bit</span><span className="bg-fuchsia-500  rounded-3xl text-black ml-2 p-2">Syll</span>
+    <div className="relative flex h-[250px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border border-blue-700/30 bg-blue-900/20 shadow-lg">
+      <span className="pointer-events-none whitespace-pre-wrap text-center text-7xl font-bold leading-none mb-6">
+        <span className="text-white">Bit</span><span className="bg-blue-600 rounded-xl text-white ml-2 p-2 shadow-md">Syll</span>
       </span>
-        <Menu/>
+      <Menu/>
     </div>
-
   );
 }
 
-
-export  function Menu() {
+export function Menu() {
   return (
-    <>
-        <TooltipProvider>
+    <div className="mt-4">
+      <TooltipProvider>
         <Dock direction="middle">
           {DATA.navbar.map((item) => (
             <DockIcon key={item.label}>
@@ -107,21 +105,20 @@ export  function Menu() {
                     aria-label={item.label}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12 rounded-full",
+                      "size-12 rounded-lg bg-blue-700/40 hover:bg-blue-600/50 transition-colors duration-200",
                     )}
                   >
-                    <item.icon className="size-4" />
+                    <item.icon className="size-5 text-white" />
                   </Link>
                 </TooltipTrigger>
-                <TooltipContent>
+                <TooltipContent className="bg-blue-800 text-white border-blue-700">
                   <p>{item.label}</p>
                 </TooltipContent>
               </Tooltip>
             </DockIcon>
           ))}
-
         </Dock>
       </TooltipProvider>
-    </>
+    </div>
   );
 }

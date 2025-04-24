@@ -1,16 +1,16 @@
-"use client";;
+"use client";
 import { cva } from "class-variance-authority";
 import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
 import React, { useRef } from "react";
 
 import { cn } from "@/lib/utils";
 
-const DEFAULT_SIZE = 40;
-const DEFAULT_MAGNIFICATION = 60;
-const DEFAULT_DISTANCE = 140;
+const DEFAULT_SIZE = 42;
+const DEFAULT_MAGNIFICATION = 48; // Reduced magnification
+const DEFAULT_DISTANCE = 100; // Reduced distance for more subtle effect
 
 const dockVariants = cva(
-  "supports-backdrop-blur:bg-white/10 supports-backdrop-blur:dark:bg-black/10 mx-auto mt-8 flex h-[58px] w-max items-center justify-center gap-2 rounded-2xl border p-2 backdrop-blur-md"
+  "supports-backdrop-blur:bg-blue-800/80 supports-backdrop-blur:dark:bg-blue-900/80 mx-auto mt-8 flex h-[60px] w-max items-center justify-center gap-3 rounded-xl border border-blue-700 p-2 backdrop-blur-md shadow-lg"
 );
 
 const Dock = React.forwardRef((
@@ -43,7 +43,7 @@ const Dock = React.forwardRef((
   };
 
   return (
-    (<motion.div
+    (<div
       ref={ref}
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
@@ -54,7 +54,7 @@ const Dock = React.forwardRef((
         "items-end": direction === "bottom",
       })}>
       {renderChildren()}
-    </motion.div>)
+    </div>)
   );
 });
 
@@ -70,7 +70,7 @@ const DockIcon = ({
   ...props
 }) => {
   const ref = useRef(null);
-  const padding = Math.max(6, size * 0.2);
+  const padding = Math.max(6, size * 0.15);
   const defaultMouseX = useMotionValue(Infinity);
 
   const distanceCalc = useTransform(mouseX ?? defaultMouseX, (val) => {
@@ -80,10 +80,11 @@ const DockIcon = ({
 
   const sizeTransform = useTransform(distanceCalc, [-distance, 0, distance], [size, magnification, size]);
 
+  // More stable spring settings
   const scaleSize = useSpring(sizeTransform, {
-    mass: 0.1,
-    stiffness: 150,
-    damping: 12,
+    mass: 0.5,
+    stiffness: 200,
+    damping: 25,
   });
 
   return (
@@ -91,7 +92,7 @@ const DockIcon = ({
       ref={ref}
       style={{ width: scaleSize, height: scaleSize, padding }}
       className={cn(
-        "flex aspect-square cursor-pointer items-center justify-center rounded-full",
+        "flex aspect-square cursor-pointer items-center justify-center rounded-lg bg-blue-700/20 hover:bg-blue-600/30 transition-colors duration-200",
         className
       )}
       {...props}>
