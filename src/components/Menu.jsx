@@ -8,7 +8,7 @@ import {
   Home,
   Menu as MenuIcon,
   Users,
-  Github,
+  GithubIcon,
   ExternalLink,
   ChevronRight
 } from "lucide-react";
@@ -34,7 +34,12 @@ export default function Menu() {
 
   const externalLinks = [
     {
-      icon: <Github size={18} />,
+      icon: <ExternalLink size={18} />,
+      label: "ERP Login",
+      href: "https://erp.bitmesra.ac.in/"
+    },
+    {
+      icon: <GithubIcon size={18} />,
       label: "GitHub Repository",
       href: "https://github.com/SH20RAJ/bitsyll"
     },
