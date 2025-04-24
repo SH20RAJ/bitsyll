@@ -39,7 +39,7 @@ export default function SuggestButton() {
               <h3 className="text-white font-medium">Contribute to BitSyll</h3>
 
               <p className="text-sm text-gray-300 leading-relaxed">
-                Found something missing? Want to suggest content or give feedback? We'd love to hear from you.
+                Found something missing? Want to suggest content or give feedback? We&apos;d love to hear from you.
               </p>
 
               <Link href="https://chat.whatsapp.com/GhtCO9w8Hrk8XAUzjM325y">
