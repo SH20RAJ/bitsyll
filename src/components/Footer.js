@@ -103,7 +103,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-[#1e3a8a]/30 py-6 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4 md:mb-0">
-            <span>&copy; 2024 BitSyll</span>
+            <span>&copy; 2025 BitSyll</span>
             <span className="text-[#1e3a8a]">•</span>
             <SH20RAJ />
           </div>
@@ -120,7 +120,7 @@ export default function Footer() {
       </div>
 
       {/* Music player */}
-      <div className="fixed bottom-0 left-0 right-0 bg-[#0c1631]/95 backdrop-blur-md border-t border-[#1e3a8a]/50 p-2 z-50 shadow-lg">
+      {/* <div className="fixed bottom-0 left-0 right-0 bg-[#0c1631]/95 backdrop-blur-md border-t border-[#1e3a8a]/50 p-2 z-50 shadow-lg">
         <iframe
           src="https://archive.org/embed/BestOfArijitSingh"
           width="100%"
@@ -129,7 +129,7 @@ export default function Footer() {
           title="Music Player"
           allow="autoplay"
         />
-      </div>
+      </div> */}
     </footer>
   );
 }

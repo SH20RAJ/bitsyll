@@ -6,6 +6,13 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  /* Premium UI Colors */
+  --bg-dark: #0a1129;
+  --bg-card: #0c1631;
+  --border-blue: #1e3a8a;
+  --accent-blue: #3b82f6;
+  --accent-indigo: #6366f1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,33 +23,168 @@
   }
 }
 
+/* Custom scrollbar for premium look */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.3);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.5);
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: white;
+}
+
+/* Focus outline styling */
+*:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 
+  /* Glass effect styling */
   .glass-effect {
-    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-xl;
+    @apply bg-[#0c1631]/80 backdrop-blur-md border border-[#1e3a8a]/30 shadow-xl;
   }
 
+  /* Premium gradients */
   .premium-gradient {
     @apply bg-gradient-to-r from-blue-600 to-blue-500;
+  }
+
+  .premium-gradient-subtle {
+    @apply bg-gradient-to-r from-blue-600/10 to-indigo-600/10;
   }
 
   .premium-text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600;
   }
 
+  /* Card styling */
   .premium-card {
-    @apply rounded-xl bg-[#0c1631]/90 border border-[#1e3a8a]/30 shadow-lg hover:shadow-blue-900/20 transition-all duration-300;
+    @apply rounded-xl bg-[#0c1631]/90 border border-[#1e3a8a]/30 shadow-lg hover:shadow-blue-900/20 hover:border-blue-500/50 transition-all duration-300;
   }
 
+  .premium-card-hover {
+    @apply hover:shadow-lg hover:shadow-blue-600/10 hover:-translate-y-1 transition-all duration-300;
+  }
+
+  /* Button styling */
   .premium-button {
     @apply rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200;
   }
 
+  .premium-button-outline {
+    @apply rounded-lg bg-transparent border border-[#1e3a8a]/50 hover:border-blue-500 text-white font-medium transition-all duration-200;
+  }
+
+  /* Form elements */
   .premium-input {
-    @apply bg-[#0c1631] border border-[#1e3a8a]/50 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+    @apply bg-[#0c1631] border border-[#1e3a8a]/50 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-white placeholder:text-gray-500;
+  }
+
+  /* Background patterns */
+  .bg-grid-pattern {
+    @apply bg-[linear-gradient(to_right,#1e3a8a10_1px,transparent_1px),linear-gradient(to_bottom,#1e3a8a10_1px,transparent_1px)] bg-[size:40px_40px];
+  }
+
+  /* Animations */
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+  }
+
+  .pulse-subtle {
+    animation: pulse-subtle 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-subtle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+
+  /* Shimmer effect */
+  .shimmer {
+    background: linear-gradient(
+      to right,
+      rgba(59, 130, 246, 0.1) 0%,
+      rgba(99, 102, 241, 0.2) 20%,
+      rgba(59, 130, 246, 0.1) 40%
+    );
+    background-size: 500px 100%;
+    animation: shimmer 2s infinite linear;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -500px 0;
+    }
+    100% {
+      background-position: 500px 0;
+    }
+  }
+
+  /* Glow effects */
+  .glow-sm {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+  }
+
+  .glow-md {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+  }
+
+  .glow-lg {
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+  }
+
+  /* Backdrop blur variations */
+  .backdrop-blur-xs {
+    backdrop-filter: blur(2px);
+  }
+
+  /* Improved card styles */
+  .card-premium {
+    @apply bg-premium-bg-card border border-premium-border rounded-xl overflow-hidden shadow-premium-md transition-all duration-300;
+  }
+
+  .card-premium:hover {
+    @apply border-blue-500/50 shadow-premium-lg;
+    transform: translateY(-2px);
+  }
+
+  /* Dividers */
+  .divider-gradient {
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(59, 130, 246, 0.3), transparent);
+  }
+
+  /* Focus styles */
+  .focus-premium {
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#0a1129];
   }
 }
 

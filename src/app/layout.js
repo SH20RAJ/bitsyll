@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import dynamic from "next/dynamic";
 import SuggestButton from "@/components/SuggestButton";
 import { Metadata } from "@/constants/metadata";
-import { Menu } from "@/components/Menu";
+import  Menu from "@/components/Menu.jsx";
 
 // Using Plus Jakarta Sans for a more premium look
 const jakarta = Plus_Jakarta_Sans({
