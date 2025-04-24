@@ -281,8 +281,59 @@
       "credits": 4,
       "semester": 4,
       "department": "Chemistry",
-      "description": "Sequences and Series course for engineering students.",
-      "syllabus": [],
+      "description": "Laboratory course on chemistry principles and techniques. Includes experiments on chemical analysis, synthesis, and characterization.",
+      "syllabus": [
+        {
+          "unit": "Lab 1: Basic Laboratory Techniques",
+          "topics": [
+            "Laboratory safety procedures",
+            "Handling of chemicals and equipment",
+            "Preparation of solutions and dilutions",
+            "Measurement techniques and error analysis",
+            "Data recording and report writing"
+          ]
+        },
+        {
+          "unit": "Lab 2: Chemical Analysis",
+          "topics": [
+            "Qualitative analysis of inorganic compounds",
+            "Quantitative analysis by titration",
+            "pH measurement and buffer preparation",
+            "Conductometric and potentiometric titrations",
+            "Spectrophotometric analysis"
+          ]
+        },
+        {
+          "unit": "Lab 3: Organic Chemistry Experiments",
+          "topics": [
+            "Purification techniques: recrystallization, distillation",
+            "Extraction and separation methods",
+            "Synthesis of organic compounds",
+            "Identification of functional groups",
+            "Thin layer chromatography"
+          ]
+        },
+        {
+          "unit": "Lab 4: Physical Chemistry Experiments",
+          "topics": [
+            "Determination of viscosity and surface tension",
+            "Kinetics of chemical reactions",
+            "Phase equilibria studies",
+            "Thermochemical measurements",
+            "Adsorption isotherms"
+          ]
+        },
+        {
+          "unit": "Lab 5: Instrumental Analysis",
+          "topics": [
+            "UV-visible spectroscopy",
+            "Infrared spectroscopy",
+            "Flame photometry",
+            "Electrochemical methods",
+            "Chromatographic techniques"
+          ]
+        }
+      ],
       "books": [
         {
           "title": "Sequences and Series Textbook",
@@ -1576,8 +1627,63 @@
       "credits": 4,
       "semester": 4,
       "department": "Physical Education",
-      "description": "Sequences and Series course for engineering students.",
-      "syllabus": [],
+      "description": "Advanced physical education course focusing on sports techniques, fitness training, and wellness practices for engineering students.",
+      "syllabus": [
+        {
+          "unit": "Module 1: Advanced Sports Techniques",
+          "topics": [
+            "Advanced techniques in team sports",
+            "Specialized skills in individual sports",
+            "Game strategies and tactics",
+            "Performance analysis in sports",
+            "Sports psychology for improved performance"
+          ]
+        },
+        {
+          "unit": "Module 2: Fitness Training Methods",
+          "topics": [
+            "Principles of sports training",
+            "Periodization and training cycles",
+            "Strength and conditioning methods",
+            "High-intensity interval training",
+            "Functional training for engineers",
+            "Recovery and regeneration techniques"
+          ]
+        },
+        {
+          "unit": "Module 3: Sports Injuries and Prevention",
+          "topics": [
+            "Common sports injuries",
+            "Injury prevention strategies",
+            "First aid for sports injuries",
+            "Rehabilitation principles",
+            "Ergonomics for engineers",
+            "Posture correction and body mechanics"
+          ]
+        },
+        {
+          "unit": "Module 4: Nutrition and Performance",
+          "topics": [
+            "Sports nutrition principles",
+            "Pre and post-workout nutrition",
+            "Hydration strategies",
+            "Meal planning for athletes",
+            "Nutritional supplements",
+            "Body composition assessment"
+          ]
+        },
+        {
+          "unit": "Module 5: Wellness and Lifestyle Management",
+          "topics": [
+            "Stress management techniques",
+            "Sleep optimization strategies",
+            "Work-life balance for engineers",
+            "Mindfulness and meditation practices",
+            "Habit formation and behavior change",
+            "Lifelong fitness planning"
+          ]
+        }
+      ],
       "books": [
         {
           "title": "Sequences and Series Textbook",
