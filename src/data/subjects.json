@@ -1,527 +1,1033 @@
 {
   "subjects": [
     {
+      "id": "BE24102",
+      "code": "BE24102",
+      "title": "Biology Science for Engineers",
+      "credits": 4,
+      "semester": 4,
+      "department": "Bio Engineering",
+      "description": "Biology Science for Engineers course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Biology Science for Engineers Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "All Collections",
+          "url": "https://drive.google.com/drive/folders/1PKWw6EIpRpjfdR3HnQlV6HQH8PIegFod?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 1: Basic Cell Biology",
+          "url": "https://drive.google.com/file/d/1s6cjaIw9VSl_LNFUU_0Q9cv7QWsXxskI/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2: Bioenergetics and Metabolism",
+          "url": "https://drive.google.com/file/d/1rx_FEnqqiRvxbRyrXQKFgTkXZ7odWIlr/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Enzymes and its Application",
+          "url": "https://drive.google.com/file/d/1HtOSUZHX9gPT0cNFoTv7hDFqZmpNSxb2/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Biological Signal Generation and Propagation",
+          "url": "https://drive.google.com/file/d/1CZkVjre9-iWJbKyrm7SaEJd5Su2KEbpZ/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Engineering Biological Systems and its Applications",
+          "url": "https://drive.google.com/file/d/1juFPbzwcdktfZEPsOn9NYK27dGP6nkaw/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1XvrhcWeV1_1Uau8MTWuPD-vM78EuH-br/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1RCthA4_V407XqHVuzDiLevstyMDHUMih/view?usp=drive_link"
+        }
+      ],
+      "youtubeChannels": [
+        {
+          "title": "Khan Academy Biology",
+          "url": "https://www.youtube.com/c/khanacademy"
+        },
+        {
+          "title": "Crash Course Biology",
+          "url": "https://www.youtube.com/user/crashcourse"
+        },
+        {
+          "title": "Amoeba Sisters",
+          "url": "https://www.youtube.com/c/AmoebaSisters"
+        },
+        {
+          "title": "Bozeman Science",
+          "url": "https://www.youtube.com/c/bozemanscience"
+        },
+        {
+          "title": "Professor Dave Explains",
+          "url": "https://www.youtube.com/c/ProfessorDaveExplains"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "BE Department"
+        }
+      ]
+    },
+    {
+      "id": "CH24101",
+      "code": "CH24101",
+      "title": "Ligands",
+      "credits": 4,
+      "semester": 4,
+      "department": "Chemistry",
+      "description": "Ligands course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Ligands Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Module 1: Chemical Bonding",
+          "url": "https://drive.google.com/file/d/1vAiXWWnv8EQHo65vXN8XLL772e-0Xzcp/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2: Organic Structure and Stereochemistry",
+          "url": "https://drive.google.com/file/d/1Eig3jcEppu03hGUXUjM-XbiUBEVzeQUq/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Kinetics and Catalysis",
+          "url": "https://drive.google.com/file/d/1NYsxfqW69LuN3YTnZ1yffNRLaLMhqG-m/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Spectroscopic Techniques",
+          "url": "https://drive.google.com/file/d/1DF8n5rhFlkBi5hOPpjVjjkvXnR1FgViN/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Phase and Chemical equilibrium",
+          "url": "https://drive.google.com/file/d/1RiwLERyl1TfSEcdh8P3GNEYAmUAzm20W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1z3sm9Eaaq2XcGvCy-vdNS6uZz9tO_qxh/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1u1ed-KP0c1RvSHvMLmy0ASCdn31VubCq/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "CH Department"
+        }
+      ]
+    },
+    {
+      "id": "CH24102",
+      "code": "CH24102",
+      "title": "Sequences and Series",
+      "credits": 4,
+      "semester": 4,
+      "department": "Chemistry",
+      "description": "Sequences and Series course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Sequences and Series Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Lab Manual",
+          "url": "https://drive.google.com/file/d/1X6onwQ4638QXr5B7AqKaCjHZyZDcWCgT/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "CH Department"
+        }
+      ]
+    },
+    {
       "id": "CS24101",
       "code": "CS24101",
-      "title": "Computer Programming",
+      "title": "Programming for Problem Solving",
       "credits": 4,
-      "semester": 1,
+      "semester": 4,
       "department": "Computer Science and Engineering",
-      "description": "Introduction to programming concepts using C language. Topics include data types, operators, control structures, functions, arrays, pointers, and file handling.",
-      "syllabus": [
-        {
-          "unit": "Unit 1: Introduction to Programming",
-          "topics": [
-            "Introduction to Computer Programming",
-            "Problem Solving Techniques",
-            "Algorithm Development",
-            "Flowcharts and Pseudocode"
-          ]
-        },
-        {
-          "unit": "Unit 2: C Programming Basics",
-          "topics": [
-            "C Character Set, Tokens, Keywords",
-            "Data Types and Variables",
-            "Operators and Expressions",
-            "Input/Output Functions"
-          ]
-        },
-        {
-          "unit": "Unit 3: Control Structures",
-          "topics": [
-            "Decision Making: if, if-else, nested if, switch",
-            "Loops: for, while, do-while",
-            "Jump Statements: break, continue, goto"
-          ]
-        },
-        {
-          "unit": "Unit 4: Arrays and Strings",
-          "topics": [
-            "One-dimensional Arrays",
-            "Multi-dimensional Arrays",
-            "String Handling Functions",
-            "Array of Strings"
-          ]
-        },
-        {
-          "unit": "Unit 5: Functions and Pointers",
-          "topics": [
-            "Function Declaration and Definition",
-            "Parameter Passing: Call by Value and Call by Reference",
-            "Recursion",
-            "Pointers: Concepts and Applications"
-          ]
-        }
-      ],
+      "description": "Programming for Problem Solving course for engineering students.",
+      "syllabus": [],
       "books": [
         {
-          "title": "Let Us C",
-          "author": "Yashavant Kanetkar",
-          "publisher": "BPB Publications",
-          "edition": "16th Edition"
-        },
-        {
-          "title": "Programming in ANSI C",
-          "author": "E. Balagurusamy",
-          "publisher": "McGraw Hill Education",
-          "edition": "8th Edition"
-        },
-        {
-          "title": "The C Programming Language",
-          "author": "Brian W. Kernighan and Dennis M. Ritchie",
-          "publisher": "Prentice Hall",
-          "edition": "2nd Edition"
+          "title": "Programming for Problem Solving Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
         }
       ],
       "resources": [
         {
           "type": "notes",
-          "title": "Complete C Programming Notes",
-          "url": "/notes/computer-programming"
+          "title": "Algorithm and Flowchart",
+          "url": "https://drive.google.com/file/d/17kxm6IcKJCCUCdUecjHjaiRLkGif4jLp/view?usp=drive_link"
         },
-        {
-          "type": "video",
-          "title": "C Programming Tutorial",
-          "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR"
-        },
-        {
-          "type": "practice",
-          "title": "C Programming Exercises",
-          "url": "https://www.hackerrank.com/domains/c"
-        }
-      ],
-      "faculty": [
-        {
-          "name": "Dr. Rajesh Kumar",
-          "email": "rajesh.kumar@bitmesra.ac.in",
-          "office": "CSE Department, Room 301"
-        },
-        {
-          "name": "Prof. Anita Singh",
-          "email": "anita.singh@bitmesra.ac.in",
-          "office": "CSE Department, Room 305"
-        }
-      ]
-    },
-    {
-      "id": "MA24101",
-      "code": "MA24101",
-      "title": "Mathematics I",
-      "credits": 4,
-      "semester": 1,
-      "department": "Mathematics",
-      "description": "This course covers differential and integral calculus, differential equations, and linear algebra fundamentals essential for engineering applications.",
-      "syllabus": [
-        {
-          "unit": "Unit 1: Differential Calculus",
-          "topics": [
-            "Limits and Continuity",
-            "Differentiation",
-            "Mean Value Theorems",
-            "Taylor's and Maclaurin's Series",
-            "Maxima and Minima"
-          ]
-        },
-        {
-          "unit": "Unit 2: Integral Calculus",
-          "topics": [
-            "Indefinite Integrals",
-            "Definite Integrals",
-            "Applications of Definite Integrals",
-            "Multiple Integrals"
-          ]
-        },
-        {
-          "unit": "Unit 3: Differential Equations",
-          "topics": [
-            "First Order Differential Equations",
-            "Linear Differential Equations",
-            "Homogeneous Differential Equations",
-            "Applications of Differential Equations"
-          ]
-        },
-        {
-          "unit": "Unit 4: Linear Algebra",
-          "topics": [
-            "Matrices and Determinants",
-            "System of Linear Equations",
-            "Eigenvalues and Eigenvectors",
-            "Diagonalization of Matrices"
-          ]
-        },
-        {
-          "unit": "Unit 5: Vector Calculus",
-          "topics": [
-            "Vector Differentiation",
-            "Gradient, Divergence, and Curl",
-            "Vector Integration",
-            "Line, Surface, and Volume Integrals"
-          ]
-        }
-      ],
-      "books": [
-        {
-          "title": "Advanced Engineering Mathematics",
-          "author": "Erwin Kreyszig",
-          "publisher": "Wiley",
-          "edition": "10th Edition"
-        },
-        {
-          "title": "Higher Engineering Mathematics",
-          "author": "B.S. Grewal",
-          "publisher": "Khanna Publishers",
-          "edition": "44th Edition"
-        },
-        {
-          "title": "Calculus and Analytic Geometry",
-          "author": "Thomas and Finney",
-          "publisher": "Pearson",
-          "edition": "9th Edition"
-        }
-      ],
-      "resources": [
         {
           "type": "notes",
-          "title": "Mathematics I Complete Notes",
-          "url": "/notes/mathematics-1"
+          "title": "Array",
+          "url": "https://drive.google.com/file/d/1YCPUqu1qYSZIiQwce0P2k37AVMPbTVED/view?usp=drive_link"
         },
-        {
-          "type": "video",
-          "title": "Calculus Video Lectures",
-          "url": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5"
-        },
-        {
-          "type": "practice",
-          "title": "Calculus Problem Set",
-          "url": "/resources/math-problem-set.pdf"
-        }
-      ],
-      "faculty": [
-        {
-          "name": "Dr. Priya Sharma",
-          "email": "priya.sharma@bitmesra.ac.in",
-          "office": "Mathematics Department, Room 201"
-        },
-        {
-          "name": "Prof. Sanjay Mishra",
-          "email": "sanjay.mishra@bitmesra.ac.in",
-          "office": "Mathematics Department, Room 205"
-        }
-      ]
-    },
-    {
-      "id": "PH24101",
-      "code": "PH24101",
-      "title": "Physics",
-      "credits": 4,
-      "semester": 1,
-      "department": "Physics",
-      "description": "This course covers fundamental physics concepts including mechanics, waves, optics, and modern physics with applications in engineering.",
-      "syllabus": [
-        {
-          "unit": "Unit 1: Mechanics",
-          "topics": [
-            "Newton's Laws of Motion",
-            "Work, Energy, and Power",
-            "Rotational Dynamics",
-            "Gravitation"
-          ]
-        },
-        {
-          "unit": "Unit 2: Waves and Oscillations",
-          "topics": [
-            "Simple Harmonic Motion",
-            "Damped and Forced Oscillations",
-            "Wave Motion",
-            "Superposition of Waves"
-          ]
-        },
-        {
-          "unit": "Unit 3: Optics",
-          "topics": [
-            "Interference",
-            "Diffraction",
-            "Polarization",
-            "Optical Instruments"
-          ]
-        },
-        {
-          "unit": "Unit 4: Electromagnetism",
-          "topics": [
-            "Electric Fields and Potentials",
-            "Magnetic Fields",
-            "Electromagnetic Induction",
-            "Maxwell's Equations"
-          ]
-        },
-        {
-          "unit": "Unit 5: Modern Physics",
-          "topics": [
-            "Special Theory of Relativity",
-            "Quantum Mechanics",
-            "Atomic Structure",
-            "Nuclear Physics"
-          ]
-        }
-      ],
-      "books": [
-        {
-          "title": "Physics for Scientists and Engineers",
-          "author": "Serway and Jewett",
-          "publisher": "Cengage Learning",
-          "edition": "9th Edition"
-        },
-        {
-          "title": "Concepts of Modern Physics",
-          "author": "Arthur Beiser",
-          "publisher": "McGraw Hill Education",
-          "edition": "6th Edition"
-        },
-        {
-          "title": "Fundamentals of Physics",
-          "author": "Halliday, Resnick, and Walker",
-          "publisher": "Wiley",
-          "edition": "10th Edition"
-        }
-      ],
-      "resources": [
         {
           "type": "notes",
-          "title": "Physics Complete Notes",
-          "url": "/notes/physics"
+          "title": "Bubble Sort",
+          "url": "https://drive.google.com/file/d/1QyL2neOeTbaYemKB1wlam_H7aKo-quYc/view?usp=drive_link"
         },
         {
-          "type": "video",
-          "title": "Physics Video Lectures",
-          "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV"
+          "type": "notes",
+          "title": "Data Type & Token",
+          "url": "https://drive.google.com/file/d/1Zi0TBbYcn4XGlJVykg3PgUyq4X5YwV_6/view?usp=drive_link"
         },
         {
-          "type": "practice",
-          "title": "Physics Problem Set",
-          "url": "/resources/physics-problem-set.pdf"
+          "type": "notes",
+          "title": "Function",
+          "url": "https://drive.google.com/file/d/1vezMVhmLBm9E87I_2Ryng4dNP-Ye3jWF/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Generation of Language",
+          "url": "https://drive.google.com/file/d/1EAashHYPUhWTig0ntFrDax-cNIbCLIgt/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "If-Else",
+          "url": "https://drive.google.com/file/d/1RARPKhQSciyxhy7JtI2SF7yABxcH9bFH/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Instruction",
+          "url": "https://drive.google.com/file/d/1_2L8ZXtWMsjGqaIw0_bNCAqxDap5XZqc/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Loop",
+          "url": "https://drive.google.com/file/d/1mDNh5rEHTN2TkQ3yqvqJWzA7SN-1kTVy/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Operator",
+          "url": "https://drive.google.com/file/d/1oD3OdERrTFj8tB2hXqp1-FIOgh51g_cn/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "String",
+          "url": "https://drive.google.com/file/d/14pUSvurKtvzvp238j9ygPdUQ8-3mb9WN/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Structure",
+          "url": "https://drive.google.com/file/d/1Dz2jDuo82SidpnrlX4IDJk_L7r60O57p/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Switch",
+          "url": "https://drive.google.com/file/d/1XgSgGyL_jSklduQNY6qKPSF-B5J1VFWJ/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Types of Error",
+          "url": "https://drive.google.com/file/d/1Bfve9kae-0MCDWe4qnMPQX6Rf7O-kdcd/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1h3TaLzIYeOavhL0SpCu_Kc7mMb1_PxPB/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/17YkNtcmD4QHNU_ldukPK12psTerVoDVJ/view?usp=drive_link"
+        }
+      ],
+      "youtubeChannels": [
+        {
+          "title": "Jenny's Lectures CS IT",
+          "url": "https://www.youtube.com/channel/UCM-yUTYGmrNvKOCcAl21g3w"
+        },
+        {
+          "title": "Neso Academy",
+          "url": "https://www.youtube.com/@nesoacademy"
+        },
+        {
+          "title": "Saurabh Shukla Sir(SirG)",
+          "url": "https://www.youtube.com/@cbysaurabhshuklasir32"
+        },
+        {
+          "title": "Apna College",
+          "url": "https://www.youtube.com/@ApnaCollegeOfficial"
+        },
+        {
+          "title": "Code With Harry",
+          "url": "https://www.youtube.com/@CodeWithHarry"
         }
       ],
       "faculty": [
         {
-          "name": "Dr. Amit Kumar",
-          "email": "amit.kumar@bitmesra.ac.in",
-          "office": "Physics Department, Room 101"
-        },
-        {
-          "name": "Prof. Sunita Rao",
-          "email": "sunita.rao@bitmesra.ac.in",
-          "office": "Physics Department, Room 105"
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "CS Department"
         }
       ]
     },
     {
       "id": "EC24101",
       "code": "EC24101",
-      "title": "Basic Electronics",
+      "title": "Basics of\n          Electronics",
       "credits": 4,
-      "semester": 1,
+      "semester": 4,
       "department": "Electronics and Communication Engineering",
-      "description": "Introduction to electronic devices, circuits, and systems. Topics include semiconductor devices, amplifiers, digital circuits, and basic communication systems.",
-      "syllabus": [
-        {
-          "unit": "Unit 1: Semiconductor Devices",
-          "topics": [
-            "Semiconductor Materials",
-            "PN Junction Diodes",
-            "Bipolar Junction Transistors",
-            "Field Effect Transistors"
-          ]
-        },
-        {
-          "unit": "Unit 2: Analog Circuits",
-          "topics": [
-            "Diode Applications",
-            "Transistor Biasing",
-            "Small Signal Amplifiers",
-            "Power Amplifiers"
-          ]
-        },
-        {
-          "unit": "Unit 3: Operational Amplifiers",
-          "topics": [
-            "Op-Amp Characteristics",
-            "Linear Applications",
-            "Non-linear Applications",
-            "Active Filters"
-          ]
-        },
-        {
-          "unit": "Unit 4: Digital Electronics",
-          "topics": [
-            "Number Systems and Boolean Algebra",
-            "Logic Gates",
-            "Combinational Circuits",
-            "Sequential Circuits"
-          ]
-        },
-        {
-          "unit": "Unit 5: Communication Systems",
-          "topics": [
-            "Modulation Techniques",
-            "Transmitters and Receivers",
-            "Digital Communication",
-            "Introduction to Microwave Engineering"
-          ]
-        }
-      ],
+      "description": "Basics of\n          Electronics course for engineering students.",
+      "syllabus": [],
       "books": [
         {
-          "title": "Electronic Devices and Circuit Theory",
-          "author": "Robert L. Boylestad and Louis Nashelsky",
-          "publisher": "Pearson",
-          "edition": "11th Edition"
-        },
-        {
-          "title": "Microelectronic Circuits",
-          "author": "Adel S. Sedra and Kenneth C. Smith",
-          "publisher": "Oxford University Press",
-          "edition": "7th Edition"
-        },
-        {
-          "title": "Digital Design",
-          "author": "M. Morris Mano",
-          "publisher": "Pearson",
-          "edition": "5th Edition"
+          "title": "Basics of\n          Electronics Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
         }
       ],
       "resources": [
         {
           "type": "notes",
-          "title": "Basic Electronics Notes",
-          "url": "/notes/basic-electronics"
+          "title": "Module 1: Diodes and Applications",
+          "url": "https://drive.google.com/file/d/1PlromX6l_OqjwXKP25d6usn6YyRsJ5tA/view?usp=sharing"
         },
         {
-          "type": "video",
-          "title": "Electronics Video Lectures",
-          "url": "https://www.youtube.com/playlist?list=PLwjK_iyK4LLCAN5TddEZyliDZ_qI3Pj5p"
+          "type": "notes",
+          "title": "Module 2: Bipolar Junction Transistors (BJT)",
+          "url": "https://drive.google.com/file/d/1zYU_Z6bsm8zQDqLn7rC6B3qty1ZgjB7l/view?usp=sharing"
         },
         {
-          "type": "practice",
-          "title": "Electronics Lab Experiments",
-          "url": "/resources/electronics-lab.pdf"
+          "type": "notes",
+          "title": "Module 3: Sinusoidal Oscillators",
+          "url": "https://drive.google.com/file/d/1rEs-mO3ZwvPcgvLtA5rVatuO8B0vokwF/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Logic Gates and Boolean algebra",
+          "url": "https://drive.google.com/file/d/1Vb5WE_phDxUGWVZI2MrHbmf-QuukNwJv/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1bnbTF2Tl4BnoXXdYIzXzz75cGuWUGqv8/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1LdsvJ_cG-1_a4Rn_FqLRz4ESmwDylhuB/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "EC Department"
+        }
+      ]
+    },
+    {
+      "id": "EC24102",
+      "code": "EC24102",
+      "title": "Basics of\n          Electronics",
+      "credits": 4,
+      "semester": 4,
+      "department": "Electronics and Communication Engineering",
+      "description": "Basics of\n          Electronics course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Basics of\n          Electronics Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Lab Manual",
+          "url": "https://drive.google.com/file/d/1oNLlpAbgLQNi8OfJyojjaIkjFtLxSL9g/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1bnbTF2Tl4BnoXXdYIzXzz75cGuWUGqv8/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1LdsvJ_cG-1_a4Rn_FqLRz4ESmwDylhuB/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "EC Department"
+        }
+      ]
+    },
+    {
+      "id": "EE24101",
+      "code": "EE24101",
+      "title": "Importance of Electrical Engineering in day",
+      "credits": 4,
+      "semester": 4,
+      "department": "Electrical Engineering",
+      "description": "Importance of Electrical Engineering in day course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Importance of Electrical Engineering in day Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "ALL PDF's AND NOTES FOLDER",
+          "url": "https://drive.google.com/drive/folders/114lWXFwqxmjA8oVkPd-_tRUXbOtULQQl"
+        },
+        {
+          "type": "notes",
+          "title": "BITSYLL FOLDER COLLECTION",
+          "url": "https://drive.google.com/drive/u/4/folders/1y4Xy__O9J7oIueVbF30Wka4gVfoF7C49"
+        },
+        {
+          "type": "notes",
+          "title": "Module 1",
+          "url": "https://drive.google.com/file/d/11wOfkR6rF-5GCZQOkztHTbqvyKtTXBB6/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2",
+          "url": "https://drive.google.com/file/d/1yYnkmG59Y4kgX8-eJ42PuAWaqRPTHbbq/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1AfpTZHf69fppXc_F48MsoTTTxy0H0Us7/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1VXUfiC-dtOt6Vj20snCW9hIpd17J1kZj/view?usp=drive_link"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "EE Department"
+        }
+      ]
+    },
+    {
+      "id": "ES24101",
+      "code": "ES24101",
+      "title": "Ecosystem and Environment",
+      "credits": 4,
+      "semester": 4,
+      "department": "Environmental Science",
+      "description": "Ecosystem and Environment course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Ecosystem and Environment Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Module 1: Ecosystem and Environment",
+          "url": "https://drive.google.com/file/d/1uxoBV23gzDmOBvUiVmZC-NgmfTDlIdQk/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2: Air Pollution and control",
+          "url": "https://drive.google.com/file/d/1CZybHWmUj-usGuEqcY0ZfgO7JoGXdbRi/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Water Pollution",
+          "url": "https://drive.google.com/file/d/1S8K59u2vmVii0dq0CPUm7l19rkZijquA/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: SOIL POLLUTION AND SOLID WASTE MANAGEMENT",
+          "url": "https://drive.google.com/file/d/1ajJjYRB471qOmQ-92MeeGeiUOcuSUT5t/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Noice Pollution",
+          "url": "https://drive.google.com/file/d/1iTA3L_-bqVcG1d5O8M7s0N_Nriiqzhkw/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1v2dZjtFcyoXn4ZT3EGxdyvncE6i3P99M/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1KMieywWn2rvd8H3tnN741h4u0N-Tgh6_/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "ES Department"
+        }
+      ]
+    },
+    {
+      "id": "MA24101",
+      "code": "MA24101",
+      "title": "Mathematics 1",
+      "credits": 4,
+      "semester": 4,
+      "department": "Mathematics",
+      "description": "Mathematics 1 course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Mathematics 1 Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Module 1: Sequences and Series",
+          "url": "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2: Matrices",
+          "url": "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Advance Differential Calculus",
+          "url": "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Advance Integral Calculus",
+          "url": "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Vector Calculus",
+          "url": "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [
+        {
+          "title": "Dr. Gajendra Purohit",
+          "url": "https://www.youtube.com/@gajendrapurohit"
+        },
+        {
+          "title": "Bhagwan Singh Vishwakarma",
+          "url": "https://www.youtube.com/@BhagwanSinghVishwakarma"
+        },
+        {
+          "title": "Maths for All (English)",
+          "url": "https://www.youtube.com/@mathsallinone5110"
+        },
+        {
+          "title": "Last Moment Tuition",
+          "url": "https://www.youtube.com/@Lastmomenttuitions"
+        },
+        {
+          "title": "Btech Mathematics",
+          "url": "https://www.youtube.com/@BTechMathematics"
         }
       ],
       "faculty": [
         {
-          "name": "Dr. Ravi Shankar",
-          "email": "ravi.shankar@bitmesra.ac.in",
-          "office": "ECE Department, Room 401"
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "MA Department"
+        }
+      ]
+    },
+    {
+      "id": "MA24102",
+      "code": "MA24102",
+      "title": "Mathematics 2",
+      "credits": 4,
+      "semester": 4,
+      "department": "Mathematics",
+      "description": "Mathematics 2 course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Mathematics 2 Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Module 1: Ordinary Differential Equations – I",
+          "url": "https://drive.google.com/file/d/1eyHo4uBTmOyYvuZ6LBXpKi0u3h-Of-z1/view?usp=drive_link"
         },
         {
-          "name": "Prof. Meena Gupta",
-          "email": "meena.gupta@bitmesra.ac.in",
-          "office": "ECE Department, Room 405"
+          "type": "notes",
+          "title": "Module 2: Ordinary Differential Equations – II",
+          "url": "https://drive.google.com/file/d/1FfGdiuP-DxvLK2ETgUeNoGv7-7CDctma/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Fourier series and Partial Differential Equations",
+          "url": "https://drive.google.com/file/d/1a0k_ly5THUXLfVcZZWvuNEuxfkDm_-bl/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Complex Variable-Differentiation & Integration",
+          "url": "https://drive.google.com/file/d/1THBjGfglh03NSYSnQEfHvcXScWbLbmkh/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Applied Probability",
+          "url": "https://drive.google.com/file/d/18SIFtHhBhZ2MP6hQYWMZgDQIUo4hXBkr/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/19sHz1yo23xhxXumMBldY0xBpuqGigaWr/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1KsHHwqzjG4sVGf95r9ky8s_-ixYNbKqr/view?usp=drive_link"
+        }
+      ],
+      "youtubeChannels": [
+        {
+          "title": "Dr. Gajendra Purohit",
+          "url": "https://www.youtube.com/@gajendrapurohit"
+        },
+        {
+          "title": "Bhagwan Singh Vishwakarma",
+          "url": "https://www.youtube.com/@BhagwanSinghVishwakarma"
+        },
+        {
+          "title": "Maths for All (English)",
+          "url": "https://www.youtube.com/@mathsallinone5110"
+        },
+        {
+          "title": "Last Moment Tuition",
+          "url": "https://www.youtube.com/@Lastmomenttuitions"
+        },
+        {
+          "title": "Btech Mathematics",
+          "url": "https://www.youtube.com/@BTechMathematics"
+        }
+      ],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "MA Department"
         }
       ]
     },
     {
       "id": "ME24101",
       "code": "ME24101",
-      "title": "Engineering Mechanics",
+      "title": "Basic of\n          Mechanical Engineering",
       "credits": 4,
-      "semester": 1,
+      "semester": 4,
       "department": "Mechanical Engineering",
-      "description": "Study of forces and their effects on engineering systems in static and dynamic conditions. Covers equilibrium, friction, centroids, moments of inertia, and kinematics.",
-      "syllabus": [
-        {
-          "unit": "Unit 1: Fundamentals of Mechanics",
-          "topics": [
-            "Units and Dimensions",
-            "Laws of Mechanics",
-            "Vectors and Scalars",
-            "Force Systems"
-          ]
-        },
-        {
-          "unit": "Unit 2: Statics",
-          "topics": [
-            "Equilibrium of Particles",
-            "Free Body Diagrams",
-            "Equilibrium of Rigid Bodies",
-            "Structural Analysis"
-          ]
-        },
-        {
-          "unit": "Unit 3: Friction",
-          "topics": [
-            "Laws of Friction",
-            "Applications of Friction",
-            "Belt Friction",
-            "Rolling Resistance"
-          ]
-        },
-        {
-          "unit": "Unit 4: Centroids and Moments of Inertia",
-          "topics": [
-            "Centroids of Lines, Areas, and Volumes",
-            "Theorems of Pappus and Guldinus",
-            "Moments of Inertia",
-            "Parallel Axis Theorem"
-          ]
-        },
-        {
-          "unit": "Unit 5: Dynamics",
-          "topics": [
-            "Kinematics of Particles",
-            "Kinetics of Particles",
-            "Work-Energy Principle",
-            "Impulse and Momentum"
-          ]
-        }
-      ],
+      "description": "Basic of\n          Mechanical Engineering course for engineering students.",
+      "syllabus": [],
       "books": [
         {
-          "title": "Engineering Mechanics: Statics and Dynamics",
-          "author": "R.C. Hibbeler",
-          "publisher": "Pearson",
-          "edition": "14th Edition"
-        },
-        {
-          "title": "Vector Mechanics for Engineers: Statics and Dynamics",
-          "author": "Ferdinand P. Beer, E. Russell Johnston, and Phillip J. Cornwell",
-          "publisher": "McGraw Hill Education",
-          "edition": "11th Edition"
-        },
-        {
-          "title": "Engineering Mechanics",
-          "author": "S.S. Bhavikatti and K.G. Rajashekarappa",
-          "publisher": "New Age International",
-          "edition": "5th Edition"
+          "title": "Basic of\n          Mechanical Engineering Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
         }
       ],
       "resources": [
         {
           "type": "notes",
-          "title": "Engineering Mechanics Notes",
-          "url": "/notes/engineering-mechanics"
+          "title": "Module 1: System of Forces and Structure Mechanics",
+          "url": "https://bithub.co.in/Bme_module_1.pdf"
         },
         {
-          "type": "video",
-          "title": "Mechanics Video Lectures",
-          "url": "https://www.youtube.com/playlist?list=PLLbvVfERDON8YtODxYZ8Uo5QGlUFxWYCO"
+          "type": "notes",
+          "title": "Module 2: Kinematics & Kinetics of rigid bodies",
+          "url": "https://bithub.co.in/Bme_module_2.pdf"
         },
         {
-          "type": "practice",
-          "title": "Mechanics Problem Set",
-          "url": "/resources/mechanics-problem-set.pdf"
+          "type": "notes",
+          "title": "Module 3: Friction and Vibration",
+          "url": "https://bithub.co.in/Bme_mod_3.pdf"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Boilers and Internal Combustion Engine",
+          "url": "https://bithub.co.in/Bme_mod_4.pdf"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Non-Conventional Energy and their resources",
+          "url": "https://bithub.co.in/bme_mod_5.pdf"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://bithub.co.in/bme_mid.pdf"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://bithub.co.in/bme_end.pdf"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "ME Department"
+        }
+      ]
+    },
+    {
+      "id": "ME24102",
+      "code": "ME24102",
+      "title": "Sequences and Series",
+      "credits": 4,
+      "semester": 4,
+      "department": "Mechanical Engineering",
+      "description": "Sequences and Series course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Sequences and Series Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Module 1: Sequences and Series",
+          "url": "https://drive.google.com/file/d/1tLDg12YncZmYcBeRqfo_ml24n4_2MfRs/view?usp=drive_link"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2: Matrices",
+          "url": "https://drive.google.com/file/d/1v7JscEa11gJGECiNMjes7vhSlybI9G8a/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Advance Differential Calculus",
+          "url": "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Advance Integral Calculus",
+          "url": "https://drive.google.com/file/d/1Zb0id9PwC8PqwnZCpC9JG6GJRPq5D36c/view?usp=sharing"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Vector Calculus",
+          "url": "https://drive.google.com/file/d/1OJkYqiHwgxfLFrHezv40d2_OGn3J-LTC/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "ME Department"
+        }
+      ]
+    },
+    {
+      "id": "PE24102",
+      "code": "PE24102",
+      "title": "Sequences and Series",
+      "credits": 4,
+      "semester": 4,
+      "department": "Physical Education",
+      "description": "Sequences and Series course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Sequences and Series Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Lab Manual",
+          "url": "https://drive.google.com/file/d/1N3-2Zor8hkZl-If7yUOHp80LA_0KcRAp/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2022",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2021",
+          "url": "https://drive.google.com/file/d/1cWlwkcj4yIMe0lCqnL76xaF-OL89pp0W/view?usp=sharing"
+        }
+      ],
+      "youtubeChannels": [],
+      "faculty": [
+        {
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "PE Department"
+        }
+      ]
+    },
+    {
+      "id": "PH24101",
+      "code": "PH24101",
+      "title": "Fraunhofer diffraction by\n            single slit",
+      "credits": 4,
+      "semester": 4,
+      "department": "Physics",
+      "description": "Fraunhofer diffraction by\n            single slit course for engineering students.",
+      "syllabus": [],
+      "books": [
+        {
+          "title": "Fraunhofer diffraction by\n            single slit Textbook",
+          "author": "Department Faculty",
+          "publisher": "BIT Mesra",
+          "edition": "Latest Edition"
+        }
+      ],
+      "resources": [
+        {
+          "type": "notes",
+          "title": "Module 1: Physical Optics",
+          "url": "https://bithub.co.in/phy_1.pdf"
+        },
+        {
+          "type": "notes",
+          "title": "Module 2: Electromagnetic Theory",
+          "url": "https://bithub.co.in/phy_2.pdf"
+        },
+        {
+          "type": "notes",
+          "title": "Module 3: Special Theory of Relativity",
+          "url": "https://bithub.co.in/phy_3.pdf"
+        },
+        {
+          "type": "notes",
+          "title": "Module 4: Quantum Mechanics",
+          "url": "https://bithub.co.in/phy_4.pdf"
+        },
+        {
+          "type": "notes",
+          "title": "Module 5: Lasers",
+          "url": "https://bithub.co.in/phy_5.pdf"
+        },
+        {
+          "type": "exam",
+          "title": "Mid Sem 2023",
+          "url": "https://drive.google.com/file/d/1xc831Vz6HAI5VmdzP-dbK_9qcqJuyMkj/view?usp=drive_link"
+        },
+        {
+          "type": "exam",
+          "title": "End Sem 2023",
+          "url": "https://drive.google.com/file/d/1PSY7S6iVwFuSHaza2N71d4VktzSyupKG/view?usp=drive_link"
+        }
+      ],
+      "youtubeChannels": [
+        {
+          "title": "Technical Physics",
+          "url": "https://www.youtube.com/@technicalphysics"
         }
       ],
       "faculty": [
         {
-          "name": "Dr. Sunil Verma",
-          "email": "sunil.verma@bitmesra.ac.in",
-          "office": "ME Department, Room 501"
-        },
-        {
-          "name": "Prof. Deepak Sharma",
-          "email": "deepak.sharma@bitmesra.ac.in",
-          "office": "ME Department, Room 505"
+          "name": "Department Faculty",
+          "email": "faculty@bitmesra.ac.in",
+          "office": "PH Department"
         }
       ]
     }

@@ -47,4 +47,33 @@ export const Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
+  searchData: {
+    siteLinks: [
+      {
+        name: "Subjects",
+        url: "/subjects",
+      },
+      {
+        name: "Routine",
+        url: "/routine",
+      },
+      {
+        name: "Clubs",
+        url: "/clubs",
+      },
+      {
+        name: "Contacts",
+        url: "/contacts",
+      },
+      {
+        name: "Search",
+        url: "/search",
+      },
+    ],
+    description: "BitSyll is the ultimate study repository for BIT Mesra students, offering a comprehensive collection of engineering notes, question papers, and academic resources.",
+    searchInfo: {
+      title: "Search BitSyll",
+      description: "Find study materials, notes, and resources across all subjects and departments.",
+    },
+  },
 };
