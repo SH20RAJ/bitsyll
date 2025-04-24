@@ -25,7 +25,7 @@ export function Subjects() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-16">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm font-medium mb-4">
-            <BookOpen size={14} className="mr-2" /> Academic Curriculum
+            <BookOpen size={14} className="mr-2 text-yellow-200" /> Academic Curriculum
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">

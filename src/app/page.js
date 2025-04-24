@@ -150,7 +150,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm font-medium mb-4">
-                <Sparkles size={14} className="mr-2" /> BIT Mesra Resources
+                <Sparkles size={14} className="mr-2 text-yellow-200" /> BIT Mesra Resources
               </div>
 
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
