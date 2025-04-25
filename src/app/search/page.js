@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { Search, BookOpen, FileText, Calendar, User, ArrowRight, Filter } from "lucide-react";
 import Link from "next/link";
@@ -42,7 +43,7 @@ const searchData = {
   ]
 };
 
-export default function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const query = searchParams.get("q") || "";
   const [searchQuery, setSearchQuery] = useState(query);
@@ -76,37 +77,37 @@ export default function SearchPage() {
   // Simulate search with a delay to mimic API call
   const performSearch = (searchTerm) => {
     setIsLoading(true);
-    
+
     // Simulate API delay
     setTimeout(() => {
       const term = searchTerm.toLowerCase();
-      
+
       // Filter results based on search query
       const filteredResults = {
-        subjects: searchData.subjects.filter(item => 
-          item.title.toLowerCase().includes(term) || 
+        subjects: searchData.subjects.filter(item =>
+          item.title.toLowerCase().includes(term) ||
           item.id.toLowerCase().includes(term) ||
           item.description.toLowerCase().includes(term)
         ),
-        notes: searchData.notes.filter(item => 
+        notes: searchData.notes.filter(item =>
           item.title.toLowerCase().includes(term) ||
           item.description.toLowerCase().includes(term)
         ),
-        routines: searchData.routines.filter(item => 
+        routines: searchData.routines.filter(item =>
           item.title.toLowerCase().includes(term) ||
           item.description.toLowerCase().includes(term)
         ),
-        contacts: searchData.contacts.filter(item => 
+        contacts: searchData.contacts.filter(item =>
           item.title.toLowerCase().includes(term) ||
           item.description.toLowerCase().includes(term)
         )
       };
 
       setSearchResults(filteredResults);
-      
+
       // Calculate total results
       const total = Object.values(filteredResults).reduce(
-        (acc, curr) => acc + curr.length, 
+        (acc, curr) => acc + curr.length,
         0
       );
       setTotalResults(total);
@@ -128,7 +129,7 @@ export default function SearchPage() {
     if (activeFilter === "all") {
       return searchResults;
     }
-    
+
     return {
       subjects: activeFilter === "subjects" ? searchResults.subjects : [],
       notes: activeFilter === "notes" ? searchResults.notes : [],
@@ -178,7 +179,7 @@ export default function SearchPage() {
         {/* Search header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white mb-6">Search Results</h1>
-          
+
           <form onSubmit={handleSubmit} className="relative mb-6">
             <input
               type="text"
@@ -188,7 +189,7 @@ export default function SearchPage() {
               className="w-full bg-[#0c1631] border border-[#1e3a8a]/50 rounded-xl py-4 pl-14 pr-4 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-premium-md"
             />
             <Search size={20} className="absolute left-5 top-1/2 transform -translate-y-1/2 text-blue-400" />
-            
+
             <button
               type="submit"
               className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
@@ -196,14 +197,14 @@ export default function SearchPage() {
               Search
             </button>
           </form>
-          
+
           {/* Filters */}
           <div className="flex items-center overflow-x-auto py-2 mb-6">
             <div className="flex items-center mr-4">
               <Filter size={16} className="text-gray-400 mr-2" />
               <span className="text-sm text-gray-400">Filter:</span>
             </div>
-            
+
             {["all", "subjects", "notes", "routines", "contacts"].map((filter) => (
               <button
                 key={filter}
@@ -218,7 +219,7 @@ export default function SearchPage() {
               </button>
             ))}
           </div>
-          
+
           {/* Results summary */}
           {query && (
             <div className="text-gray-400 text-sm">
@@ -226,15 +227,15 @@ export default function SearchPage() {
                 "Searching..."
               ) : (
                 hasResults ? (
-                  <>Found {totalResults} result{totalResults !== 1 ? 's' : ''} for "<span className="text-white">{query}</span>"</>
+                  <>Found {totalResults} result{totalResults !== 1 ? 's' : ''} for &quot;<span className="text-white">{query}</span>&quot;</>
                 ) : (
-                  <>No results found for "<span className="text-white">{query}</span>"</>
+                  <>No results found for &quot;<span className="text-white">{query}</span>&quot;</>
                 )
               )}
             </div>
           )}
         </div>
-        
+
         {/* Search results */}
         {isLoading ? (
           <div className="flex justify-center items-center py-20">
@@ -246,9 +247,9 @@ export default function SearchPage() {
               <div className="space-y-8">
                 {Object.entries(filteredResults).map(([category, items]) => {
                   if (items.length === 0) return null;
-                  
+
                   return (
-                    <motion.div 
+                    <motion.div
                       key={category}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -264,7 +265,7 @@ export default function SearchPage() {
                           {items.length} result{items.length !== 1 ? 's' : ''}
                         </div>
                       </div>
-                      
+
                       <div className="divide-y divide-[#1e3a8a]/30">
                         {items.map((item) => (
                           <Link key={item.id} href={item.path}>
@@ -294,9 +295,9 @@ export default function SearchPage() {
                   </div>
                   <h3 className="text-2xl font-medium text-white mb-3">No results found</h3>
                   <p className="text-gray-400 max-w-md mb-8">
-                    We couldn't find any matches for "{query}". Try different keywords or check the spelling.
+                    We couldn&apos;t find any matches for &quot;{query}&quot;. Try different keywords or check the spelling.
                   </p>
-                  
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md">
                     <Link href="/subjects">
                       <div className="flex items-center justify-center p-3 rounded-lg bg-[#0a1129] hover:bg-blue-600/10 text-gray-300 hover:text-white transition-colors border border-[#1e3a8a]/30">
@@ -318,5 +319,22 @@ export default function SearchPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto px-4 py-12">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-3xl font-bold text-white mb-6">Search Results</h1>
+          <div className="flex justify-center items-center py-20">
+            <div className="w-12 h-12 rounded-full border-4 border-blue-600/30 border-t-blue-600 animate-spin"></div>
+          </div>
+        </div>
+      </div>
+    }>
+      <SearchContent />
+    </Suspense>
   );
 }

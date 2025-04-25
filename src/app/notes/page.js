@@ -1,18 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
-import { 
-  FileText, 
-  Search, 
-  Filter, 
-  Download, 
-  ExternalLink, 
+import {
+  FileText,
+  Search,
+  Filter,
+  Download,
+  ExternalLink,
   BookOpen,
   Clock,
   User,
   ThumbsUp,
-  Eye
+  Eye,
+  Calendar
 } from "lucide-react";
 import Link from "next/link";
 import subjectsData from "@/data/subjects.json";
@@ -150,25 +151,33 @@ export default function NotesPage() {
   const [loading, setLoading] = useState(true);
 
   // Get unique subjects for filters
-  const subjects = [...new Set(notesData.map(note => note.subject))];
-  const subjectMap = {};
-  subjects.forEach(code => {
-    const subject = subjectsData.subjects.find(s => s.id === code);
-    if (subject) {
-      subjectMap[code] = {
-        name: subject.title,
-        semester: subject.semester
-      };
-    } else {
-      subjectMap[code] = {
-        name: code,
-        semester: parseInt(code.charAt(3)) || 1
-      };
-    }
-  });
+  const subjects = useMemo(() => [...new Set(notesData.map(note => note.subject))], []);
+
+  // Create subject map with memoization
+  const subjectMap = useMemo(() => {
+    const map = {};
+    subjects.forEach(code => {
+      const subject = subjectsData.subjects.find(s => s.id === code);
+      if (subject) {
+        map[code] = {
+          name: subject.title,
+          semester: subject.semester
+        };
+      } else {
+        map[code] = {
+          name: code,
+          semester: parseInt(code.charAt(3)) || 1
+        };
+      }
+    });
+    return map;
+  }, [subjects]);
 
   // Get unique semesters for filters
-  const semesters = [...new Set(Object.values(subjectMap).map(s => s.semester))].sort((a, b) => a - b);
+  const semesters = useMemo(() =>
+    [...new Set(Object.values(subjectMap).map(s => s.semester))].sort((a, b) => a - b),
+    [subjectMap]
+  );
 
   useEffect(() => {
     setNotes(notesData);
@@ -179,7 +188,7 @@ export default function NotesPage() {
   // Filter notes based on search query and filters
   useEffect(() => {
     let result = notes;
-    
+
     // Apply search filter
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
@@ -191,14 +200,14 @@ export default function NotesPage() {
           note.description.toLowerCase().includes(query)
       );
     }
-    
+
     // Apply subject filter
     if (selectedSubject !== "all") {
       result = result.filter(
         note => note.subject === selectedSubject
       );
     }
-    
+
     // Apply semester filter
     if (selectedSemester !== "all") {
       result = result.filter(
@@ -208,9 +217,9 @@ export default function NotesPage() {
         }
       );
     }
-    
+
     setFilteredNotes(result);
-  }, [searchQuery, selectedSubject, selectedSemester, notes]);
+  }, [searchQuery, selectedSubject, selectedSemester, notes, subjectMap]);
 
   // Animation variants
   const container = {
@@ -241,7 +250,7 @@ export default function NotesPage() {
         {/* Background elements */}
         <div className="absolute inset-0 bg-blue-glow-radial opacity-30"></div>
         <div className="absolute inset-0 bg-grid-pattern bg-[size:30px_30px]"></div>
-        
+
         <div className="relative z-10 p-6 md:p-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -251,25 +260,25 @@ export default function NotesPage() {
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm font-medium mb-2">
               <FileText size={14} className="mr-2" /> Study Materials
             </div>
-            
+
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Lecture Notes
             </h1>
-            
+
             <p className="text-gray-300 max-w-2xl mb-6">
               Access comprehensive lecture notes for all subjects. Download high-quality study materials prepared by faculty and top students.
             </p>
           </motion.div>
         </div>
       </div>
-      
+
       {/* Search and Filters */}
       <div className="bg-[#0c1631]/90 border border-[#1e3a8a]/30 rounded-xl overflow-hidden shadow-premium-md mb-8">
         <div className="px-6 py-4 border-b border-[#1e3a8a]/30 flex items-center">
           <Filter size={20} className="text-blue-400 mr-3" />
           <h2 className="text-xl font-semibold text-white">Search & Filters</h2>
         </div>
-        
+
         <div className="p-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Search */}
@@ -283,7 +292,7 @@ export default function NotesPage() {
               />
               <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-blue-400" />
             </div>
-            
+
             {/* Subject Filter */}
             <div>
               <select
@@ -299,7 +308,7 @@ export default function NotesPage() {
                 ))}
               </select>
             </div>
-            
+
             {/* Semester Filter */}
             <div>
               <select
@@ -318,7 +327,7 @@ export default function NotesPage() {
           </div>
         </div>
       </div>
-      
+
       {/* Notes List */}
       {loading ? (
         <div className="flex justify-center items-center py-20">
@@ -327,7 +336,7 @@ export default function NotesPage() {
       ) : (
         <>
           {filteredNotes.length > 0 ? (
-            <motion.div 
+            <motion.div
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
               variants={container}
               initial="hidden"
@@ -343,7 +352,7 @@ export default function NotesPage() {
                             <div className="w-10 h-10 rounded-lg bg-blue-600/20 flex items-center justify-center mr-3">
                               <FileText size={20} className="text-blue-400" />
                             </div>
-                            
+
                             <div>
                               <div className="text-xs text-blue-400 font-medium mb-1">
                                 {note.subject} - {note.subjectName}
@@ -353,17 +362,17 @@ export default function NotesPage() {
                               </h3>
                             </div>
                           </div>
-                          
+
                           <div className="flex items-center text-xs text-gray-400 bg-[#0a1129] px-2 py-1 rounded">
                             <Download size={12} className="mr-1" />
                             {note.fileType}
                           </div>
                         </div>
-                        
+
                         <p className="text-gray-400 text-sm mb-6 line-clamp-2">
                           {note.description}
                         </p>
-                        
+
                         <div className="flex items-center justify-between text-xs text-gray-400 mb-4">
                           <div className="flex items-center">
                             <User size={12} className="mr-1" />
@@ -374,7 +383,7 @@ export default function NotesPage() {
                             {formatDate(note.uploadDate)}
                           </div>
                         </div>
-                        
+
                         <div className="flex items-center justify-between text-xs">
                           <div className="flex space-x-3">
                             <div className="flex items-center text-gray-400">
@@ -390,7 +399,7 @@ export default function NotesPage() {
                               {note.likes}
                             </div>
                           </div>
-                          
+
                           <div className="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                             <span className="mr-1">Download</span>
                             <ExternalLink size={12} />
@@ -411,7 +420,7 @@ export default function NotesPage() {
               <p className="text-gray-400 max-w-md mb-8">
                 No notes match your search criteria. Try adjusting your filters or search query.
               </p>
-              
+
               <button
                 onClick={() => {
                   setSearchQuery("");
@@ -426,22 +435,22 @@ export default function NotesPage() {
           )}
         </>
       )}
-      
+
       {/* Upload Notes Section */}
       <div className="mt-12 bg-[#0c1631]/90 border border-[#1e3a8a]/30 rounded-xl overflow-hidden shadow-premium-md">
         <div className="px-6 py-4 border-b border-[#1e3a8a]/30">
           <h2 className="text-xl font-semibold text-white">Contribute Your Notes</h2>
         </div>
-        
+
         <div className="p-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-6 md:mb-0 md:mr-6">
               <h3 className="text-lg font-medium text-white mb-2">Share Your Knowledge</h3>
               <p className="text-gray-400 max-w-xl">
-                Help your fellow students by sharing your lecture notes, study materials, and exam preparations. Your contribution can make a difference in someone's academic journey.
+                Help your fellow students by sharing your lecture notes, study materials, and exam preparations. Your contribution can make a difference in someone&apos;s academic journey.
               </p>
             </div>
-            
+
             <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors flex items-center">
               <FileText size={18} className="mr-2" />
               Upload Notes
@@ -449,7 +458,7 @@ export default function NotesPage() {
           </div>
         </div>
       </div>
-      
+
       {/* Related Links */}
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         <Link href="/exam-routine">
@@ -465,7 +474,7 @@ export default function NotesPage() {
             </p>
           </div>
         </Link>
-        
+
         <Link href="/academic-calendar">
           <div className="bg-[#0c1631]/90 border border-[#1e3a8a]/30 rounded-xl p-6 hover:border-blue-500/50 transition-colors">
             <div className="flex items-center mb-4">
@@ -479,7 +488,7 @@ export default function NotesPage() {
             </p>
           </div>
         </Link>
-        
+
         <Link href="/subjects">
           <div className="bg-[#0c1631]/90 border border-[#1e3a8a]/30 rounded-xl p-6 hover:border-blue-500/50 transition-colors">
             <div className="flex items-center mb-4">
